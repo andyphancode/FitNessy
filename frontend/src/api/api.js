@@ -50,7 +50,8 @@ class FitNessyApi {
   static async login(data) {
     let res = await this.request(`token`, data, "post");
     if (res.token) {
-      localStorage.setItem('token', res.token);
+      localStorage.setItem('fitnessy-token', res.token);
+      FitNessyApi.token = res.token;
     }
     return res.token;
   };
