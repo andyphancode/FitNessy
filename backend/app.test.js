@@ -273,7 +273,13 @@ describe("GET /:username/workouts/:date", function () {
                 rir4: 0,
                 rir5: 0,
                 username: "testuser1",
-                exercise_id: 1
+                exercise_id: 1,
+                bodypart: "exerciseBodyPart1",
+                equipment: "exerciseEq1",
+                exercise_link: "http://exercise1.com",
+                exercise_name: "exercise1",
+                image_src: "http://e1.img",
+                instructions: "instructions1"
               }
             );
   })
@@ -398,7 +404,13 @@ describe("PATCH /:username/workouts/:user_exercise_id", function () {
             rir4: 4,
             rir5: 5,
             username: "testuser1",
-            exercise_id: 2
+            exercise_id: 2,
+            bodypart: "exerciseBodyPart2",
+            equipment: "exerciseEq2",
+            exercise_link: "http://exercise2.com",
+            exercise_name: "exercise2",
+            image_src: "http://e2.img",
+            instructions: "instructions2"
           }
         })
   });

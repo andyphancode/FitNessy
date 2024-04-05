@@ -36,7 +36,13 @@ describe("getExercisesByDate", function () {
                 rir4: 0,
                 rir5: 0,
                 username: "testuser1",
-                exercise_id: 1
+                exercise_id: 1,
+                bodypart: "exerciseBodyPart1",
+                equipment: "exerciseEq1",
+                exercise_link: "http://exercise1.com",
+                exercise_name: "exercise1",
+                image_src: "http://e1.img",
+                instructions: "instructions1"
             }
         ])
     })

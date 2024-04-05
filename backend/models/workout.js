@@ -7,15 +7,18 @@ class Workout {
 
     /** Retrieves exercises done on specific date for given user. */
     static async getExercisesByDate(username, date) {
-        const results = await db.query(
-            `SELECT *
-             FROM user_exercises
-             WHERE username = $1 AND exercise_date = $2`,
-             [username, date],
-        );
-
+        const query = `
+            SELECT ue.*, e.exercise_link, e.instructions, e.exercise_name, e.equipment, e.bodypart, e.image_src
+            FROM user_exercises ue
+            JOIN exercises e ON ue.exercise_id = e.exercise_id
+            WHERE ue.username = $1 AND ue.exercise_date = $2
+        `;
+    
+        const results = await db.query(query, [username, date]);
+    
         return results.rows;
     }
+    
 
     /** Deletes an exercise from a given workout */
     static async deleteExercise(username, userExerciseId) {
@@ -78,8 +81,21 @@ class Workout {
             [exerciseId, ...reps, ...rir, username, userExerciseId]
         );
 
-        const updatedExercise = result.rows[0];
-        return updatedExercise;
+        // After updating, fetch the updated exercise details combined with exercise info
+        const combinedDetailsResult = await db.query(
+            `SELECT ue.*, e.exercise_link, e.instructions, e.exercise_name, e.equipment, e.bodypart, e.image_src
+            FROM user_exercises ue
+            JOIN exercises e ON ue.exercise_id = e.exercise_id
+            WHERE ue.username = $1 AND ue.user_exercise_id = $2`,
+            [username, userExerciseId]
+        );
+
+        if (combinedDetailsResult.rows.length === 0) {
+            throw new NotFoundError('Updated exercise not found');
+        }
+
+        return combinedDetailsResult.rows[0];
+
     }
 
     /** Adds an exercise to the workout for a specific date.
