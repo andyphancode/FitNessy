@@ -2,7 +2,6 @@
     "type": "object",
     "properties": {
       "exerciseId": { "type": "integer" },
-      "date": { "type": "string", "format": "date" },
       "reps": {
         "type": "array",
         "items": { "type": "integer", "default": 0 },
