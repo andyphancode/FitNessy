@@ -3,46 +3,54 @@ import FitNessyApi from '../api/api';
 import { useAuth } from '../context/AuthContext';
 import {FormGroup, Label, FormText} from 'reactstrap';
 import {DatePicker} from 'reactstrap-date-picker';
+import { format } from 'date-fns';
 
 function Workouts() {
 
   const { currentUser } = useAuth();
+  // For exercises on the specific date
   const [exercises, setExercises] = useState([]);
-  const [value, setValue]= useState(new Date().toISOString())
-  const [fmtValue, setFmtValue]= useState(undefined);
+  const [date, setDate]= useState(new Date().toISOString())
+  const [fmtDate, setFmtDate]= useState(undefined);
 
-  function handleChange(value, formattedValue) {
-    setValue(value)
-    setFmtValue(formattedValue)
+
+  function handleChange(date) {
+    setDate(date)
+    const formattedDate = format(new Date(date), 'yyyy-MM-dd');
+    setFmtDate(formattedDate);
   }
 
   useEffect(( )=> {
-    console.log(`Formatted value is ${fmtValue}`)
-  }, [fmtValue])
+    console.log(`Unformatted date is ${date}, Formatted date is ${fmtDate}`)
+  }, [fmtDate])
+
 
   useEffect(() => {
     async function fetchExercises() {
       try {
-        const exercisesByDate = await FitNessyApi.getExercisesByDate(currentUser.username, value);
+        const exercisesByDate = await FitNessyApi.getExercisesByDate(currentUser.username, fmtDate);
         setExercises(exercisesByDate);
       } catch (error) {
         console.error("Failed to fetch exercises:", error);
-        // Optionally set an error state and display an error message to the user
       }
     }
   
-    if (value) {
-      fetchExercises();
-    }
-  }, [value]);
+    fetchExercises();
+  }, [fmtDate]);
+
+  
 
   return (
+    <>
     <FormGroup>
       <Label>Date</Label>
-      <DatePicker id      = "datepicker" 
-                  value   = {value} 
-                  onChange= {(v,f) => handleChange(v, f)} />
+      <DatePicker id="datepicker" 
+                  date={date} 
+                  onChange={(d) => handleChange(d)} />
     </FormGroup>
+
+
+  </>
   )
 
 }
