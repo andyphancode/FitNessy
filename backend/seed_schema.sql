@@ -17,28 +17,24 @@ CREATE TABLE exercises (
 
 CREATE TABLE templates (
     template_id SERIAL PRIMARY KEY,
-    username VARCHAR(25),
-    exercise_id INT,
-    FOREIGN KEY (username) REFERENCES users(username),
-    FOREIGN KEY (exercise_id) REFERENCES exercises(exercise_id)
+    username VARCHAR(25) REFERENCES users ON DELETE CASCADE,
+    exercise_id INT REFERENCES exercises ON DELETE CASCADE
 );
 
 CREATE TABLE user_exercises (
     user_exercise_id SERIAL PRIMARY KEY,
-    username VARCHAR(25),
-    exercise_id INT,
     exercise_date DATE,
     exercise_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    rep1 INT,
-    rep2 INT,
-    rep3 INT,
-    rep4 INT,
-    rep5 INT,
-    rir1 INT,
-    rir2 INT,
-    rir3 INT,
-    rir4 INT,
-    rir5 INT,
-    FOREIGN KEY (username) REFERENCES users(username),
-    FOREIGN KEY (exercise_id) REFERENCES exercises(exercise_id)
+    rep1 INT DEFAULT 0,
+    rep2 INT DEFAULT 0,
+    rep3 INT DEFAULT 0,
+    rep4 INT DEFAULT 0,
+    rep5 INT DEFAULT 0,
+    rir1 INT DEFAULT 0,
+    rir2 INT DEFAULT 0,
+    rir3 INT DEFAULT 0,
+    rir4 INT DEFAULT 0,
+    rir5 INT DEFAULT 0,
+    username VARCHAR(25) REFERENCES users ON DELETE CASCADE,
+    exercise_id INT REFERENCES exercises ON DELETE CASCADE
 );
