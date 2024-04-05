@@ -1,8 +1,8 @@
-INSERT INTO users (username, password, theme, email)
+INSERT INTO users (username, password, email)
 VALUES ('testuser',
         '$2b$12$AZH7virni5jlTTiGgEg4zu3lSvAw68qVEfSIOjJ3RqtbJbdW/Oi5q',
-        FALSE,
         'joel@joelburton.com');
+
 
 INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/370/v-raise/', 'Stand with the feet hip-width apart, hold one dumbbell in each hand with the palms up at about a 45 degree angle, and the arms out straight with the weights resting on the thighs. Press the feet into the ground, keep the hips straight and the back tall, and raise both arms up to shoulder-height in a 45-degree angle to the front of the body. Slowly lower both arms.', 'V-raise', 'Dumbbells', 'Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/no_photo.gif');
@@ -2754,3 +2754,7 @@ Downward Phase: Inhale and gently lower the dumbbells back towards your starting
 As some of us show structural differences at the elbow, we may not be able to hold the dumbbells against our sides in the lowered position unless we force a bend at our wrists. The dumbbell position selected should be one that is most comfortable for you and keeps the wrists aligned straight with the forearm.', 'Hammer Curl', 'Dumbbells', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/10-1.jpg');
 INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/70/bicep-curl/', 'Hold the barbell with both hands facing up so the wrists, elbows, and shoulders are in a straight line about shoulder-width apart. Lift the barbell toward the shoulders while bending the elbows and keeping them next to the middle of the body. Slowly lower the weight to return to the starting position. Keep chest still, using just the arms for the movement.', 'Bicep Curl', 'Barbell', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/70-1.jpg');
+
+
+INSERT INTO user_exercises (username, exercise_id, exercise_date, rep1, rep2, rep3, rir1, rir2, rir3)
+VALUES ('testuser', '1', '2000-01-01', '5', '5', '5', '1', '1', '1');

@@ -28,6 +28,7 @@ CREATE TABLE user_exercises (
     username VARCHAR(25),
     exercise_id INT,
     exercise_date DATE,
+    exercise_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     rep1 INT,
     rep2 INT,
     rep3 INT,
