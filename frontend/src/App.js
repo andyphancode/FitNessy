@@ -5,10 +5,7 @@ import { BrowserRouter as Router} from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Routing from './routing/Routing';
 import FitNessyApi from './api/api';
-import {jwtDecode} from "jwt-decode";
-import useLocalStorage from "./useLocalStorage";
 import 'bootstrap/dist/css/bootstrap.css';
-import { useAuth } from './context/AuthContext';
 
 function App() {
 
