@@ -86,6 +86,21 @@ app.post("/register", async function (req, res, next) {
   }    
 })
 
+/** GET /users/[username] => { user }
+ * 
+ * Returns { username, email }
+ * 
+ * Authorization required is same user.
+ */
+app.get("/users/:username", ensureCorrectUser, async function (req, res, next) {
+  try {
+    const user = await User.get(req.params.username);
+    return res.json({ user });
+  } catch(err) {
+    return next(err);
+  }
+}) 
+
 /** DELETE /[username]  =>  { deleted: username }
  *
  * Authorization required: same-user-as-:username
@@ -108,7 +123,7 @@ app.delete("/:username", ensureCorrectUser, async function (req, res, next) {
  */
 app.get("/exercises", async function (req, res, next) {
     try {
-        let exercises = await Exercise.getExercises();
+        const exercises = await Exercise.getExercises();
         return res.json(exercises);
     } catch (err) {
         return next(err);
