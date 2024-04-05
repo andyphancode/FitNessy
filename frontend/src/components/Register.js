@@ -22,7 +22,7 @@ function Register({ signup }) {
     evt.preventDefault();
     let result = await signup(formData);
     if (result.success) {
-      navigate("/home");
+      navigate("/");
     } else {
       setFormErrors(result.errors);
     }
@@ -83,9 +83,9 @@ function Register({ signup }) {
         </Label>
       </FormGroup>
       {formErrors.length ?
-        (formErrors.map(err => (
-          <p>{err}</p>
-        ))) :
+        formErrors.map((err, index) => (
+          <p key={`error-${index}`}>{err}</p> 
+        )) :
         null
       }
       <Button color="primary">

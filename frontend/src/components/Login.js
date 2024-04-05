@@ -21,7 +21,7 @@ function Login({ login }) {
     evt.preventDefault();
     let result = await login(formData);
     if (result.success) {
-      navigate("/home")
+      navigate("/")
     } else {
       setFormErrors(result.errors);
     }
@@ -67,11 +67,12 @@ function Login({ login }) {
         </Label>
       </FormGroup>
       {formErrors.length ?
-        (formErrors.map(err => (
-          <p>{err}</p>
-        ))) :
+        formErrors.map((err, index) => (
+          <p key={`error-${index}`}>{err}</p> 
+        )) :
         null
       }
+
       <Button color="primary">
         Login
       </Button>
