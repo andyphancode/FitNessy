@@ -16,3 +16,4 @@ CREATE DATABASE fitnessy_test;
 \connect fitnessy_test
 
 \i seed_schema.sql
+\i seed_data.sql
