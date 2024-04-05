@@ -124,7 +124,7 @@ app.get("/exercises", async function (req, res, next) {
 app.get("/:username/workouts/:date", ensureCorrectUser, async function (req, res, next) {
     try {
         const exercises = await Workout.getExercisesByDate(req.params.username,req.params.date);
-        return res.json({ exercises })
+        return res.json(exercises)
     } catch (err) {
         return next(err);
     }
@@ -132,7 +132,7 @@ app.get("/:username/workouts/:date", ensureCorrectUser, async function (req, res
 
 /** POST /:username/workouts/ { user_exercise data } => { "added": exercise_id }
  * 
- * user_exercise data should include {exercise_id, exercise_date, [...reps], [...rir]}
+ * user_exercise data should include {exercise_id, exercise_date, [...reps], [...rir]}. Returns {"added": addedExercise}
  * 
  * Authorization required: same as current user.
  */
@@ -145,7 +145,7 @@ app.post("/:username/workouts/", ensureCorrectUser, async function (req, res, ne
         }
 
         const addedExercise = await Workout.addExercise(req.params.username, req.body);
-        return res.status(201).json({ addedExercise });
+        return res.status(201).json({ "added": addedExercise });
     } catch (err) {
         return next(err);
     }
@@ -153,7 +153,7 @@ app.post("/:username/workouts/", ensureCorrectUser, async function (req, res, ne
 
 /** PATCH /:username/workouts/:user_exercises_id { update data } => { updated exercise data }
  * 
- * { update data } should include { exerciseId, [...reps], [...rir] }
+ * { update data } should include { exerciseId, [...reps], [...rir] }. Returns { "updated": updatedExercise }
  * 
  * Authorization required: same as current user.
  */
@@ -166,7 +166,7 @@ app.patch("/:username/workouts/:user_exercise_id", ensureCorrectUser, async func
         }
 
         const updatedExercise = await Workout.updateExercise(req.params.username, req.params.user_exercise_id, req.body);
-        return res.status(201).json({ updatedExercise })
+        return res.status(201).json({ "updated": updatedExercise })
     } catch (err) {
         return next(err);
     }
@@ -174,7 +174,7 @@ app.patch("/:username/workouts/:user_exercise_id", ensureCorrectUser, async func
 
 /** DELETE /:username/workouts/:user_exercise_id => { exercise data }
  * 
- * Receives all exercises done on workout of given date by given user.
+ * Deletes a certain user_exercise. Returns delete exercise data.
  * 
  * Authorization required: same as current user.
  */
