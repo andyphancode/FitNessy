@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "user_exercise_id": { "type": "integer" },
+    "username": { "type": "string" },
+    "exercise_id": { "type": "integer" },
+    "exercise_date": { "type": "string", "format": "date" },
+    "rep1": { "type": "integer" },
+    "rep2": { "type": "integer" },
+    "rep3": { "type": "integer" },
+    "rep4": { "type": "integer" },
+    "rep5": { "type": "integer" },
+    "rir1": { "type": "integer" },
+    "rir2": { "type": "integer" },
+    "rir3": { "type": "integer" },
+    "rir4": { "type": "integer" },
+    "rir5": { "type": "integer" }
+  },
+  "required": ["user_exercise_id", "username", "exercise_id", "exercise_date"]
+}
