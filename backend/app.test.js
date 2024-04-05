@@ -122,6 +122,36 @@ describe("POST /register", function () {
   });
 })
 
+/************************************** GET /users/:username */
+describe("GET /users/:username", function () {
+
+  test("works for same user", async function () {
+    const resp = await request(app)
+        .get(`/users/testuser1`)
+        .set("authorization", `Bearer ${u1Token}`);
+    expect(resp.body).toEqual({
+      user: {
+        username: "testuser1",
+        email: "test1@test.com"
+      },
+    });
+  });
+
+  test("unauth for other users", async function () {
+    const resp = await request(app)
+        .get(`/users/testuser1`)
+        .set("authorization", `Bearer ${u2Token}`);
+    expect(resp.statusCode).toEqual(401);
+  });
+
+  test("unauth for anon", async function () {
+    const resp = await request(app)
+        .get(`/users/testuser1`);
+    expect(resp.statusCode).toEqual(401);
+  });
+
+});
+
 /************************************** DELETE /:username */
 describe("DELETE /:username", function () {
 

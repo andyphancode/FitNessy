@@ -105,3 +105,23 @@ describe("register", function () {
     }
   });
 });
+
+/************************************** get */
+describe("get", function () {
+  test("works", async function () {
+    let user = await User.get("testuser1");
+    expect(user).toEqual({
+      username: "testuser1",
+      email: "test1@test.com",
+    });
+  });
+
+  test("not found if no such user", async function () {
+    try {
+      await User.get("no-such-user");
+      fail();
+    } catch (err) {
+      expect(err instanceof NotFoundError).toBeTruthy();
+    }
+  });
+});
