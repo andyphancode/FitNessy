@@ -13,20 +13,6 @@ function App() {
   const [currentUser, setCurrentUser] = useState(null);
 
 
-  useEffect(() => {
-    async function fetchAndStoreExercises() {
-      try {
-        const exercises = await FitNessyApi.getExercises();
-        localStorage.setItem('exercises', JSON.stringify(exercises));
-      } catch (error) {
-        console.error("Failed to fetch exercises:", error);
-        // handle the error in UI
-      }
-    };
-    fetchAndStoreExercises();    
-  }, [])
-
-
   return (
     <Router>
       <div style={{ display: 'flex' }}>
