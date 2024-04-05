@@ -222,6 +222,34 @@ describe("GET /exercises", function () {
 
 });
 
+/************************************** GET /exercises/:exercise_id */
+describe("GET /exercises", function () {
+
+  test("works", async function () {
+    const resp = await request(app)
+        .get(`/exercises/1`);
+        expect(resp.body).toEqual(
+          {
+              exercise_id: 1,
+              exercise_link: "http://exercise1.com",
+              exercise_name: "exercise1",
+              instructions: "instructions1",
+              equipment: "exerciseEq1",
+              bodypart: "exerciseBodyPart1",
+              image_src: "http://e1.img",
+          },
+        );
+  });
+
+  test("NotFoundError on invalid exercise id", async function () {
+    const resp = await request(app)
+        .get(`/exercises/9000`);
+        expect(resp.statusCode).toEqual(404);
+  });
+
+});
+
+
 /************************************** GET /:username/workouts/:date */
 describe("GET /:username/workouts/:date", function () {
   

@@ -49,3 +49,22 @@ describe("getExercises", function () {
         ]);
     });
 });
+
+/** get */
+
+describe("getExercises", function () {
+    test("works", async function () {
+        let exercises = await Exercise.get(1);
+        expect(exercises).toEqual(
+            {
+                exercise_id: 1,
+                exercise_link: "http://exercise1.com",
+                exercise_name: "exercise1",
+                instructions: "instructions1",
+                equipment: "exerciseEq1",
+                bodypart: "exerciseBodyPart1",
+                image_src: "http://e1.img",
+            },
+           );
+    });
+});

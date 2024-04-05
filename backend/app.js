@@ -130,6 +130,21 @@ app.get("/exercises", async function (req, res, next) {
     }
 });
 
+/** GET /exercises/:exercise_id => { exercise data } 
+ * 
+ * Receives 1 specific exercise entry.
+ * 
+ * Authorization not required.
+*/
+app.get("/exercises/:exercise_id", async function (req, res, next) {
+  try {
+    const exercise = await Exercise.get(req.params.exercise_id);
+    return res.json(exercise);
+  } catch (err) {
+    return next(err)
+  }
+})
+
 /** GET /:username/workouts/:date => { exercise data }
  * 
  * Receives all exercises done on workout of given date by given user.
