@@ -37,7 +37,12 @@ class FitNessyApi {
   /** Get exercises */
   static async getExercises() {
     let res = await this.request(`exercises`);
-    console.log(res);
+    return res;
+  };
+
+  /** Get one exercise */
+  static async getExercise(id) {
+    let res = await this.request(`exercises/${id}`);
     return res;
   };
 
