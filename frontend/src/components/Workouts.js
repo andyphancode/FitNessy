@@ -1,12 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import FitNessyApi from '../api/api'; 
 import { useAuth } from '../context/AuthContext';
-import {FormGroup, Label, Table, Button} from 'reactstrap';
+import {FormGroup, Label, Table, Button, Modal, ModalHeader, ModalBody, Input} from 'reactstrap';
 import {DatePicker} from 'reactstrap-date-picker';
 import { format } from 'date-fns';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
+import SaveIcon from '@mui/icons-material/Save';
+import RefreshIcon from '@mui/icons-material/Refresh';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import AddIcon from '@mui/icons-material/Add';
 import './Workouts.css';
+
 
 
 function Workouts() {
@@ -18,7 +23,9 @@ function Workouts() {
   const [date, setDate]= useState(new Date().toISOString())
   const [fmtDate, setFmtDate]= useState(undefined);
   const [editingExerciseId, setEditingExerciseId] = useState(null);
-
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [allExercises, setAllExercises] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
 
 
   function handleChange(date) {
@@ -35,6 +42,12 @@ function Workouts() {
   useEffect(() => {
     async function fetchExercises() {
       try {
+        if (!currentUser || !fmtDate) {
+          // Early return if no currentUser or fmtDate is not set
+          console.log("Missing currentUser or fmtDate; aborting fetchExercises.");
+          return;
+        }
+  
         const exercisesByDate = await FitNessyApi.getExercisesByDate(currentUser.username, fmtDate);
         setExercises(exercisesByDate);
       } catch (error) {
@@ -42,16 +55,40 @@ function Workouts() {
       }
     }
   
-    if (fmtDate && currentUser.username) {
-      fetchExercises();
+    fetchExercises();
+  }, [fmtDate, currentUser]);
+  
+
+  useEffect(() => {
+    const fetchAllExercises = async () => {
+      try {
+        const exercises = await FitNessyApi.getExercises();
+        setAllExercises(exercises);
+      } catch (error) {
+        console.error("Failed to fetch exercises:", error);
+      }
+    };
+    
+    if (isModalOpen) {
+      fetchAllExercises();
     }
-  }, [fmtDate, currentUser.username]);
+  }, [isModalOpen]);
+
+  const filteredExercises = allExercises.filter(exercise => 
+    exercise.exercise_name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
 
   // exerciseData must include { exercise_id, exercise_date, [...reps], [...rir] }
-  const handleAddExercise = async (exerciseData) => {
+  const handleAddExercise = async (exercise) => {
     try {
-      const newExercise = await FitNessyApi.addExercise(currentUser.username, exerciseData);
-      setExercises([...exercises, newExercise]); }
+      const newExercise = await FitNessyApi.addExercise(currentUser.username, {
+        exercise_id: exercise.exercise_id,
+        exercise_date: fmtDate,
+        reps: [0,0,0,0,0],
+        rir: [0,0,0,0,0]
+      });
+      setExercises([...exercises, newExercise.added]); }
     catch (error) {
         console.error("Failed to add exercise:", error);
     }
@@ -61,16 +98,14 @@ function Workouts() {
     // updatedData must include { exerciseId, [...reps], [...rir] }
     const handleUpdateExercise = async (exerciseId, updatedData) => {
       try {
-        // need to check what kind of data this API call responds with, then change updatedExercise in setExercises
         const updatedExercise = await FitNessyApi.updateExercise(currentUser.username, exerciseId, updatedData);
         setExercises(exercises.map(ex => ex.exercise_id === exerciseId ? updatedExercise.updated : ex)); // Update the exercise in the local state
-        console.log(exercises);
       } catch (error) {
         console.error("Failed to update exercise:", error);
       }
     };
     
-    // 
+
     const handleDeleteExercise = async (user_excercise_id) => {
       try {
         await FitNessyApi.deleteExercise(currentUser.username, user_excercise_id);
@@ -103,20 +138,15 @@ function Workouts() {
 
     const saveChanges = async (exercise) => {
       try {
-        // Assuming `handleUpdateExercise` is already implemented to update the exercise
-        console.log(exercise);
         await handleUpdateExercise(exercise.user_exercise_id, {
-          // Construct updated data object here
           exerciseId: exercise.exercise_id,
           reps: [exercise.rep1, exercise.rep2, exercise.rep3, exercise.rep4, exercise.rep5 ],
           rir: [exercise.rir1, exercise.rir2, exercise.rir3, exercise.rir4, exercise.rir5 ],
-          // e.g., { reps: [exercise.rep1, exercise.rep2, ...], rir: [exercise.rir1, exercise.rir2, ...] }
         });
         // Exit edit mode
         setEditingExerciseId(null);
       } catch (error) {
         console.error("Failed to save changes:", error);
-        // Handle error (e.g., show error message)
       }
     };
     
@@ -125,7 +155,7 @@ function Workouts() {
   return (
     <>
       <FormGroup>
-        <Label>Date</Label>
+        <Label className="h3">Date&nbsp;<CalendarMonthIcon className="mb-1" /></Label>
         <DatePicker id="datepicker" 
                     date={date} 
                     onChange={(d) => handleChange(d)} />
@@ -173,22 +203,45 @@ function Workouts() {
             <td>
               {editingExerciseId === exercise.user_exercise_id ? (
                 <>
-                  <Button color="success" onClick={() => saveChanges(exercise)}>Save Changes</Button>
+                  <SaveIcon className="icon" color="success" fontSize="large" sx={{ cursor: 'pointer' }} onClick={() => saveChanges(exercise)}/>
                   {" "}
-                  <Button color="danger" onClick={() => setEditingExerciseId(null)}>Cancel</Button>
+                  <RefreshIcon className="icon" color="danger" fontSize="large" sx={{ cursor: 'pointer' }} onClick={() => setEditingExerciseId(null)}/>
                 </>
               ) : (
-                <EditIcon onClick={() => setEditingExerciseId(exercise.user_exercise_id)}/>
+                <EditIcon className="icon" fontSize="large" sx={{ cursor: 'pointer' }} onClick={() => setEditingExerciseId(exercise.user_exercise_id)}/>
               )}
             </td>
 
-            <td><DeleteIcon onClick={() => handleDeleteExercise(exercise.user_exercise_id)}/></td>
+            <td><DeleteIcon className="icon" color="danger" fontSize="large" sx={{ cursor: 'pointer' }} onClick={() => handleDeleteExercise(exercise.user_exercise_id)}/></td>
           </tr>
 
         )}
         </tbody>
 
       </Table>
+      <Button id="add-exercise-button" color="success" onClick={() => setIsModalOpen(true)}>Add Exercise</Button>
+
+      <Modal isOpen={isModalOpen} toggle={() => setIsModalOpen(!isModalOpen)}>
+        <ModalHeader toggle={() => setIsModalOpen(!isModalOpen)}>Add Exercise</ModalHeader>
+        <ModalBody>
+          <Input 
+            type="text" 
+            placeholder="Search exercises..." 
+            value={searchTerm} 
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <div>
+            {filteredExercises.map(exercise => (
+              <div key={exercise.exercise_id}>
+                <AddIcon className="icon" fontSize="large" sx={{ cursor: 'pointer' }} onClick={() => handleAddExercise(exercise)}/>
+                {exercise.exercise_name} 
+                
+              </div>
+            ))}
+          </div>
+        </ModalBody>
+      </Modal>
+
     </>
   )
 
