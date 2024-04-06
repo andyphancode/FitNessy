@@ -79,7 +79,7 @@ class User {
         return user;
     }
 
-      /** Given a username, return data about user.
+ /** Given a username, return data about user.
    *
    * Returns { username, email }
    *
