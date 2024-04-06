@@ -28,7 +28,7 @@ function Sidebar() {
           }}
         >
           <ListItemIcon>
-            <HomeIcon/>
+            <HomeIcon fontSize="large" sx={{ cursor: 'pointer' }}/>
           </ListItemIcon>
           <ListItemText primary={"Home"}/>
         </ListItem>
@@ -41,8 +41,8 @@ function Sidebar() {
           }}
           >
             <ListItemIcon>
-              {index === 0 && <LoginIcon />}
-              {index === 1 && <AppRegistrationIcon />}
+              {index === 0 && <LoginIcon fontSize="large" sx={{ cursor: 'pointer' }}/>}
+              {index === 1 && <AppRegistrationIcon fontSize="large" sx={{ cursor: 'pointer' }}/>}
             </ListItemIcon>
             <ListItemText primary={text} />
           </ListItem>
@@ -64,7 +64,7 @@ function Sidebar() {
           }}
         >
           <ListItemIcon>
-            <HomeIcon/>
+            <HomeIcon fontSize="large" sx={{ cursor: 'pointer' }}/>
           </ListItemIcon>
           <ListItemText primary={"Home"}/>
         </ListItem>
@@ -78,7 +78,7 @@ function Sidebar() {
           }}
         >
           <ListItemIcon>
-            <FitnessCenterIcon/>
+            <FitnessCenterIcon fontSize="large" sx={{ cursor: 'pointer' }}/>
           </ListItemIcon>
           <ListItemText primary={"Workouts"}/>
         </ListItem>    
@@ -92,7 +92,7 @@ function Sidebar() {
           onClick={logout} // Calls the logout function on click
         >
           <ListItemIcon>
-            <LogoutIcon />
+            <LogoutIcon fontSize="large" sx={{ cursor: 'pointer' }}/>
           </ListItemIcon>
           <ListItemText primary="Logout" />
         </ListItem>
@@ -108,7 +108,7 @@ function Sidebar() {
         '& .MuiDrawer-paper': {
           width: drawerWidth,
           boxSizing: 'border-box',
-          backgroundColor: '#bab8b4',
+          backgroundImage: 'linear-gradient(to bottom, #bab8b4 0%, #bab8b4 20%, white 20%, white 100%)',
         },
       }}
       variant="permanent"

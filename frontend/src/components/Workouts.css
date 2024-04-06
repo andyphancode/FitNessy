@@ -2,4 +2,51 @@
     width: 100%;
     box-sizing: border-box; 
     max-width: 100px; 
+}
+
+#add-exercise-button {
+  background-color: #4caf50; 
+  border-color: #45a049;
+  color: white;
+  padding: 10px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
   }
+}
+
+.search-button {
+  color: white;
+  padding: 10px 24px;
+  
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+  }
+}
+
+.icon {
+  color: black;
+  transition: transform 0.3s ease;
+  
+}
+
+.icon:hover{
+  transform: scale(1.5); 
+  cursor: pointer;
+}
