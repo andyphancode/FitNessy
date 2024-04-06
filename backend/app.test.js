@@ -299,8 +299,8 @@ describe("POST :/username/workouts", function () {
     const resp = await request(app)
           .post("/testuser1/workouts")
           .send({
-            exerciseId: 2,
-            date: "2000-01-01",
+            exercise_id: 2,
+            exercise_date: "2000-01-01",
             reps: [5,4,5,4,5],
             rir: [5,4,5,4,5]
           })
@@ -321,7 +321,13 @@ describe("POST :/username/workouts", function () {
               rir4: 4,
               rir5: 5,
               username: "testuser1",
-              exercise_id: 2
+              exercise_id: 2,
+              bodypart: "exerciseBodyPart2",
+              equipment: "exerciseEq2",
+              exercise_link: "http://exercise2.com",
+              exercise_name: "exercise2",
+              image_src: "http://e2.img",
+              instructions: "instructions2"
             }
           })
   });
@@ -330,8 +336,8 @@ describe("POST :/username/workouts", function () {
     const resp = await request(app)
           .post("/testuser1/workouts")
           .send({
-            exerciseId: 2,
-            date: "2000-01-01",
+            exercise_id: 2,
+            exercise_date: "2000-01-01",
             reps: [5,4,5,4,5],
             rir: [5,4,5,4,5]
           })
@@ -339,8 +345,8 @@ describe("POST :/username/workouts", function () {
     const resp2 = await request(app)
           .post("/testuser1/workouts")
           .send({
-            exerciseId: 2,
-            date: "2000-01-01",
+            exercise_id: 2,
+            exercise_date: "2000-01-01",
             reps: [5,4,5,4,5],
             rir: [5,4,5,4,5]
           })
@@ -352,8 +358,8 @@ describe("POST :/username/workouts", function () {
     const resp = await request(app)
           .post("/testuser1/workouts")
           .send({
-            exerciseId: 2,
-            date: "2000-01-01",
+            exercise_id: 2,
+            exercise_date: "2000-01-01",
             reps: [5,4,5,4,5],
             rir: [5,4,5,4,5]
           })
@@ -365,8 +371,8 @@ describe("POST :/username/workouts", function () {
     const resp = await request(app)
           .post("/testuser1/workouts")
           .send({
-            exerciseId: 9000,
-            date: "2000-01-01",
+            exercise_id: 9000,
+            exercise_date: "2000-01-01",
             reps: [5,4,5,4,5],
             rir: [5,4,5,4,5]
           })

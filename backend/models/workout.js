@@ -108,7 +108,7 @@ class Workout {
      */
     static async addExercise(username, user_exercise_data) {
 
-            const { exerciseId, date, reps, rir } = user_exercise_data;
+            const { exercise_id, exercise_date, reps, rir } = user_exercise_data;
 
             // Check if the exercise ID exists
             const exerciseExists = await db.query(
@@ -117,11 +117,11 @@ class Workout {
                     FROM exercises
                     WHERE exercise_id = $1
                 ) AS "exists"`,
-                [exerciseId]
+                [exercise_id]
             );
 
             if (!exerciseExists.rows[0].exists) {
-                throw new NotFoundError(`Exercise with ID ${exerciseId} not found`);
+                throw new NotFoundError(`Exercise with ID ${exercise_id} not found`);
             }
 
             // Check for duplicates
@@ -129,7 +129,7 @@ class Workout {
                 `SELECT user_exercise_id
                  FROM user_exercises
                  WHERE username = $1 AND exercise_date = $2 AND exercise_id = $3`,
-                 [username, date, exerciseId]
+                 [username, exercise_date, exercise_id]
             );
 
             if (duplicateCheck.rows[0]) throw new BadRequestError(`Duplicate exercise.`);
@@ -139,11 +139,21 @@ class Workout {
                 INSERT INTO user_exercises (username, exercise_id, exercise_date, rep1, rep2, rep3, rep4, rep5, rir1, rir2, rir3, rir4, rir5)
                 VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13)
                 RETURNING *
-            `, [username, exerciseId, date, ...reps, ...rir]);
+            `, [username, exercise_id, exercise_date, ...reps, ...rir]);
 
-            const addedExercise = result.rows[0];
+            // Fetch the added exercise details combined with exercise info
+            const combinedDetailsResult = await db.query(`
+                SELECT ue.*, e.exercise_link, e.instructions, e.exercise_name, e.equipment, e.bodypart, e.image_src
+                FROM user_exercises ue
+                JOIN exercises e ON ue.exercise_id = e.exercise_id
+                WHERE ue.username = $1 AND ue.exercise_date = $2 AND ue.exercise_id = $3
+            `, [username, exercise_date, exercise_id]);
 
-            return addedExercise;
+            if (combinedDetailsResult.rows.length === 0) {
+                throw new NotFoundError('Added exercise not found');
+            }
+
+            return combinedDetailsResult.rows[0];
         
     }
 
