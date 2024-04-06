@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar';
 import Routing from './routing/Routing';
 import FitNessyApi from './api/api';
 import 'bootstrap/dist/css/bootstrap.css';
+import LogoutRedirector from './components/LogoutRedirector';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <Router>
+      <LogoutRedirector/>
       <div style={{ display: 'flex' }}>
           <Sidebar />
           <main style={{ flexGrow: 1, padding: '20px' }}>

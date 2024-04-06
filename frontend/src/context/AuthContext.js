@@ -11,6 +11,12 @@ export const AuthProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
+ 
+  const [hasLoggedOut, setHasLoggedOut] = useState(false);
+
+  const resetLogoutFlag = () => setHasLoggedOut(false);
+
+
 
   useEffect(() => {
     const getUser = async () => {
@@ -67,11 +73,16 @@ export const AuthProvider = ({ children }) => {
     localStorage.removeItem('fitnessy-token');
     setCurrentUser(null);
     FitNessyApi.token = null; // Reset the token in API helper 
+    setHasLoggedOut(true);
   };
 
+  
+
+
   return (
-    <AuthContext.Provider value={{ currentUser, login, logout, signup, loading }}>
+    <AuthContext.Provider value={{ currentUser, login, logout, signup, loading, hasLoggedOut, resetLogoutFlag }}>
       {!loading && children}
     </AuthContext.Provider>
   );
 };
+
