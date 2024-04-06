@@ -20,6 +20,7 @@ A user should land on the home page and register before they begin to use the ap
 # API 
 
 API was self-made and developed by scraping AceFitness exercise catalogue for several categories of information.
+API requests can be made to: https://fitnessyapi.vercel.app 
 
 # Tests:
 
