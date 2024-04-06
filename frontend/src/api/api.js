@@ -73,28 +73,27 @@ class FitNessyApi {
   /** Get user exercises by date*/
   static async getExercisesByDate(username, date) {
     let res = await this.request(`${username}/workouts/${date}`);
-    console.log(res);
     return res
   };
 
   /** Add exercise */
   static async addExercise(username, data) {
     let res = await this.request(`${username}/workouts`, data, "post");
-    console.log(res);
+
     return res;
   };
 
   /** Patch and update exercise */
   static async updateExercise(username, user_exercise_id, data) {
     let res = await this.request(`${username}/workouts/${user_exercise_id}`, data, "patch");
-    console.log(res);
+
     return res;
   };
 
   /** Delete exercise */
   static async deleteExercise(username, exerciseId) {
     let res = await this.request(`${username}/workouts/${exerciseId}`, {}, "delete");
-    console.log(res);
+
     return res;
   };
 }
