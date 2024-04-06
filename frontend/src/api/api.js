@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3001";
+// change to http://localhost:3001 for dev
+const BASE_URL = "https://fitnessyAPI.vercel.app";
 
 /** API Class.
  *
