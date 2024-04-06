@@ -12,7 +12,7 @@ class Exercise {
      */
 
     static async getExercises() {
-        let results = await db.query(`SELECT * FROM exercises`);
+        let results = await db.query(`SELECT * FROM fitnessy_exercises`);
         return results.rows;
     }
 
@@ -31,7 +31,7 @@ class Exercise {
                     equipment,
                     bodypart,
                     image_src
-             FROM exercises
+             FROM fitnessy_exercises
              WHERE exercise_id = $1`, [id]
         )
         

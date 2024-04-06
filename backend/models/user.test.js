@@ -55,7 +55,7 @@ describe("remove", function () {
     test("works", async function () {
       await User.remove("testuser1");
       const res = await db.query(
-          "SELECT * FROM users WHERE username='testuser1'");
+          "SELECT * FROM fitnessy_users WHERE username='testuser1'");
       expect(res.rows.length).toEqual(0);
     });
   
@@ -83,7 +83,7 @@ describe("register", function () {
       password: "password",
     });
     expect(user).toEqual(newUser);
-    const found = await db.query("SELECT * FROM users WHERE username = 'new'");
+    const found = await db.query("SELECT * FROM fitnessy_users WHERE username = 'new'");
     expect(found.rows.length).toEqual(1);
     expect(found.rows[0].password.startsWith("$2b$")).toEqual(true);
   });

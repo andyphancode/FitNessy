@@ -1,12 +1,8 @@
-INSERT INTO users (username, password, email)
-VALUES ('testuser',
-        '$2b$12$AZH7virni5jlTTiGgEg4zu3lSvAw68qVEfSIOjJ3RqtbJbdW/Oi5q',
-        'test@test.com');
+INSERT INTO fitnessy_users (username, password, email) VALUES ('testuser', '$2b$12$AZH7virni5jlTTiGgEg4zu3lSvAw68qVEfSIOjJ3RqtbJbdW/Oi5q','test@test.com');
 
-
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/370/v-raise/', 'Stand with the feet hip-width apart, hold one dumbbell in each hand with the palms up at about a 45 degree angle, and the arms out straight with the weights resting on the thighs. Press the feet into the ground, keep the hips straight and the back tall, and raise both arms up to shoulder-height in a 45-degree angle to the front of the body. Slowly lower both arms.', 'V-raise', 'Dumbbells', 'Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/no_photo.gif');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/89/trx-reg-suspended-push-up/', 'Step 1
 Starting Position: Place your feet securely into the foot cradles positioned directly under the anchor point. Apply downward pressure with the tops of your feet by plantarflexing your ankles (toes point away from your shins). Gently lie flat on your stomach with your hands placed shoulder-width apart, under your shoulders and facing forward. Stiffen your torso by contracting your core/abdominal muscles ("bracing"), and your glutes and quadriceps (butt and thigh muscles).
 Step 2
@@ -16,7 +12,7 @@ Downward Phase: Maintaining your rigid torso, inhale and slowly lower your body 
 Step 4
 Exercise Variation: The intensity of this exercise can be increased by lengthening the straps and positioning your body further away from under the anchor point of the TRX.
 Using the TRX certainly enhances the appeal of many exercises; however, trainers and individuals should not participate in these advanced exercises until they can demonstrate capability to effectively stabilize their lumber spine (low back) with their core muscles.', 'TRX ® Suspended Push-up', 'TRX', 'Arms, Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/89-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/88/trx-reg-suspended-pike/', 'Step 1
 Starting Position: Place your feet securely into the foot cradles positioned directly under the anchor point. Apply downward pressure with the tops of your feet by plantarflexing your ankles (toes point away from your shins). Gently lie flat on your stomach with your hands placed shoulder-width apart, under your shoulders and facing forward. Stiffen your torso by contracting your core/abdominal muscles ("bracing"), and your glutes and quadriceps (butt and thigh muscles).
 Step 2
@@ -28,7 +24,7 @@ Downward Phase: While maintaining your rigid torso, inhale and slowly lower your
 Step 5
 Exercise Variation: The intensity of this exercise can be increased by lengthening the straps and positioning your body further away from the anchor point of the TRX.
 Using the TRX certainly enhances the appeal of many exercises; however, trainers and individuals should not participate in these advanced exercises until they can demonstrate capability to effectively stabilize their lumber spine (low back) with their core muscles.', 'TRX ® Suspended Pike', 'TRX', 'Abs, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/88-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/81/trx-reg-side-straddle-golf-swings/', 'Step 1
 Starting Position: Holding the TRX handles or foot cradles in each hand, turn yourself to face the anchor point with your feet wider than hip-width and both facing forward. Bend at the hips, pushing them backwards while maintaining your weight over your heels and using the TRX to assist you keep your balance. As your lean backwards, extend your arms forward at chest height with palms facing towards the floor. Keep your head up, looking forward throughout this movement.
 Step 2
@@ -38,7 +34,7 @@ Exercise Variation (1): To progress the exercise and mimic the golf swing more c
 Step 4
 Exercise Variation (2): Progress the movement to a windmill to increase torso rotation for your golf swing. From the same starting position described in the first progression, rotate both arms together in each direction while keeping your head fixed and facing the floor. This movement will exhibit a greater degree of pivoting off the back foot.
 Using the TRX as an assisted device reduces the load placed upon many joints. While this certainly can promote additional range of movement, it requires additional attention to proper form.', 'TRX ® Side-straddle Golf Swings', 'TRX', 'Back, Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/81-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/77/trx-reg-atomic-push-up/', 'Step 1
 Starting Position: Place your feet securely into the foot cradles positioned directly under the anchor point. Apply downward pressure with the tops of your feet by plantarflexing your ankles (toes point away from your shins). Gently lie flat on your stomach with your hands placed shoulder-width apart, under your shoulders and facing forward. Stiffen your torso by contracting your core/abdominal muscles ("bracing"), and your glutes (butt) and quadriceps (thigh) muscles.
 Step 2
@@ -48,7 +44,7 @@ Downward Phase: While maintaining a rigid torso, inhale and slowly lower your bo
 Step 4
 Exercise Variation: The intensity of this exercise can be increased by positioning your body further away from under the anchor point of the TRX and lengthening the straps.
 Using the TRX certainly enhances the appeal of many exercises; however, trainers and individuals should not participate in these advanced exercises until they can demonstrate effectively stabilize their lumber spine (low back) using their core muscles.', 'TRX ® Atomic Push-up', 'TRX', 'Abs, Arms, Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/77-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/83/trx-reg-assisted-side-lunge-with-arm-raise/', 'Step 1
 Starting Position: Holding the TRX handles in each hand, turn to face the anchor point. Position your feet together and hold the handles slightly above, or at shoulder-height, but at shoulder-width or slightly wider. Stiffen your torso by contracting your core and abdominal muscles ("bracing").
 Step 2
@@ -58,7 +54,7 @@ Once your left foot is firmly placed on the floor, begin to bend at the hips, pu
 Step 4
 Upward Phase: Exhale and push off firmly with your left leg, while pulling on the TRX, returning your body to your starting position. Repeat the movement to the opposite side.
 Using the TRX as an assisted device reduces the load placed upon many joints. While this certainly can promote additional range of movement, it does necessitate additional attention to proper form.', 'TRX ® Assisted Side Lunge with Arm Raise', 'TRX', 'Back, Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/83-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/82/trx-reg-assisted-cross-over-lunge-with-arm-raise/', 'Step 1
 Starting Position: Holding the TRX handles in each hand, turn to face the anchor point. Position your feet together and hold the handles slightly above or at shoulder-height, but at shoulder-width or slightly wider. Stiffen your torso by contracting your core and abdominal muscles ("bracing").
 Step 2
@@ -68,7 +64,7 @@ Once your right foot is firmly placed on the floor, begin to bend at the hips, p
 Step 4
 Upward Phase: Exhale and push off firmly with your right leg, while pulling on the TRX, returning your body to your starting position. Repeat the movement to the opposite side.
 Using the TRX as an assisted device reduces the load placed upon many joints. While this certainly can promote additional range of movement, it does require additional attention to proper form.', 'TRX ® Assisted Cross-over Lunge with Arm Raise', 'TRX', 'Back, Butt/Hips, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/82-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/229/supine-spinal-twist-with-rib-grab-and-progressions/', 'Step 1
 Starting Position: Lie on your side on a mat with both legs bent slightly deeper than 90 degrees at the hips, knees bent to 90 degrees, and feet overlapping each other.  Align your hips and shoulder vertically with the floor and spine and head in a straight line.  Extend your lower arm in front of your body at chest level, resting it upon the mat while reaching with your upper arm down under your trunk to firmly grasp your ribcage.  Contract (“brace”) your abdominal muscles to stabilize your spine, depress and retract your scapulae (pull shoulders back and down) without moving your trunk and attempt to hold these positions throughout the exercise.
 Step 2
@@ -82,7 +78,7 @@ Progression 2: Remove the riser under the upper knee and place it firmly against
 Step 6
 Progression 3: Repeat the same exercise, but begin with both arms extended in front of your body at chest level.  As you begin to rotate, bend the upper elbow, sliding it towards your trunk, then extending the arm outwards again at chest level as you continue your rotation.  Continue your rotation until the point of tension in the trunk and shoulder, but avoid arching your back or rotating your hips. This will increase the stretch in the shoulder and chest region, in addition to your trunk.
 To maximize the benefits of this stretch and reduce the potential for injury, it is often important to follow the instructions provided carefully.', 'Supine Spinal Twist with Rib Grab and Progressions', 'No Equipment', 'Abs, Back, Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/229-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/124/supine-snow-angel-wipers-exercise/', 'Step 1
 Starting Position: Lie supine (on your back) on an exercise mat or firm surface, bending your knees until your feet are positioned flat on the floor 12-18" from your buttocks. Place your arms at your sides, with elbows fully extended and palms facing inward. Breathe deeply for a 30 seconds relaxing your body and allowing gravity to gently pull your lower back and shoulders towards the floor.
 Step 2
@@ -94,7 +90,7 @@ Upward Movement: Exhale and gently rotate your upper arms, sliding the mat / flo
 Step 5
 Downward Movement: Inhale and gently rotate your arms back to your starting position, attempting to keep your upper arms, forearms, wrists and hands in contact with, or near the mat/ floor and avoid arching your lower back as your rotate overhead.
 This exercise stretches the muscles of your shoulders and lats in a stable and isolated manner. Reducing movement restriction in the shoulder helps minimize the likelihood of shoulder injury and pain. Try performing this exercise adjacent to a mirror that will allow you to monitor any undesired movement in the hips, ribs, shoulder or low-back.', 'Supine Snow Angel (Wipers) Exercise', 'No Equipment', 'Abs, Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/124-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/123/supine-shoulder-flexion/', 'Step 1
 Starting Position: Lie supine (on your back) on an exercise mat or firm surface, bending your knees until your feet are positioned flat on the floor 12-18" from your buttocks. Place your arms at your sides, with elbows fully extended and palms facing inward. Breathe deeply for a 30 seconds relaxing your body and allowing gravity to gently pull your lower back and shoulders towards the floor. 
 Step 2
@@ -106,7 +102,7 @@ In this overhead position, attempt to: (1) fully extend the elbows without archi
 Step 5
 Shoulder Extension: Inhale and slowly return your arms back to your starting position. 
 This exercise stretches the muscles of your shoulders and your lats in a stable and isolated manner. Controlling and restricting movement in the shoulder helps minimize the likelihood of shoulder injury and pain. Try performing this exercise adjacent to a mirror that will allow you to monitor any undesired movement in the hips, ribs, shoulder or low-back.', 'Supine Shoulder Flexion', 'No Equipment', 'Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/123-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/122/supine-rotator-cuff/', 'Step 1
 Starting Position: Lie supine (on your back) on an exercise mat or firm surface, bending your knees until your feet are positioned flat on the floor 12-18" from your buttocks. Extend your arms out from your sides level with your shoulders, bending your elbows to 90 degrees with your forearms vertical to the floor and wrists in a neutral position (neither flexed nor extended; forearms, wrists and hands aligned vertically). Breathe deeply for 30 seconds relaxing your body and allowing gravity to gently pull your lower back and shoulders towards the floor.
 Step 2
@@ -116,7 +112,7 @@ External Rotation: Gently rotate your forearms backwards towards the floor witho
 Step 4
 Internal Rotation: Gently rotate your forearms forward towards the floor without flexing your torso (bending forward from your waist line) or raising the backs of your shoulders off the floor. Your goal is to rotate your forearms forward until the fronts of your hands are 2-4" off the floor (20-30 degrees off the floor). Keep your forearms, wrists and hands aligned and hold this position for 15-30 seconds before slowly returning to your starting position.
 This exercise stretches and strengthens your rotator cuff muscles in your shoulders in a stable and isolated manner. Healthy rotator cuff muscles permit healthy joint movements at the shoulder, reducing your likelihood of injury and pain. Try to perform this exercise adjacent to a mirror that will allow you to monitor any undesired movement in the hips, ribs, shoulder or low-back. This is a good warm-up exercise to prepare the shoulders for heavier loads during exercises like the dumbbell bench press or standing barbell shoulder press.', 'Supine Rotator Cuff', 'No Equipment', 'Abs, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/122-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/9/supermans/', 'Step 1
 Starting Position: Lie prone (on your stomach) on a mat with your legs extended, ankles slightly plantarflexed (toes pointing away from your shins), arms extended overhead with palms facing each other. Relax your head to align it with your spine.
  
@@ -125,9 +121,9 @@ Upward Phase: Exhale, contract your abdominal and core muscles to stabilize your
  
 Step 3
 Downward Phase: Gently inhale and lower your legs and arms back towards your starting position without any movement in your low back or hips.', 'Supermans', 'No Equipment', 'Back, Butt/Hips, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/9-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/71/standing-shoulder-press/', 'Place a barbell in a rack at about shoulder-height. Grip the bar with the hands about shoulder-width apart and the palm facing the ceiling. Dip under the bar to bring it off the rack letting it rest across the top of the shoulders so that the palms are facing the ceiling and the elbows are pointed straight ahead. Step back, keeping the back straight and tall and press the barbell directly overhead. Slowly return the weight to the shoulders and repeat for the desired number of reps.', 'Standing Shoulder Press', 'Barbell', 'Arms, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/71-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/67/stability-ball-shoulder-stabilization/', 'Step 1
 Starting Position: Lie prone (on your stomach) over the top of a properly-inflated stability ball (one that compresses approximately 6" under your body weight) with both feet and hands on the floor, hip- and shoulder-width apart. 
 Step 2
@@ -145,7 +141,7 @@ Step 7
 Step 8
 Exercise Variation: To increase the balance challenge, this series of exercises can be progressed by bringing your feet together behind you or raising one foot off the floor. 
 Avoid hyperextension in your low back by raising your torso past parallel alignment with your legs.', 'Stability Ball Shoulder Stabilization', 'Stability Ball', 'Back, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/67-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/63/stability-ball-push-up/', 'Step 1
 Starting Position: Lie prone (on your stomach) over the top of a properly-inflated stability ball (one that compresses approximately 6" under your body weight) with both feet and hands on the floor, hip- and shoulder-width apart.
 Step 2
@@ -161,7 +157,7 @@ Exercise Variation (1): If this body position proves too difficult in pressing u
 Step 7
 Exercise Variation (2) : To increase the balance challenge, this exercise can be performed by bringing your feet together behind you and raising one foot off the floor.
 Avoid hyperextension in your low back by allowing your low bag to sag towards the floor. Your torso and hips should remain rigid and in parallel throughout the exercise.', 'Stability Ball Push-Up', 'Stability Ball', 'Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/63-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/61/stability-ball-pikes/', 'Step 1
 Starting Position: Lie prone (on your stomach) over the top of a properly-inflated stability ball (one that compresses approximately 6" under your body weight) with both feet and hands on the floor, hip- and shoulder-width apart.
  
@@ -174,9 +170,9 @@ Curling Phase: Exhale and while keeping your legs fully extended, pull your feet
 Step 4
 Lowering Phase: Inhale and slowly lower yourself back towards the floor, returning your body to the starting position.
 Avoid arching (sagging) your lower back or hiking your hips upwards in the starting position. Contract your abdominal, back and glute muscles to keep your torso and legs parallel to the floor.', 'Stability Ball Pikes', 'Stability Ball', 'Abs, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/61-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/361/squat-to-overhead-raise/', 'Hold one dumbbell lengthwise in both hands so that each hand is holding a weighted end, and place the feet about shoulder-width apart. With the arms straight down, slowly bend at the hips and keep the back straight while lowering into a squat keeping the weight between both legs. At the bottom of the squat push both feet into the ground to return to standing, and keep the arms straight while swinging the weight straight in front of the body to finish with it over the head. Lower the dumbbell back down in front of the body to return to the starting position.', 'Squat to Overhead Raise', 'Dumbbells', 'Abs, Full Body/Integrated, Legs - Thighs, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/361-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/219/spinal-twist-with-a-push-pull-movement/', 'Step 1
 Starting Position: Lie on your side on a mat with both legs extended so that your hips and shoulder are aligned vertically with the floor and your spine and head are in alignment (head resting on the mat or upon a small pillow or rolled-up towel). Bend your upper leg to create a 90-degree bend at both the hip and knee, resting the inside of that knee upon the mat or upon a raised platform, (e.g., rolled-up towel, block, etc.). Extend both arms out directly in front you at chest level, overlapping your fingers together.  
 Step 2
@@ -192,7 +188,7 @@ Step 5
 Exercise Variation: The exercise intensity can be increased by using dumbbells.
  
 To maximize the benefits of this exercise and reduce the potential for injury, it is often important to stabilize the scapulae, trunk and hips and control movement at the shoulders.  Follow the instructions provided carefully.', 'Spinal Twist with a Push-Pull Movement', 'No Equipment', 'Back, Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/219-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/134/single-arm-medicine-ball-push-up/', 'Step 1
 Starting Position: Kneel on an exercise mat or floor and bring your feet together behind you. Slowly bend forward to place one hand on the top of medicine ball and the other on the floor. Your hands should be shoulder-width apart. Carefully shift your weight forward until your shoulders are positioned directly over your hands and the medicine ball. Reposition your feet as needed to allow full extension of your body without any sagging (downwards) or hiking (upwards) at the hips. Stiffen your torso by contracting your abdominal / core muscles ("bracing"). Your head should be aligned with your spine.
 Step 2
@@ -200,13 +196,13 @@ Downward Phase: Slowly lower your body towards the ball while maintaining a rigi
 Step 3
 Upward Phase: Press upwards through your arms while maintaining a rigid torso and head aligned with your spine. Do not allow your low back or hips to sag or hike upwards. Continue pressing until the arms are fully extended at the elbows.
 As the ball adds instability to this exercise, your movements need to be slow and controlled to reduce the chance of injury.', 'Single-arm Medicine Ball Push-up', 'Medicine Ball', 'Abs, Arms, Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/134-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/354/single-arm-lateral-raise/', 'Place a cable pulley at about waist-height and attach a single handle. Stand so that the right side of the body is next to the machine and grip the handle in the left hand. Keep the chest tall, the hips straight, and press the feet into the floor while lifting the left hand directly to the left (the cable should be passing in front of the body). Lift the left arm until it is parallel to the floor, then pause for one second before slowly lowering the left arm to return the weight to its starting position.', 'Single-arm Lateral Raise', 'Resistance Bands/Cables', 'Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/354-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/393/single-arm-overhead-squat/', 'Hold a kettlebell in the right hand with the right arm straight up overhead. Stand with the feet about shoulder-width apart and place the right foot in front of the left so the heel of the right foot is even with the toes of the left foot. While looking up at the kettlebell throughout the movement, push hips back into a squat reaching the free arm down towards the ground, allowing the trunk to rotate towards the right. Push both feet into the floor and pull the knees backwards to return back to the original standing position.', 'Single Arm Overhead Squat', 'Kettlebells', 'Back, Full Body/Integrated, Legs - Thighs, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/393-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/395/single-arm-overhead-press/', 'Stand with the feet hip-width apart so that the right foot is slightly in front of the left and grip a kettlebell with the right hand while holding it in front of the chest near the shoulder resting on the right forearm with the elbow close to the ribs. Push the right foot into the ground to shift the weight of the body forward, and press the right arm straight overhead. Pull the right elbow back down to the rib cage to lower the weight.', 'Single Arm Overhead Press', 'Kettlebells', 'Full Body/Integrated, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/395-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/223/side-lying-arm-rolls/', 'Step 1
 Starting Position: Lie flat on your back on a mat in a bent-knee position and place a small pillow, rolled-up towel or foam pad under your head.  Depress and retract your scapulae (pull shoulders back and down) without moving your trunk and attempt to hold this position throughout the exercise. While holding a light dumbbell or weight in one hand, press that arm vertically while maintaining a neutral wrist (i.e., wrist aligned with your forearm) and scapula (shoulder blade) in contact with the mat.  Place your opposite arm at the side of your body.
 Step 2
@@ -217,7 +213,7 @@ Step 4
 Exercise Variation: If a light dumbbell is not available, perform this exercise without any resistance or with any weighted device. The exercise complexity is increased by holding a kettle bell that has an “offset center of mass.” 
  
 To maximize the benefits of this exercise and reduce the potential for injury, it is often important to stabilize the scapula and control movement carefully.  Follow the instructions provided carefully', 'Side-lying Arm Rolls', 'Dumbbells, No Equipment', 'Abs, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/223-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/237/shoulder-stability-mobility-series-i-y-t-w-formations/', 'Step 1
 Starting Position: Lie flat on your back on the floor / mat in a bent-knee position with feet placed firmly on the floor.  Position your arms to your sides with elbows extended and palms facing inwards.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, depress and retract your scapulae (pull shoulders back and down) without moving your trunk and attempt to hold this positions throughout the exercise.
 Step 2
@@ -231,7 +227,7 @@ Step 5
 Exercise Variation: This stretch can become more dynamic by performing slow, controlled movements to complete 1 set of 5 - 10 repetitions in each formation, holding the end position for 1 - 2 seconds.
  
 EXERCISE TIP: To maximize the benefits of a stretch and reduce the potential for injury, it is often important to stretch only to the point of tension, avoid bouncing and control movement at other segments of the body.  During this stretch, attempt to keep your scapulae (shoulders) depressed and avoid arching in your low back.', 'Shoulder Stability-Mobility Series - I, Y, T, W Formations', 'No Equipment', 'Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/237-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/205/shoulder-packing/', 'Step 1
 Starting Position: Stand with your feet hip-width apart, toes pointing forward, with arms by your sides. Contract your abdominal muscles (“brace”) to stabilize your spine while holding your chest up and out with your head tilted slightly up.
 Step 2
@@ -244,7 +240,7 @@ Isolate the two movements.  Perform scapulae depression (pull the shoulder(s) d
 This exercise can be performed in the supine position (on your back).  Starting position: Lying supine (on your back) on a matt with knees bent to 90 degrees and feet flat on the floor.  Align the anterior superior iliac spine (ASIS) with the knee and second toe.  Place your arms by yours side with palms facing up. Continue with the listed steps.  
  
 Be sure to exhale with each contraction to help you achieve the desired range of motion.  Keep the abdominals engaged to prevent any increase in lumbar lordosis (inward curvature of the back).', 'Shoulder Packing', 'No Equipment', 'Back, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/205-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/186/seated-shoulder-press/', 'Step 1
 Starting Position: Sit with your back firmly supported against the backrest. Adjust the seat height so that the handles are level with your shoulders or just higher than your shoulders. Grasp the handles firmly with a full grip (thumbs clasped around the handles) and maintain a neutral wrist position (i.e., wrists in line with your forearms). Position your elbows in the 4 and 8 o''clock position (i.e., slightly forward than the 3 and 9 o''clock positions where the elbows are aligned with the midline of your trunk).  Position your feet firmly on the floor or on the foot rests to stabilize your body.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, but do not press your low back into the backrest. Maintain the natural arch in your low back and avoid arching your back throughout the exercise.  Depress and retract your scapulae (pull shoulders back and down) and attempt to hold this position throughout the exercise.
 Step 2
@@ -257,7 +253,7 @@ Exercise Variation: To increase the exercise intensity, perform the following va
 (b) Sit upright off the backrest, which will require a greater effort from your core to stabilize your trunk as you perform the press movement.
  
 In the overhead position, the shoulder is relatively unstable. To protect your shoulder it is important to engage your lats (back muscles) to initiate the downward movement as oppsed to simply yielding to gravity. This will help stabilize your shoulder.', 'Seated Shoulder Press', 'Weight Machines / Selectorized', 'Arms, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/186-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/45/seated-overhead-press/', 'Step 1
 Starting Position: Grasp the dumbbells in your hands and sit with your back against a back rest so that your head, shoulders and butt make contact with the bench. Place your feet firmly on the floor. Stiffen your torso by contracting your core and abdominal muscles ("bracing"). If working with a spotter, signal for assistance. Exhale and slowly lift the dumbbells to your shoulder level with a closed, pronated grip (palms facing forward and thumbs wrapped around the handles), with the dumbbells at shoulder-width or slightly wider and wrists in a neutral position (avoid flexion and extension of the wrists). Retract and depress your scapulae (pull down and back) and hold this scapulae position throughout the exercise. 
 Step 2
@@ -265,7 +261,7 @@ Upward Phase: Exhale and press the dumbbells overhead in unison until your elbow
 Step 3
 Downward Phase: Inhale and slowly lower the dumbbells in a controlled manner by flexing (bending) your elbows while maintaining a rigid torso, neutral wrists and contact with the bench and floor. Avoid simply yielding to gravity and consciously try to contract your lats and pull the dumbbells down towards you. 
 Spotting is important to ensure safety in this exercise. The spotter should stand behind you in a split-stance position, positioning their hands close to your wrists (not touching) to support you as needed.', 'Seated Overhead Press', 'Bench, Dumbbells', 'Arms, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/45-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/187/seated-machine-close-grip-shoulder-press/', 'Step 1
 Starting Position: Sit with your back firmly supported against the backrest. Adjust the seat height so that the handles are level with your shoulders or just higher than your shoulders. Grasp the handles closest to your body firmly with a full grip (thumbs clasped around the handles) and maintain a neutral position with your wrists (i.e., wrists in line with your forearms).  Position your elbows pointing towards the front of your body (i.e., not in the traditional 3 and 9 o''clock positions where the elbows are aligned with the midline of your trunk).  This position shifts more of the load into the triceps and away from the shoulders.  Position your feet firmly on the floor or on the foot rests to stabilize your body.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, but do not press your low back into the backrest.  Maintain the natural arch in your low back and avoid arching your back throughout the exercise.  Depress and retract your scapulae (pull shoulders back and down) and attempt to hold this position throughout the exercise.
 Step 2
@@ -278,21 +274,21 @@ Exercise Variation: To increase the exercise intensity, perform the following va
 (b) Sit upright off the backrest, which will require a greater effort from your core to stabilize your trunk as you perform the press movement.
  
 This position is more comfortable and less stressful on the shoulders and more appropriate for individuals who experience some discomfort when performing traditional shoulder presses as it shifts more load into the triceps. In the overhead position, the shoulder is relatively unstable. To protect your shoulder it is important to engage your lats (back muscles) to initiate the downward movement as oppsed to simply yielding to gravity. This will help stabilize your shoulder.', 'Seated Machine Close-Grip Shoulder Press', 'Weight Machines / Selectorized', 'Arms, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/187-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/46/seated-high-back-row/', 'Using a cable machine and a wide bar handle and place the feet sit on a bench facing the cable with feet on the floor. Keep the knees bent and the back straight. Hold the straight portion of the bar with the palms facing down, keeping the elbows wide, and pull the bar towards the top of the chest. When the bar touches the chest, pause for a second before slowly straightening the arms to return the weight to the starting position.', 'Seated High Back Row', 'Bench, Resistance Bands/Cables', 'Arms, Back, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/46-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/351/rotator-cuff-internal-rotation/', 'Place a cable pulley at about waist-height, and attach a single handle holding it in the right hand with the right side of body closest to the machine. Keep the right elbow tucked in to the body, and rotate the shoulder forward to bring the right hand to the front of stomach. Pause for one second before slowly lowering the weight, still keeping elbow close to the body.', 'Rotator Cuff Internal Rotation', 'Resistance Bands/Cables', 'Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/351-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/352/rotator-cuff-external-rotation/', 'Place a cable pulley at about waist-height and attach a single handle, holding it in the left hand so that the right side of the body is closest to the machine. Keep the left elbow tucked in to the body, and turn the shoulder back away from the body to move the left hand to the outside of the body (the cable should pass in front of the stomach). Pause for one second before slowly lowering the weight to the starting position.', 'Rotator Cuff External Rotation', 'Resistance Bands/Cables', 'Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/352-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/369/rotational-uppercut/', 'Stand with the feet hip-width apart, hold one dumbbell in each hand with the palms facing up, and the elbows close to the rib cage. Sink back into the hips and press the left foot into the ground to turn to the right, keep the left elbow bent and perform an uppercut with the left arm, bringing the left elbow to shoulder-height. Slowly lower the left arm and turn back to the center. Push the right foot into the ground to turn the left hip while swinging the right arm up in an uppercut.', 'Rotational Uppercut', 'Dumbbells', 'Arms, Full Body/Integrated, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/369-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/368/rotational-overhead-press/', 'Stand with the feet hip-width apart, hold one dumbbell in each hand with the palms facing each other and the weights in front of the shoulders. Keep the back straight and turn to the right, and when facing the 3 o’clock position press the right hand straight into the air. To lower the weight, pull the elbow back down and keep the back straight while turning to the left. When facing the 9 o’clock position on the left side, press the left hand straight into the air.', 'Rotational Overhead Press', 'Dumbbells', 'Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/368-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/218/reverse-slam/', 'Stand with the ball in both hands in front of the body. Jump up on the toes and raise the ball overhead, then quickly bend the elbows to slam the ball down behind the body. Turn around and pick up the ball, and repeat.', 'Reverse Slam', 'Medicine Ball', 'Butt/Hips, Full Body/Integrated, Legs - Thighs, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/218-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/353/reverse-fly/', 'Place two cable pulleys at about shoulder-height (or slightly below) and stand so that each pulley is on either side of the body. With the left hand, grab the handle from the pulley on the right side of the body. With the right hand, grab the pulley on the left, starting the exercise with both arms crossed in front of the body. Keep the back straight, press the feet into the floor, and spread both arms apart until they are in a straight line. Pause before slowly returning to the starting position.', 'Reverse Fly', 'Resistance Bands/Cables', 'Back, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/353-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/42/push-up-with-single-leg-raise/', 'Step 1
 Starting Position: Kneel on an exercise mat or floor and bring your feet together behind you.
 Step 2
@@ -302,7 +298,7 @@ Downward Phase: Slowly lower your body towards the floor while maintaining a rig
 Step 4
 Upward Phase: Press upwards through your arms while maintaining a rigid torso and head aligned with your spine. As your press upwards, extend your left hip to lift your left foot off the floor, keeping the knee extended. Attempt to avoid rotation in your hip as you raise the left leg off the floor. Do not allow your low back to sag or your hips to hike upwards. Continue pressing until the arms are fully extended at the elbows and your left leg is extended off the floor. Hold this position briefly before returning to your starting position. Repeat with your opposite leg
 Pushing through the heel and outside surface of your palm provides greater force in your press and stability to your shoulders.', 'Push-up with Single-leg Raise', 'No Equipment', 'Arms, Butt/Hips, Chest, Full Body/Integrated, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/42-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/41/push-up/', 'Step 1
 Starting Position: Kneel on an exercise mat or floor and bring your feet together behind you.
 Step 2
@@ -314,7 +310,7 @@ Upward Phase: Press upwards through your arms while maintaining a rigid torso an
 Step 5
 An alternative position is to turn your hands to face forwards and keep your your elbows close to your sides during the downward phase. This shifts the emphasis from the chest muscles onto the triceps and may reduce stresses in the shoulder joint.
 Pushing through the heel and outside surface of your palm provides greater force in your press and stability to your shoulders.', 'Push-up', 'No Equipment', 'Arms, Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/41-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/249/prone-scapular-shoulder-stabilization-series-i-y-t-w-o-formation/', 'Step 1
 Starting Position: Lie prone (on your stomach) on a mat, with your arms and legs fully extended.  Point your toes away from your body and fully extend your elbows and fingers, positioning your palms facing inwards.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, depress and retract your scapulae (pull shoulders back and down) and attempt to hold these positions throughout the exercise. Align your head with your thoracic (upper) spine.
 Step 2
@@ -328,7 +324,7 @@ Step 5
 Step 6
 “O” Formation: From a position with arms at your sides, gently exhale and elevate your shoulders while internally rotating both arms as if reaching behind to scratch your back.  Overlap your hands in the small of your back into an “O” formation (form the letter “O”).  Maintain your head alignment with your thoracic (upper) spine.  Focus on generating most of your lift through your shoulders and not the low back although some low back extension (arching) is acceptable.  Hold this position for 5 – 10 seconds then relax and return to your starting position.  Perform 2 – 4 repetitions.
 RELATED EXERCISE: Supine Shoulder Stability-Mobility Series', 'Prone Scapular (Shoulder) Stabilization Series - I, Y, T, W, O Formation', 'No Equipment', 'Back, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/249-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/182/overhead-slams/', 'Step 1
 Starting Position: Stand with your feet hip-width apart and holding a medicine ball in both hands directly in front of your chest; grasp the ball with your hands in a neutral position (palms facing each other), and elbows fully flexed (bent) and facing down towards the floor. 
  
@@ -342,7 +338,7 @@ Explosively bring the ball down over your head to throw it directly downwards in
 Step 5 
 Exercise Variation: Use a bouncing medicine ball to throw it straight down and have the ball bounce back up into your hands to perform continuous repetitions. 
 If using a bouncing medicine ball make sure that you have ample space for safety; if you are using a non-bouncing medicine ball (a "dead" ball) make sure you are on a solid, stable floor that can support the force of the weight being thrown explosively into the floor.', 'Overhead Slams', 'Medicine Ball', 'Back, Butt/Hips, Full Body/Integrated, Legs - Thighs, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/182-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/178/overhead-medicine-ball-throws/', 'Step 1
 Starting Position: Make sure that you are working with a partner who can catch the ball, let the partner feel the medicine ball first so they know how much it weighs and can prepare to catch it.  Position your body directly facing your partner with the spine in neutral (normal-to-flat), shoulders depressed (no shrugging) with scapulae retracted (squeezing shoulder blades together). Keep your chest held up and out, head in line with your spine or slightly extended (raised), heels on the floor.  Stand with the feet hip-width apart, the left foot slightly forward, the right foot slightly back while holding a medicine ball between both hands; contract and brace the abdominals while depressing and retracting your shoulder blades.  Your eyes should be looking directly at the target in order to properly aim the throw. 
 Step 2
@@ -353,7 +349,7 @@ Explosively step forward with the right leg and quickly bring your arms forward 
 Step 4 
 Exercise Variation: Repeating throws: Use a wall with a medicine ball capable of bouncing and position yourself so that you can throw the ball into the wall and quickly catch it to prepare for the next throw. 
 The purpose of this exercise is to generate upper body power, use a ball that is no more than 10% of your bodyweight to ensure that you can acheive the appropriate velocity for the throw.', 'Overhead Medicine Ball Throws', 'Medicine Ball', 'Butt/Hips, Full Body/Integrated, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/178-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/40/medicine-ball-push-ups/', 'Step 1
 Starting Position: Kneel on an exercise mat or floor and bring your feet together behind you. Slowly bend forward to place your palms on the sides of a medicine ball. Carefully shift your weight forward until your shoulders are positioned directly over your hands and the medicine ball. Reposition your feet as needed to allow full extension of your body without any sagging (downwards) or hiking (upwards) at the hips. Stiffen your torso by contracting your core and abdominal muscles ("bracing"). Your head should be aligned with your spine.
 Step 2
@@ -363,7 +359,7 @@ Upward Phase: Press upwards through your arms while maintaining a rigid torso an
 Step 4
 An alternate ball with handles can be substituted that reduces the pressure on your wrists. When using this type of ball, maintain a neutral wrist position throughout the exercise.
 As the ball adds instability to this exercise, your movements need to be slow and controlled to reduce the chance of injury.', 'Medicine Ball Push-ups', 'Medicine Ball', 'Abs, Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/40-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/264/medicine-ball-lunge-to-chest-pass/', 'Step 1
 Before you begin make sure that you are working with a partner who can catch the ball, (let the partner feel the medicine ball first so he or she knows how much it weighs and can prepare to catch it) or be sure that you have a solid wall or medicine ball rebounder that can withstand the forces of impact from a medicine ball.  
 Starting Position: Stand on the floor in an athletic ready position with both feet hip-width apart, position your body directly facing your partner (or wall / rebounder), your should be at least 5-8 feet away from your partner and each partner should maintain the spine in neutral (normal-to-flat), shoulders depressed (no shrugging) with scapulae retracted (squeezing shoulder blades together). Keep your chest lifted up, head in line with your spine or slightly extended (raised).   Firmly hold a medicine ball between both hands right in front of your chest; contract and brace the abdominals and keep your hips pressed forward by contracting your glutes.  Your head should be level and your eyes should be looking directly at the target. 
@@ -380,7 +376,7 @@ Step 6
 Exercise Variation: The partner catching the ball can balance on one leg to work on core stability while decelerating the forces related to catching the ball before stepping into the forward lunge. 
  
 During the entire thowing and catching sequence each partner should position his or her body with the spine in neutral (normal-to-flat), shoulders depressed (no shrugging) with scapulae retracted (squeezing shoulder blades together). Each partner should keep his or her chest held up and out, the head in line with his or her spine and both hands out front while preparing to catch the ball (holding the hands in front of the body gives the partner throwing the ball a target to aim for when releasing the ball; the throwing partner should keep his or her eyes on the catching partner''s hands to ensure good aim).', 'Medicine Ball Lunge to Chest Pass', 'Medicine Ball', 'Abs, Back, Butt/Hips, Chest, Full Body/Integrated, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/264-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/21/lying-chest-fly/', 'Step 1
 Starting Position: Grasp two dumbbells and lie supine (on your back) on a flat bench with your feet placed firmly on the floor or upon a raised platform to allow you to maintain a neutral (flat to normal) spine. If working with a spotter, signal the spotter for assistance in handing you the dumbbells.
 Step 2
@@ -390,7 +386,7 @@ Downward Phase: Inhale and slowly lower the dumbbells in unison in a wide arc un
 Step 4
 Upward Phase: Exhale and slowly raise the dumbbells upward in a wide arc back to your starting position, keeping the elbows slightly flexed, wrists neutral and making contact with the head, shoulders, butt and feet with the bench and floor/riser.
 Safety is very important in this exercise. A spotter should adopt a split-stance position or half-kneeling position with the hands positioned as close to the most distal (wrist) joint. Keep the hands near, but not touching the wrists unless needed.', 'Lying Chest Fly', 'Bench, Dumbbells', 'Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/21-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/143/lunge-with-overhead-press/', 'Step 1
 Starting Position: Stand with your feet together. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal/core muscles) to stiffen your spine. Hold a light-to-moderate weight medicine ball in front of your chest with both hands firmly holding on to the ball. 
 Step 2
@@ -400,9 +396,9 @@ While in the bottom (downward) phase of the lunge, pull the medicine ball back d
 Step 4
 Exercise Variation: Begin with a light-weight medicine ball in order to learn how to maintain stability all of the way through the movement.  To increase the level of difficulty and to improve core and shoulder strength, once you can perform 8-12 repetitions on each leg, increase the weight of the medicine ball.  Another option is to hold one dumbbell in each hand, start with the elbows bent at ninety degrees and tucked in to the side, at the bottom of the lunge, bend the elbows to bring the weight up to the shoulders and press it directly overhead.
 Forward Lunge, Forward Lunge with arm drivers, Dumbbell Step-ups', 'Lunge with Overhead Press', 'Medicine Ball', 'Abs, Butt/Hips, Full Body/Integrated, Legs - Thighs, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/143-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/295/lateral-shoulder-raise/', 'Adjust the weight to the appropriate level before beginning. Sit facing the machine with the feet out in front and arms slightly bent and the pads resting just above the elbows. Keeping the arms bent at 90 degrees, lift the pads upward by pressing out through the elbows and raising the upper arms. Slowly return to the starting position.', 'Lateral Shoulder Raise', 'Weight Machines / Selectorized', 'Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/295-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/26/lateral-raise/', 'Step 1
 Starting Position: Stand holding dumbbells in your hands with a closed, neutral grip (thumbs around the handles and palms facing your body). Position the dumbbells alongside your thighs with your elbows extended or holding a slight bend. Assume either a split-stance position to stabilize your body or position your feet slightly wider than hip-width apart.
  
@@ -415,7 +411,7 @@ Upward Phase: Exhale and slowly raise the dumbbells up and out to your sides. Yo
 Step 4
 Downward Phase: Inhale and gently lower the dumbbells back towards your starting position keeping your elbows slightly extended and holding the neutral grip position. Maintain your foot, torso, shoulder and wrist positions while lowering the dumbbells and rotating them slightly downwards as your arms pass that 60-70 degree mark.
 As this exercise traditionally positions the arms into internal rotation during the lift, the slight external rotation initiated at the 60-70 degree mark may reduce potential impingement in the shoulder joint.', 'Lateral Raise', 'Dumbbells', 'Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/26-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/128/kneeling-reverse-fly/', 'Step 1
 Starting Position: Kneel on a mat holding resistance cable or band handles in both hands with your arms fully extended in front of your body at shoulder, or just above shoulder height. Your elbows will remain extended throughout the exercise. Grip the handles with a closed, neutral grip (thumbs wrapped around the handles and palms facing each other).
  
@@ -429,7 +425,7 @@ Step 4
 Upward Movement: Inhale and slowly return your arms back to your starting position keeping your arms extended and torso vertical.
  
 Try performing this exercise alongside a mirror to monitor any change in your back or shoulder position.', 'Kneeling Reverse Fly', 'Resistance Bands/Cables', 'Back, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/128-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/34/incline-reverse-fly/', 'Step 1
 Starting Position: Holding two dumbbells, sit on a bench facing the backrest angled at 45 to 60 degrees. Hold your torso against the backrest and keep your feet firmly placed on the floor. Allow your arms to hang towards the floor with your elbows slightly flexed and palms facing each other. Stiffen your core and abdominal muscles (“bracing”) to stabilize your spine.
 Step 2
@@ -437,7 +433,7 @@ Upward Phase: Exhale and slowly raise the dumbbells up and out to the sides, rai
 Step 3
 Downward Phase: Gently inhale and lower the dumbbells in unison back to your starting position.
 Technique is very important in this lift. If the dumbbells are raised to an end position behind the head rather than in line with the ears, the emphasis shifts off the shoulders and onto the latissimus dorsi (back).', 'Incline Reverse Fly', 'Bench, Dumbbells', 'Back, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/34-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/25/incline-chest-press/', 'Step 1
 Starting Position: Grasp two dumbbells and lie supine (on your back) on an incline bench angled between 45 and 60 degrees with your feet placed firmly on the floor or on a raised platform to allow you to maintain a neutral spine (flat to normal curvature).
  
@@ -453,7 +449,7 @@ Upward Phase: Exhale and gently press upwards to full elbow extension with the d
 Step 5
 At the end of the set, signal your spotter to assist you in taking the dumbbells and maintain a firm grip until the dumbbells are taken from your hands.
 Safety is very important in this exercise. A spotter should adopt a split-stance position with the hands positioned as close to the most distal (wrist) joint. Keep the hands near, but not touching the wrists unless needed.', 'Incline Chest Press', 'Bench, Dumbbells', 'Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/25-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/254/inchworms/', 'Step 1
 Starting Position:  From a standing position with your feet together or slightly apart, stiffen (“brace”) your abdominal muscles to stabilize your spine.   
 Step 2
@@ -469,11 +465,11 @@ Repeat this movement and continue for 10 – 15 yards (9-13 m).
 Step 7
 Exercise Variation:  You can progress this exercise by adding multiple push-ups in the lowered position.
 To maximize the benefits of this exercise and reduce the potential for injury, it is important to monitor the position of your spine throughout the exercise.  Focus on keeping your spine flat and avoid any rounding of your low back.  Smaller steps help maintain correct body position.  Reaching too far forward with your arms will put unnecessary stress on the shoulders.', 'Inchworms', 'No Equipment', 'Abs, Arms, Back, Chest, Full Body/Integrated, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/254-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/330/high-plank-t-spine-rotation/', 'Start in a push-up position with hands under the shoulders and the legs straightened directly behind the body about hip-width apart. Squeeze the thighs and glutes while straightening the right arm and pressing it into the floor. At the same time, lift the left hand up and twist the hips and shoulders to raise the left arm up towards the ceiling. Bring the left arm down, press the left hand into the floor, and twist the hips and shoulders to alternate sides, lifting the right hand into the air. Repeat for the desired number of repetitions.', 'High Plank T-spine Rotation', 'No Equipment', 'Abs, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/330-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/394/halo/', 'Stand with the feet approximately shoulder-width apart and hold a kettlebell by the horns directly in front of the chest. Keep the back straight while moving the kettlebell from in front of the chest to over the right shoulder, reaching across the body with the left arm. Continue moving the kettlebell around and behind the head to bring it back to the chest by passing it over the left shoulder. Continue for the desired number of repetitions before switching directions.', 'Halo', 'Kettlebells', 'Back, Butt/Hips, Chest, Full Body/Integrated, Legs - Thighs, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/394-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/54/front-raise/', 'Step 1
 Starting Position: Stand holding dumbbells in front of you thighs using a closed, pronated grip (thumbs around the handles and palms facing your thighs). Position the dumbbells lightly touching the fronts of your thighs with your elbows extended or holding a slight bend. Assume either a split-stance position to stabilize your body or position your feet slightly wider than hip-width apart.
 Step 2
@@ -483,9 +479,9 @@ Upward Phase: Exhale and slowly raise the dumbbells up in front of your body. Yo
 Step 4
 Downward Phase: Inhale and gently lower the dumbbells back towards your starting position keeping your elbows slightly extended. Maintain your foot, torso, shoulder and wrist positions while lowering the dumbbells and rotating them slightly inwards as your arms pass that 60-70 degree mark.
 Traditionally, this exercise positions the arms into internal rotation during the lift, so the slight external rotation initiated at the 60-70 degree mark may reduce potential impingement in the shoulder joint.', 'Front Raise', 'Dumbbells', 'Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/54-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/371/diagonal-raise/', 'Stand with the feet hip-width apart, hold one dumbbell in the left hand with the left arm down straight and the left palm resting in front of the right thigh. Press the feet into the ground, keep the hips straight and the back tall. Raise the left arm across the body and out to the left side so that the weight is brought up to shoulder-height and the arm is kept straight.', 'Diagonal Raise', 'Dumbbells', 'Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/371-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/53/contralateral-limb-raises/', 'Step 1
 Starting Position: Lie prone (on your stomach) on a mat with your legs extended, ankles slightly plantarflexed (toes pointing away from your shins), arms extended overhead with palms facing each other. Relax your head to align it with your spine.
  
@@ -500,7 +496,7 @@ Exercise Variation (1): From your starting position, contract your abdominal and
  
 Step 5
 Exercise Variation(2): From your starting position, contract your abdominal/core muscles to stabilize your spine and slowly extend one hip (raise one leg) a few inches off the floor while simultaneously raising the opposite arm a few inches off the floor. Keep both your leg and arm extended and avoiding any rotation in each. Maintain your head and torso position, avoiding any arching in your back or raising of your head. Hold this position briefly before returning to your starting position.', 'Contralateral Limb Raises', 'No Equipment', 'Back, Butt/Hips, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/53-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/259/ckc-parascapular-exercises/', 'Step 1
 Starting Position: Kneel on an exercise mat or floor, positioning your knees and feet hip-width apart, with your feet dorsi-flexed (toes pointing towards your body). Slowly lean forward to place your hands on the mat, positioning them directly under your shoulders at shoulder-width with your fingers facing forward. Reposition your hands and knees as necessary so that your knees are directly under your hips and hands are directly under your shoulders. Stiffen your abdominal muscles to position your spine in a neutral position, avoid any excessive sagging or arching.
 Step 2
@@ -514,7 +510,7 @@ Slide your right hand forward to a staggered stance position, moving it 6 to 12 
  
 Progress adding a shoulder drop. 
 From push up position, slide your right hand to a staggered stance position, moving it 6 to 12 inches forward of the shoulder.  Drop your left shoulder toward the floor.  Hold this position for 5-10 seconds for a total of 2-4 repetitions.  Repeat switching hand positions.', 'CKC Parascapular Exercises', 'No Equipment', 'Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/259-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/19/chest-press/', 'Step 1
 Starting Position: Grasp two dumbbells and lie supine (on your back) on a flat bench with your feet firmly placed on the floor or upon a raised platform to allow you to maintain a flat or neutral (flat) spine. If working with a spotter, signal the spotter for assistance in handing you your the dumbbells.
 Step 2
@@ -526,11 +522,11 @@ Upward Phase: Exhale and gently press upwards to full elbow extension with the d
 Step 5
 At the end of the set, signal your spotter to assist you in taking the dumbbells and maintain a firm grip until the dumbbells are taken from your hands.
 Safety is very important in this exercise. A spotter should adopt a split-stance position or half-kneeling position with the hands positioned as close to the most distal (wrist) joint. Keep the hands near, but not touching the wrists unless needed.', 'Chest Press', 'Bench, Dumbbells', 'Arms, Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/19-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/396/bottom-up-press/', 'Stand with the feet hip-width apart so that the right foot is slightly in front of the left and hold a kettlebell in the right hand in a ‘bottom-up’ position by holding the top of the handle so that the bottom of the kettlebell is facing up. Keep a strong grip to maintain balance of the kettlebell. Push the right foot into the ground to shift the weight of the body forward while pressing the right arm straight overhead. Pull the right elbow back down to the rib cage to lower the weight.', 'Bottom-up Press', 'Kettlebells', 'Chest, Full Body/Integrated, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/396-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/12/bent-over-row/', 'Grip a barbell with palms down so that the wrists, elbows, and shoulders are in a straight line. Lift the bar from the rack, bend forward at the hips, and keep the back straight with a slight bend in the knees. Lower the bar towards the floor until the elbows are completely straight, and keep the back flat as the bar is pulled towards the belly button. Then slowly lower the bar to the starting position and repeat.', 'Bent-over Row', 'Barbell', 'Arms, Back, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/12-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/13/bent-knee-push-up/', 'Step 1
 Starting Position: Kneel on an exercise mat or floor and bring your feet together behind you.
  
@@ -543,7 +539,7 @@ Downward Phase: Slowly lower your body towards the floor while maintaining a rig
 Step 4
 Upward Phase: Press upwards through your arms while maintaining a rigid torso and head aligned with your spine. Do not allow your low back to sag or your hips to hike upwards. Continue pressing until the arms are fully extended at the elbows.
 Push-ups place stress upon the wrist joints. To alleviate some of this stress you may opt to use dumbbells and grip the handles rather than place your hands on the floor. If your are pressing from an elevation such as a dumbbell, you do not need to lower your chest or chin to the floor, but rather lower yourself until your chest or chin are level with the dumbbell handles.', 'Bent Knee Push-up', 'No Equipment', 'Arms, Chest, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/13-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/236/barbell-jammers/', 'Step 1
 Starting Position: Place the end of a standard barbell in a corner so that it will not move unnecessarily, place a weight on one end of the barbell with a collar so that the weight can not fall off during the exercise.  Stand with your feet slightly wider than shoulder-width, your toes pointed forward or slightly outward facing the end of the barbell so that it is between both feet and directly under your center of gravity.
  
@@ -564,7 +560,7 @@ Exercise Variation: Increase the velocity or speed of the movement to transition
 Start with light resistance then gradually progress this exercise by increasing the weight and increasing the pace of the exercise so that you begin to perform the movement explosively against heavier resistance. 
 
 Technique is very important in this lift. Do not progress to explosive movements until you master your technique.', 'Barbell Jammers', 'Barbell', 'Abs, Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs, Shoulders', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/236-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/139/walking-lunges-with-twists/', 'Step 1
 Starting Position: Stand with your feet about hip width apart. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal/core muscles) to stiffen your spine.  Hold a medicine ball in front of your mid-section with a firm grip by both hands.
 Step 2
@@ -586,7 +582,7 @@ Continue the walking lunge with rotation for a specific number of repetitions or
 Step 9
 One variation is to contract the abdominals and glutes at the top of the stance phase (for example while balanced on the right leg with the left leg off of the ground) for 2-3 seconds to create a balance challenge.  Another variation is to add more resistance by holding one dumbbell in each hand with the elbows bent at 90 degrees and pressed into the sides of the abdominals.
 To control the rotation of the movement, maintain a tall, straight spine and turn your head with your shoulders.', 'Walking Lunges with Twists', 'Medicine Ball', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/139-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/243/vertical-toe-touches/', 'Step 1
 Starting Position: Lie flat on your back on the floor / mat in a bent-knee position with feet placed firmly on the floor and arms at your sides.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, depress and retract your scapulae (pull shoulders back and down) and attempt to hold these positions throughout the exercise.  Slowly lift both feet off the floor, extending your knees until your thighs are aligned vertically with the floor, and allowing your toes to point away from your body (DO NOT move your thighs beyond this point as it shifts your body weight from your butt into your low back, which increases the stress to your low back).  Position your hands on your thighs (front or side) without lifting your shoulder blades off the floor / mat.
 Step 2
@@ -595,7 +591,7 @@ Step 3
 Continue curling upward until your scapulae (shoulder blades) lift completely off the floor and hold this up-position briefly for 5 - 10 seconds then slowly return downwards to your starting position and repeat the movement.  Complete a set of quality reps until your experience fatigue or until your technique (form) becomes compromised.
  
 To maximize the benefits of this exercise and reduce the potential for injury, it is important to control your movement speed, keep your thighs aligned vertically and roll your trunk upwards and downwards during the exercise.', 'Vertical Toe Touches', 'No Equipment', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/243-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/242/v-ups/', 'Step 1
 Starting Position: Assume a seated bent-knee position, feet placed flat on the floor / mat and arms outstretched behind you with your palms flat on the floor / mat and fingers pointed outwards or away from your body.  Adjust your position to distribute your weight evenly between your feet, butt and arms.  Keep your back supported in a neutral or flat position (i.e., avoid arching or slumping) and your head aligned with your thoracic (upper) spine.
 Step 2
@@ -612,11 +608,11 @@ Step 7
 Progression #5: Assume the same starting possession as outline previously with your trunk at a 45-degree angle with the floor and hands removed from the floor, extending them both directly in front of you, level with your chest.  Stiffen (“brace”) your abdominal muscles to stabilize your spine and attempt to hold this position throughout the exercise (avoid “arching” or “slumping” your low back).  Gently exhale and slowly lift both feet off the floor, extending the knees until both legs straighten with your toes pointing away from your body.  Repeat the repetition sequence outlined previously.
  
 To maximize the benefits of this exercise and reduce the potential for injury, it is important to control movement speed and monitor changes in your low back carefully.', 'V-ups', 'No Equipment', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/242-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/305/v-twist/', 'Sitting on top of the BOSU dome, lean back at about a 45 degree angle. Lift the feet off the ground and keep the knees bent about 90 degrees. While maintaining a straight back, rotate the shoulders from side to side to touch the sides of the dome with both hands.', 'V-twist', 'BOSU Trainer', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/no_photo.gif');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/263/v-sit-partner-rotations/', 'With a partner, sit side by side facing the same direction and bring the legs up to a 45 degree bend; lean back slightly. Keeping the back straight, rotate the shoulders, passing the medicine ball back and forth between partners.', 'V Sit Partner Rotations', 'Medicine Ball', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/263-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/244/upward-facing-dog/', 'Step 1
 Starting Position:  Lie prone (on stomach) on a mat with your legs extended, toes pointing away from you, and place your hands directly under your shoulders with your fingers pointed forward and elbows positioned close to the sides of your body.  Align your head level with your thoracic (upper) spine and attempt to maintain the alignment throughout the exercise.
 Step 2
@@ -625,7 +621,7 @@ Step 3
 The objective of this exercise is to extend your spine and hips, stretching the muscles on the front side of your trunk and hips, and not a strengthening exercise for your chest and arms.
  
 To maximize the benefits of this exercise and reduce the potential for injury, it is important to control your movement speed, carefully monitoring for any symptoms of pain in your spine or hips.  Be sure to differentiate the feeling of tightness from pain.', 'Upward Facing Dog', 'No Equipment', 'Abs, Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/244-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/93/trx-reg-suspended-lunge/', 'Step 1
 Starting Position: Stand in front of the anchor point and interlock the two TRX handles together (refer to TRX user instructions). Loop the foot cradle around the ball of your right foot while supporting yourself. Slowly turn to face away from the anchor point, standing on your stance leg, aligned in front, but directly in line with the anchor point. Your suspended foot should be dorsiflexed at the ankle (toes pulled towards your shin).
 Step 2
@@ -639,7 +635,7 @@ Exercise Variation (1): To increase the exercise intensity move more explosively
 Step 6
 Exercise Variation (2): To increase the exercise intensity move the upper extremity into different planes. While the lower extremity moves in the sagittal plane (front and back), the upper extremity and/or arms can move in the frontal (left and right) and transverse plane (rotation).
 Using the TRX as an assisted device reduces the load placed upon many joints. While this certainly can promote additional range of movement, it does necessitate additional attention to proper form.', 'TRX ® Suspended Lunge', 'TRX', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/93-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/87/trx-reg-suspended-knee-tucks/', 'Step 1
 Starting Position: Place your feet securely into the foot cradles positioned directly under the anchor point. Apply downward pressure with the tops of your feet by plantarflexing your ankles (point toes away from your shins). Gently lie flat on your stomach with your hands placed shoulder-width apart, under your shoulders and facing forward. Stiffen your torso by contracting your core/abdominal muscles ("bracing"), and your glutes and quadriceps (butt and thigh muscles).
 Step 2
@@ -649,7 +645,7 @@ Downward Phase: Inhale and slowly lower your body towards your starting push-up 
 Step 4
 Exercise Variation: The intensity of this exercise can be increased by positioning your body further away from under the anchor point of the TRX and lengthening the straps.
 Using the TRX certainly enhances the appeal of many exercises; however, trainers and individuals should not participate in these advanced exercises until they can demonstrate capability to effectively stabilize their lumber spine (low back) with their core muscles.', 'TRX ® Suspended Knee Tucks', 'TRX', 'Abs, Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/87-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/92/trx-reg-single-arm-row/', 'Step 1
 Starting Position: Holding the TRX handles or foot cradles in your right hand, turn yourself to face the anchor point. Extend (straighten) your right elbow to chest height, maintain a neutral wrist position (straight, not bent) with your thumb facing the ceiling. Retract and depress your right scapulae (pull your right shoulder down and back).
 Step 2
@@ -663,7 +659,7 @@ Exercise Variation (1): Change to a high-back row by raising the elbow to should
 Step 6
 Exercise Variation (2) To increase the intensity of this exercise, lengthen the straps and position your body further away from under the anchor point of the TRX, or change the foot position so that the ipsilateral (same side) leg is forward.
 Using the TRX certainly enhances the appeal of many exercises; however, trainers and individuals should not participate in these advanced exercises until they can demonstrate capability to effectively stabilize their lumber spine (low back) with their core muscles.', 'TRX ® Single-arm Row', 'TRX', 'Abs, Arms, Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/92-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/91/trx-reg-single-arm-chest-press/', 'Step 1
 Starting Position: Holding both TRX handles or foot cradles in your left hand, turn yourself to face away from the anchor point. Extend (straighten) your left elbow to chest height, position your wrist in neutral (straight, not bent) with your palm facing the floor. Retract and depress your left scapulae (pull your left shoulder down and back).
 Step 2
@@ -675,7 +671,7 @@ Downward Phase: While maintaining your rigid torso, inhale and slowly lower your
 Step 5
 Exercise Variation: To increase the intensity of this exercise lengthen the straps and position your body further away from under the anchor point, or change the foot position so that the ipsilateral (same-side) leg is forward.
 Using the TRX certainly enhances the appeal of many exercises; however, trainers and individuals should not participate in these advanced exercises until they can demonstrate capability to effectively stabilize their lumber spine (low back) with their core muscles.', 'TRX ® Single-arm Chest Press', 'TRX', 'Abs, Arms, Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/91-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/79/trx-reg-front-rollout/', 'Step 1
 Starting Position: Holding the TRX handles or foot cradles in each hand, turn to kneel facing the anchor point. Grasp the handles/cradles with a closed, pronated grip (thumbs wrapped around the handles with your palms facing the floor) and position your hips directly over your knees, keeping your legs hip-width apart. Flex (bend) your torso into a ball by contracting your abdominal muscles and maintain this position throughout the movement. Bend your elbows until your upper arms are positioned vertical to the floor with your hands adjacent to your face and keep your head aligned with the upper spine.
 Step 2
@@ -683,7 +679,7 @@ Downward Phase: Contract your core and back muscles to further stiffen your tors
 Step 3
 Upward Phase: Exhale and slowly pull with your abdominal muscles until your body is back to your starting position. Be sure not to alter your arm or back position.
 Using the TRX certainly enhances the appeal of many exercises; however, trainers and individuals should not participate in these advanced exercises until they can demonstrate capability to effectively stabilize their lumber spine (low back) with their core muscles.', 'TRX ® Front Rollout', 'TRX', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/79-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/85/trx-reg-chest-press/', 'Step 1
 Starting Position: Holding the TRX handles in each hand, turn yourself to face away from the anchor point. Raise your elbows to chest height, position your wrists in neutral (straight, not bent) with palms facing the floor, and retract and depress your scapulae (pull your shoulders down and back).
 Step 2
@@ -695,7 +691,7 @@ Downward Phase: While maintaining a straight, rigid torso, inhale and slowly low
 Step 5
 Exercise Variation: The intensity of this exercise can be increased by lengthening the straps and positioning your body further away from the anchor point of the TRX.
 Using the TRX certainly enhances the appeal of many exercises; however, trainers and individuals should not participate in these advanced exercises until they can demonstrate capability to effectively stabilize their lumber spine (low back) with their core muscles.', 'TRX ® Chest Press', 'TRX', 'Abs, Arms, Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/85-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/78/trx-reg-biceps-curl/', 'Step 1
 Starting Position: Holding the TRX handles in each hand, turn yourself to face the anchor point. Assume a split-stance position with both feet facing forward and maintain this foot position throughout the exercise. Stiffen your torso by contracting your core/abdominal muscles ("bracing"), and retract and depress your scapulae (pull your shoulder blades down and back).
 Step 2
@@ -709,7 +705,7 @@ Exercise Variation (1): Change to a pronated grip (palms facing away from the bo
 Step 6
 Exercise Variation (2):The intensity of this exercise can be increased by positioning your body further away from under the anchor point of the TRX and lengthening the straps.
 Using the TRX certainly enhances the appeal of many exercises; however, trainers and individuals should not participate in these advanced exercises until they can demonstrate capability to stabilize their lumber spine (low back) with their core muscles effectively.', 'TRX ® Biceps Curl', 'TRX', 'Abs, Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/78-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/84/trx-reg-back-row/', 'Step 1
 Starting Position: Holding the TRX handles in each hand, turn yourself to face the anchor point. Assume a split-stance position with both feet facing forward and maintain this foot position throughout the exercise. Stiffen your torso by contracting your core/abdominal muscles ("bracing"), and retracting and depressing your scapulae (pull your shoulder blades down and back).
 Step 2
@@ -723,11 +719,11 @@ Exercise Variation (1): Change to a high-back row by raising the elbows to shoul
 Step 6
 Exercise Variation (2): The intensity of this exercise can be increased by positioning your body further away from the anchor point of the TRX and lengthening the straps.
 Using the TRX certainly enhances the appeal of many exercises; however, trainers and individuals should not participate in these advanced exercises until they can demonstrate capability to effectively stabilize their lumber spine (low back) with their core muscles.', 'TRX ® Back Row', 'TRX', 'Abs, Arms, Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/84-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/297/supine-suitcase-pass/', 'Lying on the ground face up, hold the stability ball in the hands above the face with arms straight. Bring the legs off the ground toward the ball, keeping them as straight as possible. Pass the ball from the hands and grip it with the inside of the feet. Bring the hands and feet (holding the ball) back down to the ground simultaneously, then repeat the movement passing the ball back from the feet to the hands.', 'Supine Suitcase Pass', 'Stability Ball', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/297-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/296/supine-shoulder-roll/', 'Lean on top of an stability ball with the upper back on the ball and the hips in a table top position with knees bent about 90 degrees. Keep the body straight from back to knees. Straighten the arms out to the sides at shoulder-height. Keeping the hips up, slowly roll from one shoulder to the other keeping the arms straight.', 'Supine Shoulder Roll', 'Stability Ball', 'Abs, Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/296-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/238/supine-reverse-marches/', 'Step 1
 Starting Position: Lie flat on your back on the floor / mat in a bent-knee position with feet placed firmly on the floor, arms outstretched to your sides at shoulder level and palms facing upwards.  Stiffen (“brace”) your abdominal muscles to stabilize your spine (maintain the small natural curve in your low back), depress and retract your scapulae (pull shoulders back and down) and attempt to hold these positions throughout the exercise.
 Step 2
@@ -738,14 +734,14 @@ Step 4
 EXERCISE VARIATION: This exercise can become more dynamic by performing slow, controlled movements to complete 1 set of 5 - 10 repetitions with each leg, holding the elevated position for 1 - 2 seconds.
 The intensity can be progressed by incorporating simultaneous overhead unilateral (single-arm) or bilateral (both arms) movements, 
 To maximize the benefits of this exercise and reduce the potential for injury, it is important to control movement speed and monitor changes in your low back carefully.', 'Supine Reverse Marches', 'No Equipment', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/238-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/7/supine-pelvic-tilts/', 'Step 1>
 Starting Position: Lie supine (on your back) with your knees bent and both feet flat on the mat/floor and the knees aligned with the second toe of each foot. Abduct your arms (extend to side) with the palms supinated (facing up to the ceiling).
 Step 2>
 Downward Phase: Exhale and gently contract your abdominal muscles to flatten your low back into the mat/floor. Avoid trying to lift your hips (tailbone) off the mat/floor. Hold this position briefly.
 Step 3>
 Upward Phase: Inhale and slowly relax your abdominal muscles while gently contracting your erector spinae (low back muscles) to increase the arch in your low back. Avoid raising your hips off the mat/floor. Hold this position briefly before returning to your starting position.', 'Supine Pelvic Tilts', 'No Equipment', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/7-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/121/supine-hollowing-with-lower-extremity-movements/', 'Step 1
 Starting Position: Lie supine (on your back) on an exercise mat or firm surface, bending your knees until your feet are positioned flat on the floor 12 - 18" from your buttocks. Extend your arms out to your sides, palms facing either up or down (illustrated) at, or near shoulder level. Breathe deeply for a 30 seconds relaxing your body and allowing gravity to gently pull your lower back and shoulders towards the floor.
 Step 2
@@ -763,7 +759,7 @@ Lift one leg 3 - 6" (no more) off the mat and hold this position briefly (illust
 Heel slide, lifting the toes in one foot off the floor and slowly sliding the heel of one foot 3-6" away from your body. without moving your torso (hips, shoulders or increasing your low-back arch)
  
 This series of exercise movements activate your core muscles that are often neglected. Good core activity (independent of your larger, more superficial abdominal muscles like your rectus abdominis) helps stiffen your torso and stabilize your spine against injury. Try performing this exercise adjacent to a mirror that will allow you to monitor any undesired movement in the hips, ribs, shoulder or low-back.', 'Supine Hollowing with Lower Extremity Movements', 'No Equipment', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/121-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/147/supine-dead-bug/', 'Step 1
 Starting Position: Lie supine (on your back) on an exercise mat or firm surface, bending your knees until your feet are positioned flat on the floor 12 - 18" from your buttocks. Allow your arms to lie along your side and bend the elbows so your hands are pointing towards the ceiling. Breathe deeply for a 30 seconds relaxing your body and allowing gravity to gently pull your lower back and shoulders towards the floor.  Depress and retract your scapulae (pull your shoulders down and back) without increasing the arch in your low back or lifting your hips off the mat / floot.  Hold this position throughout the exercise.  
  
@@ -781,7 +777,7 @@ Inhale and maintain the abdominal hollowing while slowly lowering the right heel
 Step 4 
 Exercise Variation: To have more control (making it easier) when learning this exercise, start with the hands resting on the floor above the head and the feet resting gently on the floor in front of the buttocks; slowly lift the right arm and left leg off of the floor together while maintaining the abdominal hollowing, lower and alternate sides.  
 Continue to breathe while holding the abdominal hollowing and bracing.', 'Supine Dead Bug', 'No Equipment', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/147-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/241/supine-bicycle-crunches/', 'Step 1
 Starting Position: Lie flat on your back on the floor / mat in a bent-knee position with feet placed firmly on the floor and your arms crossed behind your head.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, depress and retract your scapulae (pull shoulders back and down).  Slowly lift both feet off the floor moving your knees towards your trunk until your thighs align vertically to the floor (90-degree angle at the hips).  Maintain a 90-degree bend at the knee and relax your feet, allowing them to point away from your body. 
 Step 2
@@ -800,7 +796,7 @@ During the upward and downward movement of your trunk, it is important to keep y
 The rotation should come from your trunk and not your hips.  While your legs drive forward and backwards in a straight line, your trunk will flex (curl) and rotate.
  
 To maximize the benefits of this exercise and reduce the potential for injury, it is important to control movement speed and monitor changes in your low back carefully.', 'Supine Bicycle Crunches', 'No Equipment', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/241-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/108/standing-wood-chop/', 'Step 1
 The wood chop is a functional, yet advanced movement that needs to be learned in three stages. Stage 1: Spiral rotation of the arms Stage 2: Spiral rotation of the arms with hip rotation and flexion (bending) Stage 3: Full wood chop with spiral rotation of the arms, hip and torso, and hip flexion (bending).
 Step 2
@@ -822,7 +818,7 @@ Stage Three Starting Position (illustrated): Assume the same starting position a
 Step 10
 Movement: Slowly, rotate your arms down and across your body to the right, while squatting down slightly to an end point where the medicine ball is positioned below your right hip (performing a wood chop movement), and much of your weight has shifted into the right leg. Your torso will rotate further and faster than your hips. Keep your elbows fully extended throughout the movement. Hold this end position briefly before returning to your starting position. Repeat the movement in the opposite direction with your opposite leg forward.
 Engage your abdominal / core muscles throughout this exercise to stabilize and protect your spine.', 'Standing Wood Chop', 'Medicine Ball', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/108-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/106/standing-trunk-rotation/', 'Step 1
 Starting Position: Stand holding a medicine ball with your feet hip-width apart. Hold the ball relatively close to the your body slightly below chest height, positioning your hands at the midline of your body. Contract your abdominal / core muscles to stiffen your torso, holding it vertical to the floor. Depress and retract your scapulae (pull your shoulder down and back) without arching your low back
 Step 2
@@ -830,7 +826,7 @@ Movement: Exhale and slowly rotate your torso in one direction, keeping your upp
 Step 3
 Exercise Variation: To increase the exercise intensity, fully extend your arms to shoulder height and keep your arms in this position throughout the exercise. The longer lever this creates increases the loading on the spine, requiring the core muscles to work harder.
 Engage your abdominal / core muscles throughout this exercise to stabilize and protect your spine.', 'Standing Trunk Rotation', 'Medicine Ball', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/106-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/107/standing-single-leg-cable-rotation/', 'Step 1
 Stand sideways to a cable / band with your feet positioned together. Hold the cable / band handle relatively close to the your body slightly below chest height, positioning your hands at the midline of your body (not illustrated). Contract your abdominal / core muscles to stiffen your torso, holding it vertical to the floor. Depress and retract your scapulae (pull your shoulder down and back) without arching your low back.
 Step 2
@@ -840,7 +836,7 @@ Movement: Exhale and slowly rotate your torso away from the cable / band anchor,
 Step 4
 Exercise Variation: To increase exercise intensity, repeat the same exercise, but fully extend your arms to shoulder height and keep your arms in this position throughout the exercise. This creates a longer lever and increases the loading on the spine, requiring the core muscles to work harder.
 Engage your abdominal / core muscles throughout this exercise to stabilize and protect your spine. This single-leg torso rotation over the stance (supporting) leg, mimics part of our walking pattern and helps develop stability in the knee if performed correctly. Try to avoid twisting or moving your foot or knee during this rotation.', 'Standing Single-leg Cable Rotation', 'Resistance Bands/Cables', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/107-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/133/standing-leg-extension/', 'Step 1
 Starting Position: Attach a cuff (cable or band resistance) to one ankle with the anchor or resistance point behind your body. Stand with feet hip-width apart. In this position, the band / resistance cable should be under little, to no tension. Gently contract your abdominal / core muscles ("bracing") to stiffen your torso and stabilize your spine. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back. 
 
@@ -860,15 +856,15 @@ Step 6
 Exercise Variation: The intensity of this exercise can be enhanced by (1) increasing your range of motion if you were unable to straighten your knee, (2) increasing the resistance in the cable / band, or (3) removing any balance assistance, or standing on an unstable surface (e.g., Airex pad, BOSU, etc.). 
 
 The ability to perform this exercise unassisted offers the added benefit of balance training.', 'Standing Leg Extension', 'Resistance Bands/Cables', 'Abs, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/133-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/104/standing-hip-adduction/', 'Place a cable pulley at the lowest position with a cuff attachment. Position the cuff just above the ankle on the right foot, take three to four steps to the left, and stand so that the right side of the body is the closest to the machine (the weight should be pulling right leg away from the body.) Keep the back straight and the left knee slightly bent while bringing the inside of the right foot closer to the center of the body. When the right foot is directly in front of the left foot, pause for one second before slowly lowering the weight, allowing it to pull the right leg away from the body.', 'Standing Hip Adduction', 'Resistance Bands/Cables', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/104-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/155/standing-hip-abduction/', '', 'Standing Hip Abduction', 'Resistance Bands/Cables, Weight Machines / Selectorized', 'Abs, Butt/Hips, Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/155-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/105/standing-hay-baler/', 'Standing with legs about hip-width apart, step one foot forward flat on the ground and the other leg back behind the body on the ball of the foot. Hold the medicine ball in both hands near the hip of the leg that is behind. Twist through the chest and shoulders to bring the ball across the body and over the opposite shoulder, keeping both arms straight for the whole movement. When finished with one side, switch to the other side.', 'Standing Hay Baler', 'Medicine Ball', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/105-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/132/standing-hamstrings-curl/', 'Place a cable pulley at the lowest position with a cuff attachment. Position the cuff just above the left ankle and stand facing the machine. Balance body weight on the right foot (hold on to the machine, if necessary,) and pick the left foot off the ground to bring the left heel closer to the left tailbone. Pause at the top of the movement before slowly lowering the leg to return the weight to the starting position.', 'Standing Hamstrings Curl', 'Resistance Bands/Cables', 'Abs, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/132-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/201/standing-gate-openers-frankensteins/', 'Step 1
 Starting Position: Stand with your feet  hip-width apart, toes pointing forward or turned slightly outwards, with arms by your sides. Stiffen your abdominal muscles (“brace”) to stabilize your spine, then depress and retract your scapulae (pull shoulders down and back) without arching your low back. Hold your chest up and out, tilt your head slightly up, and shift your weight over your heels.
 Step 2
@@ -879,11 +875,11 @@ Step 4
 Perform 5-10 repetitions on each side
  
 Keep the abdominals engated to help stabilize the pelvis and maintain balance.', 'Standing Gate Openers (Frankensteins)', 'No Equipment', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/201-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/331/standing-crunch/', 'Stand with the feet hip-width apart and the hips straight with the knees slightly bent. Face away from the cable pulley which should be at the highest level. Using a rope attachment, hold the rope with the right hand by the right ear and the left hand by the left ear. Elbows should be tucked in along the front of the body. Draw the belly button in to the spine and tuck the rib cage down towards the floor. Focus on rolling the rib cage down against the pull of the cable and slowly returning to the top.', 'Standing Crunch', 'Resistance Bands/Cables', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/331-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/332/standing-anti-rotation-press/', 'Stand with the feet hip-width apart and the hips straight with the knees slightly bent. The cable pulley should be at approximately chest height and directly to the right of the body (while pressing the handle away from the body, the cable should be parallel with the chest.) Grip one handle in both hands with the fingers laced together and elbows in by the sides. Keep the back straight and tall while pressing the handle forward, and hold for 2-3 seconds before slowly pulling the elbows back to the sides.', 'Standing Anti-rotation Press', 'Resistance Bands/Cables', 'Abs, Arms, Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/332-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/68/stability-ball-sit-ups-crunches/', 'Step 1
 Starting Position: Sit on a properly inflated stability ball (one that compresses approximately 6" under your body weight) with your feet flat on the floor. Slowly lean backwards while walking yourself out along the ball until your shoulders, back and tailbone make contact on the ball. Adjust your leg position to create a 90 degree bend at the knees with your thighs parallel to the floor and positioned hip-width apart, and feet facing forward with your weight distributed evenly through your feet. Your mid-back should be positioned on the top of the ball (at 12 o''clock) and your hips should be positioned at 2 o''clock.
 Step 2
@@ -893,7 +889,7 @@ Upward Phase: Exhale, contract your abdominal and core muscles, and flex your ch
 Step 4
 Downward Phase: Gently inhale and slowly uncurl (lower) your torso back towards the ball in a controlled fashion keeping your feet firmly planted, and your tailbone and low back in contact with the ball.
 Should balance prove to be a challenge, widen your base of support by moving your feet apart. As your improve your balance skills, increase the balance challenge of this exercise by reducing your base of support by moving your feet together.', 'Stability Ball Sit-ups / Crunches', 'Stability Ball', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/68-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/62/stability-ball-prone-walkout/', 'Step 1
 Starting Position: Lie prone (on your stomach) over the top of a properly-inflated stability ball (one that compresses approximately 6" under your body weight) with both feet and hands on the floor, hip- and shoulder-width apart.
  
@@ -909,7 +905,7 @@ Exercise Variation (1): To further increase the balance challenge, walk yourself
 Step 5
 Exercise Variation (2): To further increase the balance challenge, raise one leg off the ball while in the static press (walkout) position.
 Avoid arching (sagging) your lower back or hiking your hips upwards as you walk your body out to the static press position. Contract your abdominal, back and glute muscles to keep your torso and legs parallel to the floor.', 'Stability Ball Prone Walkout', 'Stability Ball', 'Abs, Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/62-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/60/stability-ball-knee-tucks/', 'Step 1
 Starting Position: Lie prone (on your stomach) over the top of a properly-inflated stability ball (one that compresses approximately 6" under your body weight) with both feet and hands on the floor, hip- and shoulder-width apart.
  
@@ -922,7 +918,7 @@ Curling Phase: Exhale and slowly pull your knees towards your chest, rolling the
 Step 4
 Lowering Phase: Inhale and push your knees away from your torso, returning your body to the starting position.
 Avoid arching (sagging) your lower back or hiking your hips upwards in the starting position. Contract your abdominal, back and glute muscles to keep your torso and legs parallel to the floor.', 'Stability Ball Knee Tucks', 'Stability Ball', 'Abs, Legs - Calves and Shins', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/60-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/114/single-leg-stand-with-reaches/', 'Step 1
 Stand with both feet together or spread a few inches apart (2-3"), but parallel with each other while holding a 1-2 lb soft sponge ball or weighted medicine ball. Depress and retract your scapulae (pull your shoulders down and back) while simultaneously engaging (contracting) your abdominal muscles to avoid any excessive arching in your low back. Bend your knees very slightly and keep your abductors and adductors under tension (contract your inner and outer thigh muscles). This will help avoid excessive hip adduction (sideways shift) during the single-leg stand. This exercise is best performed with a partner, but can be performed without one.
 Step 2
@@ -934,7 +930,7 @@ Your initial targets should be level with your chest and torso, or overhead, but
 Step 5
 Exercise Variation: As you master the starting positions, increase the intensity of the exercise by (1) reaching down towards low targets that require either a forward bend in your torso or single-leg squat, or both; and (2) reaching low or high, and around to targets positioned below your waistline or above your shoulders.
 Most of us can lift one leg, but the question of the quality of movement is important. Perform your movements slowly and under control, avoiding any sudden positional changes. Perform each progression until you can execute them with good control and form.', 'Single-leg Stand with Reaches', 'Medicine Ball', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/114-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/112/single-leg-stand/', 'Step 1
 Starting Position: Stand with both feet together or spread a few inches apart (2-3"), but parallel with each other. Depress and retract your scapulae (pull your shoulders down and back) while simultaneously engaging (contracting) your abdominal muscles to avoid any excessive arching in your low back. Bend your knees slightly and keep your abductors and adductors under tension (contract your inner and outer thigh muscles). This will help control against excessive hip adduction (sideways shift) during the single-leg stand.
 Step 2
@@ -943,9 +939,9 @@ Step 3
 Exercise Variation: Increase the intensity of this exercise by going through the following progressions (1) lift the one leg higher off the floor (illustrated) to further raise your center of mass, (2)raise both arms overhead (3) lift one arm to your side, (4) tilt your head, (5) close your eyes then finally (6) close your eyes and tilt your head.
 Try to perform this exercise in front of a mirror initially so that you can watch and control the degree of hip adduction (sideways shift) over the stance (supporting) leg. Always try to minimize the degree of hip adduction as it places excessive stresses on your knee joint. While balancing on the stance leg (the foot on the ground) think about pressing your foot into the floor and squeezing your glutes (butt muscles), this will help reduce any sideways tilting. 
 Most of us can lift one leg, but the question of the quality of movement is important. Perform your movements slowly and under control, avoiding any sudden positional changes. Perform each progression until you can execute them with good control and form.', 'Single Leg Stand', 'No Equipment', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/112-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/321/single-arm-plank/', 'Start in a push-up position with the hands under the shoulders and the legs extended directly behind wider than shoulder-width apart. Squeeze the thighs and glutes while lifting one hand off the mat bringing it to the hip and pressing the other hand into the ground.', 'Single Arm Plank', 'No Equipment', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/321-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/101/side-plank-with-straight-leg/', 'Step 1
 Starting Position: Lie on your right side on an exercise mat with extended legs, placing your left leg directly over your right leg and and stacking your feet one on top of the other. Place your right elbow directly under your shoulder, align your head with your spine and keep your hips and right knee in contact with the exercise mat.
 Step 2
@@ -955,7 +951,7 @@ Lowering Phase: Inhale and gently return yourself to your starting position. Alt
 Step 4
 Exercise Variation: You can increase the intensity of this exercise by (1) increasing the length of time you are in the raised position, (2) raising the upper leg off the lower leg or (3) raising the lower leg off the floor and maintaining contact with your elbow and the foot of the upper leg only.
 When raising the upper leg off the lower leg, there is no need to raise it to a level beyond parallel with the floor.', 'Side Plank with Straight Leg', 'No Equipment', 'Abs, Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/101-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/100/side-plank-modified/', 'Step 1
 Starting Position: Lie on your right side on an exercise mat with your left leg lying directly over your right leg and bend your knees to a comfortable position. Raise your upper body to support yourself on your right arm, your right elbow should bend to 90 degrees and be positioned directly under your shoulder. Align your head with your spine and keep your hips and lower knee in contact with the exercise mat.
 Step 2
@@ -964,7 +960,7 @@ Step 3
 Lowering Phase: Inhale and gently return yourself to your starting position.
 Step 4
 Exercise Variation: You can increase the exercise intensity by increasing the length of time you are in the raised position.', 'Side Plank - modified', 'No Equipment', 'Abs, Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/100-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/99/side-plank-modified/', 'Step 1
 Starting Position: Lie on your side on an exercise mat with your legs extended and the left leg lying directly on the right. Bend your right leg to 90 degrees of flexion while keeping the left leg extended, with the inside surface of your left foot making contact with the mat. Raise your upper body to support yourself on your right arm, with your elbow bent to 90 degrees and positioned directly under your shoulder. Align your head with your spine and keep your hips and right knee in contact with the exercise mat.
 Step 2
@@ -974,9 +970,9 @@ Lowering Phase: Inhale and gently return yourself to your starting position. Swi
 Step 4
 Exercise Variation: Increase the intensity of the exercise by increasing the length of time you are in the raised position.
 Any excessive pressure on the inside of your upper foot or upper knee may cause undesirable stresses on those joints and merits termination of this exercise.', 'Side Plank (Modified)', 'No Equipment', 'Abs, Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/99-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/303/side-plank/', 'Place the right elbow on top of the BOSU dome, directly under the right shoulder. Stack the shoulders in a straight line over the elbow with the left arm extended above the body towards the ceiling and stack the feet with the left foot on top of the right. Squeeze the muscles of the stomach and glutes, and keep the body in a straight line from head to heels. Hold this position for the desired amount of time before switching to the other side.', 'Side Plank', 'BOSU Trainer', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/303-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/215/seated-straddle-with-side-reaches/', 'Step 1
 Starting Position: Assume a seated position with your legs apart as illustrated. The angle of your legs should not compromise your ability to sit upright (i.e., trunk vertical) with your head aligned with your spine, extend your knees and point your toes towards the ceiling. Extend your arms out in front of your body and place your palms flat on the floor / mat.
 Step 2
@@ -986,7 +982,7 @@ Continue to bend and reach forward to the point of tension in the stretch, but d
 Step 4
 Exercise Variation: This stretch can become more dynamic by performing slow, controlled movements to complete 1 set of 5 - 10 repetitions with each leg, holding the stretched position for 1 - 2 seconds.
 To maximize the benefits of a stretch and reduce the potential for injury, it is often important to stretch only to the point of tension, avoid bouncing and control movement at other segments of the body.  During this stretch, avoid any excessive rounding of your low back.', 'Seated Straddle with Side Reaches', 'No Equipment', 'Abs, Back, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/215-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/212/seated-side-straddle-stretch/', 'Step 1
 Starting Position: Assume a seated position with your legs apart as illustrated. The angle of your legs should not compromise your ability to sit upright (i.e., trunk vertical) with your head aligned with your spine, extend your knees and point your toes towards the ceiling. Bend your elbows and abduct your arms (raise arms to sides) slightly so that your forearms are positioned vertically to the floor.
 Step 2
@@ -997,7 +993,7 @@ Step 4
 Exercise Variation: This stretch can become more dynamic by performing slow, controlled movements to complete 1 set of 5 - 10 repetitions in each direction, holding the stretched position for 1 - 2 seconds.
  
 To maximize the benefits of a stretch and reduce the potential for injury, it is often important to stretch only to the point of tension, avoid bouncing and control movement at other segments of the body.  During this stretch, avoid any rotation or forward flexion (bending) of your low back', 'Seated Side-Straddle Stretch', 'No Equipment', 'Abs, Back, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/212-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/47/seated-medicine-ball-trunk-rotations/', 'Step 1
 Starting Position: Sit on a mat/floor with your knees bent, feet together, heels on the floor while holding a medicine ball in your lap close to your body. Start with a light ball (2 lb) and increase the weight of the ball as your fitness level improves. Sit upright with your chest raised towards the ceiling and back erect so that your torso is perpendicular to the floor. Stiffen your torso by contracting your core and abdominal muscles ("bracing").
  
@@ -1010,15 +1006,15 @@ Exercise Progression 1: As your conditioning improves, you can modify your start
 Step 4
 Exercise Progression 2: As your conditioning levels continue to improve, you can modify your starting position once again by leaning back halfway to the floor and lifting your legs off the floor. Keep your knees bent and feet together during the exercise. With each rotation bring the elbow close to, but not to rest on the floor. Keep your core and abdominal muscles stiff to prevent any arching in your low back and avoid any shrugging in your shoulders during the exercise. This exercise variation further increases the demands placed upon your abdominal muscles.
 Intermediate and advanced rotational exercises should only be attempted after completing the beginner exercises.', 'Seated Medicine Ball Trunk Rotations', 'Medicine Ball', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/47-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/291/seated-crunch/', 'Adjust the seat to a comfortable height and the weight to the appropriate level before beginning. Sitting with the hips pressed against the back of the seat, push the shins against the padded roller and tighten the abs. Grasp the handles in both hands, and pull down on them to lean forward. Return slowly to the starting position.', 'Seated Crunch', 'Weight Machines / Selectorized', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/291-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/65/russian-twist/', 'Lean on top of an stability ball with the upper back on the ball and the hips out straight in front of the body, with knees bent at 90 degrees. Keep the body straight from shoulders to knees. Hold the arms out straight in front of the chest with the palms touching each other. Twist through the stomach and shoulders rotating on to one shoulder with the hips up. Keep the feet on the ground and back straight and rotate to the opposite side.', 'Russian Twist', 'Stability Ball', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/65-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/309/roll-out/', 'Place the barbell with appropriate weight on floor, kneel down facing the bar, and place the hands on the bar about shoulder-width apart. Keep the hips pressed forward and the back straight allowing the barbell to roll away from the body. Maintain the trunk position and pull down with the arms to move the bar towards the body and return to the starting position.', 'Roll Out', 'Barbell', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/309-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/360/reverse-lunge-with-rotation/', 'Stand with the feet about hip-width apart, and hold a dumbbell in a vertical position directly in front of the chest. Keep the elbows close to the rib cage and the back straight while stepping backwards with the left foot and lowering the left knee almost to the ground. At the bottom of the movement keep the back tall and twist the dumbbell over the right leg. Turn back to the center, press the right foot into the ground, and step the left leg forward to return to the original starting position.', 'Reverse Lunge with Rotation', 'Dumbbells', 'Abs, Full Body/Integrated, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/360-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/76/reverse-crunch/', 'Step 1
 Starting Position: Lie in a supine (on your back) position on a mat with your knees bent, feet flat on the floor and arms spread out to your sides with your palms facing down. Gently exhale, stiffen your torso by contracting your abdominal/core muscles ("bracing") and slowly lift your feet off the floor, raising your knees directly above your hips while maintaining a 90 degree bend in the knees. Hold this position and breathe normally. Use your arms as a balance support.
 Step 2
@@ -1026,7 +1022,7 @@ Upward Phase: Exhale, contract your abdominal, core and hip flexor muscles and s
 Step 3
 Downward Phase: Gently inhale and lower your spine back towards the mat in a controlled fashion, moving your upper thighs backwards until they are positioned directly over your hips. Continue rolling out until your spine and pelvis (hips) contact the mat and your knees are positioned directly over the your hips with a 90 degree bend with your lower leg.
 Proper form is important when performing this exercise to prevent excessive stresses on your low back. When returning to your starting position during the repetitions, control your leg movement ensuring that your knees don''t move past your hips, but instead return to a position directly above your hips. Since the abdominals connect the rib cage to the pelvis, the emphasis of the movement should be on pulling your pelvis upwards towards your rib cage.', 'Reverse Ab Crunch', 'No Equipment', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/76-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/270/quadruped-bent-knee-hip-extensions/', 'Step 1
 Starting Position: Kneel on an exercise mat or floor, positioning your knees and feet hip-width apart, with your feet plantar-flexed (toes pointing away from your body). Slowly lean forward to place your hands on the mat, positioning them directly under your shoulders at shoulder-width with your fingers facing forward. Reposition your hands and knees as necessary so that your knees are directly under your hips and hands are directly under your shoulders. Stiffen your core and abdominal muscles to position your spine in a neutral position, avoid any excessive sagging or arching. 
 Step 2
@@ -1034,13 +1030,13 @@ Maintain a strong, stable core and squeeze (contract) the left gluteus maximus (
 Step 3 
 Exercise Variation: To increase the intensity of the exercise, place a dumbbell in the back of the knee 
 The degree of hip extension is determined by the ability to control against movement in the low back. As the leg is raised, individuals may witness an increase in lumbar lordosis (low back sagging). Only raise the leg to a height where the low back position can be maintained through the combined actions of the core and abdominal muscles.', 'Quadruped Bent-knee Hip Extensions', 'No Equipment', 'Abs, Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/270-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/380/pull-over-crunch/', 'Lie face up flat on the ground with the feet flat on the floor and the knees bent up in the air. Place a kettlebell on the ground over the head, reach overhead with both hands, and grip the kettlebell by the handles. While keeping the arms straight, pull the kettlebell over the head to directly above the chest. Hold the kettlebell over the chest and draw the belly button in towards the ground to help pull the rib cage towards the hips, lifting the back off the ground to perform a crunch. Lower slowly back to the floor, and once the back is flat on the ground lower the kettlebell back overhead.', 'Pull-over Crunch', 'Kettlebells', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/380-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/300/prone-abc-s/', 'Kneeling facing a stability ball, lean the chest forward at a 45 degree angle and rest both elbows on the top of the ball directly under the shoulders. Keeping the stomach muscles squeezed and body supported off the ball, raise the knees off the ground. With the body in a straight line from head to feet, move the ball around with the elbows to draw the letters of the alphabet. Maintain a straight line from head to feet.', 'Prone ABC''s', 'Stability Ball', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/300-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/320/plank-ups/', 'Start in a push-up position with the hands under the shoulders and the legs stretched out directly behind. Squeeze the thigh and glute muscles to keep body and legs in a straight line, and lower down to the elbows one elbow at a time. From this position on the elbows, press the hands into the floor one at a time to return to the push-up position.', 'Plank-ups', 'No Equipment', 'Abs, Arms, Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/320-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/269/partner-tricep-extension/', 'Step 1
 Starting Position: You and a training partner should have specialized resistance x-pattern resistance tubing with four handles so that two people can use it at the same time; or take 2 pieces of standard resistance tubing with handles and cross them to interlink them and create a 4-handled pattern (pictured).  You and your training partner should stand facing each other with your feet hip-width apart and the right foot slightly in front of the left to create additional stability; lean forward to hinge at your hips with your knees slightly bent so that you each can sink into your hips and contract your abdominals (bracing) for additional stability.  You and your partner should each position your body with the spine in neutral (normal-to-flat), shoulders depressed (no shrugging) and the scapulae retracted (squeezing shoulder blades together).  You and your partner should each keep your chest held up and out, with your heads in line with your spine or slightly extended (raised).  Grab the handles firmly in both hands and hold them so that your palms are facing each other and pull back slightly to create opposing lines of pull.  
 Step 2
@@ -1054,7 +1050,7 @@ You and your partner should each simultaneously engage the upper muscles (tricep
 Step 6
 Exercise Variation: To increase the intensity of the exercise, stand further away from your partner to create more resistance through the rubber resistance, or increase the speed (velocity) of the movement for enhanced power production and work-rate.
 Remember to keep your feet planted into the floor with your abdominals engaged and contracted (braced) to ensure spinal stability.', 'Partner Tricep Extension', 'Resistance Bands/Cables', 'Abs, Arms, Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/269-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/265/partner-assisted-bodyweight-squats/', 'Step 1
 Starting Position: Two training partners should stand approximately arm''s length away from one another with their feet slightly wider than hip width apart with your toes pointed forward or slightly outward.  Position your feet so that the balls of your feet align under your center of gravity. Each partner should outstretch his or her arms so they can grasp each other''s forearms with their hands.
  
@@ -1070,7 +1066,7 @@ Upward Phase: While keeping a firm grip on one another''s forearms, each person 
 Step 5 
 Exercise Variation: Each partner can place his or her feet in a split-squat position with the feet hip width apart and one foot slightly in front of the other.  Each partner can balance on a single leg and perform a single leg squat, the act of the partners holding on to one another during the squatting movement will help to maintain the balance on one leg.
 Technique is very important in this lift. The tendency is to hold the tibia (shinbone) too vertical which forces you to lean your torso too far forward. Using a mirror for feedback, shift your tibia (shinbone) forward while keeping your heels on the floor, then bring your torso upright back (moving it more upright), but do so from the hips and not through the low back. Squeeze your abdominals to help prevent the excess arching in the back with this correction. If using a squat rack, the safety rungs on the rack should be positioned at mid-thigh level.', 'Partner Assisted Bodyweight Squats', 'No Equipment', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/265-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/140/lunge-with-elbow-instep/', 'Step 1
 Starting Position: Stand with your feet hip width apart. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal/core muscles) to stiffen your spine.
  
@@ -1088,7 +1084,7 @@ Step 6
 Exercise Variation: to add a stretch for the hamstrings before stepping in to the next lunge, push off of the floor with your hands, lean back and push the right foot in to the ground to straighten the right leg while shifting your weight into your left hip and stretch the right hamstrings.  Alternate with both legs.
  
 Focus on maintaining the abdominal bracing through the entire range-of-motion of the movement to keep the spine stable and pelvis level.', 'Lunge with Elbow Instep', 'No Equipment', 'Abs, Butt/Hips, Full Body/Integrated, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/140-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/206/lateral-over-unders/', 'Step 1
 Starting Position:  Using two stacks of risers; height not exceeding the top of your gastrocnemius (calf) muscle, place a body bar/broomstick across the top, leaving enough room between the stacks for you to step over it laterally.  Make a total of 2-4 stations, lining them up with enough room for you to do a side lunge between them.  Stand directly next to the broomstick, so it is perpendicular to your right leg.  Your feet should be hip- width apart, toes pointing forward or turned slightly outwards, with arms by your sides and elbows flexed (bent) to 90 degrees. Stiffen your abdominal muscles (“brace”) to stabilize your spine, then depress and retract your scapulae (pull shoulders down and back) without arching your low back. Hold your chest up and out, tilt your head slightly up, and shift your weight over your heels
  
@@ -1105,9 +1101,9 @@ Step 5
 Continue into the next over/under until you reach the end.  Facing the same direction, come back down the line leading with your left foot. 
  
 When stepping over the broomstick, be sure not to step too wide to avoid contacting the broomstick with the extended leg.  Contacting the broom stick a can cause it to move resulting in a loss of balance and injury.  A common mistake when performing a body weight side lunge is that individuals often step too wide and are unable to align the tibia (shinbone) over the placed foot and the knee falls inside the foot. In this case, simply shorten the width of the step taken to allow you to align the tibia over the placed foot.', 'Lateral Over Unders', 'No Equipment, Raised Platform/Box', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/206-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/299/kneeling-abc-s/', 'Kneeling behind a stability ball, lean the body forward at a 45 degree angle and rest the elbows on the top of the ball. Keep the stomach muscles tight and the elbows pushing up from the ball directly under the shoulders.  Move the ball around with the elbows drawing the letters of the alphabet. Maintain a straight line from head to knees.', 'Kneeling ABC''s', 'Stability Ball', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/299-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/144/inverted-flyers/', 'Step 1
 Starting position: Stand with feet hip-width apart. In this position, gently contract your abdominal / core muscles ("bracing") to stiffen your torso and stabilize your spine. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back while keeping your arms hanging comfortably along your side.
 Step 2
@@ -1125,7 +1121,7 @@ Step 7
 Exercise Variation: To add resistance and increase the level of difficulty, hold a dumbbell in your left hand (the weight should be in the hand opposite of the standing (balance) leg).
  
 If balancing on the right leg, use the left leg to help move into a position of flexion on the right hip; pointing the left leg backwards while pointing the toes and straightening the legs will help move the right hip into a position of flexion.', 'Inverted Flyers', 'No Equipment', 'Abs, Butt/Hips, Full Body/Integrated, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/144-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/110/hip-rotations-push-up-position/', 'Step 1
 This exercise is a dynamic movement exercise used to prepare the body for activity. As it involves a modification to a traditional push-up, it is highly recommended you master your push-up technique before attempting this exercise.
 Step 2
@@ -1136,7 +1132,7 @@ Step 4
 In this knee-tuck position, rotate your hips to move your bent leg across the front of your torso, but avoid rotating or dropping your hips. Continue to move until your hips cannot rotate any further. Your head and shoulder should remain level throughout the exercise. Pause very briefly.
 Step 5
 Rotate in the opposite direction (away from your torso), rotating until your hips cannot rotate any further without movement in your spine. Your head and shoulder should remain level throughout the exercise.', 'Hip Rotations (Push-up Position)', 'No Equipment', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/110-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/207/hexagon-drill/', 'Step 1
 Starting Position: Set up six cones in a hexagon, making each segment about 2 feet long.  Each cone should be about 2-3 feet from the center point allowing enough room for you to take a large step.  Stand in the middle of the hexagon in line with a cone.  This will be your starting point.  Stand with your feet hip-width apart, toes pointing forward and arms by your sides. Stiffen your abdominal muscles (“brace”) to stabilize your spine, then depress and retract your scapulae (pull shoulders down and back) without arching your low back. Hold your chest up and out, tilt your head slightly up.  Shift your weight over your heels.
 Step 2
@@ -1151,11 +1147,11 @@ Step 6
 Exercise Variations:  (1) Perform this drill extending the same side arm toward the cone.  In this case, the opposite elbow would drive back behind the body.  (2) Once you become comfortable with the oblique angle lunges, you can focus more on exploding to the cone.  To increase the amount of explosion, widen the hexagon allowing you to take a couple steps forward then lunge to touch each cone.  Placing a cone in the middle will provide a reference point. 
  
 It would be beneficial to practice the directional movements with stepping first to make sure your hip and foot alignment is correct before moving to the lunge. You may also have to adjust the size of the hexagon to a distance appropriate for you to perform the exercise correctly. Keep your arm movements strong and controlled.', 'Hexagon Drill', 'Cones', 'Abs, Butt/Hips, Full Body/Integrated, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/207-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/97/half-kneeling-hay-baler/', 'Kneeling with one leg up on the foot and the other back on the knee, hold the ball in both hands near the hip of the rear leg. Twist through the trunk and shoulders to bring the ball across the body and over the opposite shoulder. Keep both arms straight during the whole movement. When finished with one side, switch to the other side.', 'Half-kneeling Hay Baler', 'Medicine Ball', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/97-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/66/glute-bridge/', 'Lying face up, bend the knees and place the feet on top of a stability ball. Keeping the ball still, press through the heels and raise the hips into the air by squeezing the glute muscles. Rest on the shoulders and the upper back while keeping the body in a straight line from the knees to the head. Slowly lower the hips back down to the ground, keeping the ball still.', 'Glute Bridge', 'Stability Ball', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/66-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/49/glute-bridge/', 'Step 1
 Starting Position: Lie supine (on your back) on an exercise mat or the floor in a bent-knee position with your feet flat on the floor. Place your feet hip-width apart with the toes facing away from you. Gently contract your abdominal muscles to flatten your low back into the floor. Attempt to maintain this gentle muscle contraction throughout the exercise
 Step 2
@@ -1165,7 +1161,7 @@ Lowering Phase: Inhale and slowly lower yourself back towards your starting posi
 Step 4
 Progression: Gradually progress this exercise by starting with both feet together and extending one leg while in the raised position.
 Avoid arching your lower back as your press your hips upward which normally occurs if your attempt to push your hips as high as possible. This can be achieved by contracting your abdominal muscles prior to lifting, and keeping them engaged throughout the lift', 'Glute Bridge Exercise', 'No Equipment', 'Abs, Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/49-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/96/glute-activation-lunges/', 'Step 1
 Starting Position: Stand with your feet together and your arms raised in front to shoulder height, with your elbows fully extended. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal/core muscles) to stiffen your spine.
  
@@ -1181,7 +1177,7 @@ From the same starting position, step with one foot in front and across the body
 Step 5
 While lunging, simultaneously rotate your torso and arms in the opposite direction to the lunge movement, increasing the load on your gluteal muscle group. Firmly push off with your front leg, activating both your quads and glutes (thighs and butt muscles) to return to your upright, starting position.
 This series of multi-directional (multi-planar) lunges are intended to activate your glutes which protect your knee during walking, running and jumping-type activities. As many of us have weak glutes, this exercise can be performed as part of your pre-exercise warm-up. Given the moderate degree of complexity of the three movements, we recommend learning this exercise first without your arms and only progress to the arm drivers as you feel comfortable. It is suggested, you first learn how to perform single leg-stands on the ground and forward lunges before performing these glute activation lunges.', 'Glute Activation Lunges', 'No Equipment', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/96-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/32/front-plank/', 'Step 1
 Starting Position: Lie prone (on your stomach) on an exercise mat or floor with your elbows close to your sides and directly under your shoulders, palms down and hands facing forward. Contract your quadriceps to extend your legs and dorsiflex your ankles (pull toes towards your shins). Contract your core and abdominal muscles to stiffen your torso.
  
@@ -1191,7 +1187,7 @@ Upward Phase. Slowly lift your entire torso off the floor or mat, maintaining a 
 Step 3
 Downward Phase: While maintaining a stiff torso and extended knees, gently lower your body back towards the mat or floor before relaxing.
 If you experience any pain in the low back with this movement, stop the exercise immediately and consult with your doctor.', 'Front Plank', 'No Equipment', 'Abs, Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/32-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/111/forward-stepping-over-cones/', 'Step 1
 Starting Position: Place a series of cones 18-30" apart in a straight line on a non-slip surface. Stand 6" behind the first cone with your feet hip-width apart or closer, arms by your sides. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal / core muscles) to stiffen your spine.
  
@@ -1208,7 +1204,7 @@ Step 5
 Exercise Variation: This exercise can be progressed in several ways: (1) lift each leg higher off the floor (illustrated) to further challenge your balance (raising center of mass), (2) walk through the cones at a faster pace, (3) step sideways through the cones, or (4) step backwards through the cones.
  
 Learn first how to perform single leg-stands on the ground and, if possible, on an Airex pad before performing cone walks.', 'Forward Stepping over Cones', 'Cones', 'Abs, Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/111-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/95/forward-lunge-with-arm-drivers/', 'Step 1
 Starting Position: Stand with your feet together and your arms raised in front to shoulder height, with your elbows fully extended. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal / core muscles) to stiffen your spine.
  
@@ -1221,7 +1217,7 @@ As you lunge forward, focus more on dropping your hips towards the floor rather 
 Step 4
 Firmly push off with your front leg, activating both your quads and glutes (thighs and butt muscles) to return to your upright, starting position.
 It is suggested, you first learn how to perform single leg-stands on the ground and forward lunges before progressing to using arm drivers.', 'Forward Lunge with Arm Drivers', 'No Equipment', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/95-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/94/forward-lunge/', 'Step 1
 Starting Position: Stand with your feet together. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal/core muscles) to stiffen your spine.
  
@@ -1234,7 +1230,7 @@ As you lunge forward, focus more on dropping your hips towards the floor rather 
 Step 4
 Firmly push off with your front leg, activating both your quads and glutes (thighs and butt muscles) to return to your upright, starting position.
 We suggest you first learn how to perform single leg-stands on the ground before performing this forward lunge. Once you master the forward lunge, you can progress to doing a lunge using arm drivers and mult-directional glute activation lunges.', 'Forward Lunge', 'No Equipment', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/94-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/109/dirty-dog/', 'Step 1
 This exercise is a dynamic movement exercise used to prepare the body for activity. As it involves a modification to a traditional bird-dog exercise, it is highly recommended you master your bird-dog technique before attempting the dirty dog.
 Step 2
@@ -1247,9 +1243,9 @@ Step 5
 Hold this position briefly, while keeping a stable trunk and head level with your spine, then slowly lower your knee back towards the floor. Pause briefly, then repeat.
 Step 6
 Repeat with the opposite leg.', 'Dirty Dog', 'No Equipment', 'Abs, Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/109-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/304/decline-plank/', 'With the feet close together on top of the BOSU dome, place the elbows on the ground underneath the shoulders with the hands in fists. Squeeze the muscles of the stomach and glute, and keep the body in a straight line from head to heels. Hold this position for the desired amount of time.', 'Decline Plank', 'BOSU Trainer', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/304-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/52/crunch/', 'Step 1
 Starting Position: Lie in a supine (on your back) position on a mat with your knees bent, feet flat on the floor and heels 12 - 18" from your tailbone.
  
@@ -1262,7 +1258,7 @@ Upward Phase: Exhale, contract your abdominal and core muscles and flex your chi
 Step 4
 Downward Phase: Gently inhale and slowly uncurl (lower) your torso back towards the mat in a controlled fashion keeping your feet, tailbone and low back in contact with the mat.
 Proper form is important for this exercise to prevent excessive stress on your low back. Individuals usually perform this movement too rapidly and recruit the hip flexors to assist with the upward phase. This technique tilts the pelvis anteriorly, increasing the stress on the low back and should be avoided. The abdominals connect the rib cage to the pelvis so the movement should focus on bringing these two body parts closer together while keeping the neck and shoulders relaxed.', 'Crunch', 'No Equipment', 'Abs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/52-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/16/cobra/', 'Step 1
 Starting Position: Lie prone (on your stomach) on an exercise mat or floor with your hands by your sides, positioned directly under your shoulders and hands facing forward. Extend your legs and plantar flex your ankles (toes point away from body).
 Step 2
@@ -1272,7 +1268,7 @@ Downward Phase: Gently relax and lower your upper body to rest back upon the mat
 Step 4
 If you experience any pain in the low back with this movement, stop the exercise immediately and consult with your doctor.
 As the length of arms differ, individuals may often lift their hips off the mat or floor as they fully extend their arms. In this case, limit the extension in your arms to keep the hips on the mat.', 'Cobra Exercise', 'No Equipment', 'Abs, Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/16-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/227/childs-pose/', 'Step 1
 Starting Position: Kneel with both knees directly under your hips and feet plantar flexed (toes pointing behind you) with the big toes touching. Begin to widen your knees towards the outside of the mat. Stiffen your abdominal muscles (“brace”) to stabilize your spine, and depress and retract your scapulae (pull shoulders down and back) without arching your low back. Slowly lean forward placing your hands on the ground, positioning them directly under your shoulders with your fingers facing froward. Inhale.
  
@@ -1284,7 +1280,7 @@ Hold this position for 5-10 slow, deep breaths (approximately 30 seconds to a mi
  
 Step 4
 Exercise variation: Extend your arms alongside the body with the palms facing upward and the fronts of your shoulders toward the floor.', 'Childs Pose', 'No Equipment', 'Abs, Back, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/227-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/117/bosu-sup-reg-sup-squat-jumps/', 'Step 1
 Starting Position: Place a BOSU® balance trainer on the floor 3-6" in front of your feet on a non-slip surface. Stand with your feet hip-width apart or closer, arms by your sides, depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal / core muscles) to stiffen your spine.
  
@@ -1306,7 +1302,7 @@ Land with your trunk inclined slightly forward, head aligned with your spine and
 Step 7
 Exercise Variation: As you develop your jumping and landing skills, you can progress the exercise intensity and complexity by: (1) driving your arms behind you during the downward phase (illustrated), (2) driving your arms forward (illustrated) or upward (towards an overhead position) during the jumping phase, or (3) driving your knees towards your chest during the jumping phase.
 It is suggested, you first learn how to squat and perform regular squat jumps before attempting to jump onto the BOSU.', 'BOSU® Squat Jumps', 'BOSU Trainer', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/117-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/119/bosu-sup-reg-sup-lateral-jumps/', 'Step 1
 Starting Position: Place a BOSU® balance trainer on the floor 3-6" to your left on a non-slip surface. Stand with your feet hip-width apart or closer, arms by your sides, depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal / core muscles) to stiffen your spine.
  
@@ -1331,7 +1327,7 @@ With ONLY a very brief pause at the bottom of your landing phase, explode sidewa
 Step 8
 Exercise Variation: As you develop your jumping and landing skills, you can progress the exercise intensity and complexity by: (1) driving your arms behind you during the downward phase, (2) driving your arms forward, upward (towards an overhead position) and slightly sideways in the jumping direction during the jumping phases, (3)driving your knees towards your chest during the jumping phases or (4) moving back and forth more rapidly or adding more BOSU balance trainers and performing a series of jumps in each direction.
 Before attempting to jump laterally onto the BOSU, learn first how to squat and perform regular squat jumps, BOSU squat jumps and lateral cone jumps.', 'BOSU® Lateral Jumps', 'BOSU Trainer', 'Abs, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/119-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/135/bodyweight-squat/', 'Step 1
 Starting Position: Begin standing with your feet slightly wider than hip-width, with the toes turned slightly outwards with your hands by your sides so the palms facing inwards. Depress and retract your scapulae (pull the shoulders down and back).
  
@@ -1352,7 +1348,7 @@ Upward Phase: While maintaining your back, chest and head-up position, exhale an
  
 Think about inhaling on the way down and exhaling while exerting on the way back to the initial standing position.
 Hip Hinge, Dumbell Front Squat, Barbell High Back Squat, Dumbbell Deadlift, Barbell Deadlift', 'Bodyweight Squat', 'No Equipment', 'Abs, Butt/Hips, Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/135-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/14/bird-dog/', 'Step 1
 Starting Position: Kneel on an exercise mat or floor, positioning your knees and feet hip-width apart, with your feet dorsi-flexed (toes pointing towards your body).
  
@@ -1374,7 +1370,7 @@ The degree of hip extension and shoulder flexion is determined by the ability to
 Step 7
 Downward Phase: Gently lower yourself back to your starting position and repeat with the opposite limbs.
 The bird-dog is an excellent exercise to train the body how to stabilize the lumbar spine (low back) during upper and lower extremity movement. Never exceed your body''s capacity to control movement in the low back.', 'Bird-dog', 'No Equipment', 'Abs, Back, Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/14-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/163/standing-incline-cable-flyes/', 'Step 1
 Starting Position: Position the cable handles level with the region between your knees and hips, and grasp each handle firmly.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, and attempt to avoid any arching of your low back throughout the exercise. Press both arms down and infront of your body to a level just above chest level until your elbows are fully extended
 Step 2
@@ -1392,7 +1388,7 @@ Standing on one foot.
 Perfoming the exercise unilaterally (one arm at a time) while avoiding any trunk rotation. 
  
 Avoid the tendency to lean forward during this exercise as this increases the stresses within the shoulder joint, which happens frequently when the resistance used is too heavy. To protect your shoulders from potential injury, lower the resistance, align your trunk vertically and follow the instructions provided.', 'Standing Incline Cable Flyes', 'Weight Machines / Selectorized', 'Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/163-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/161/standing-decline-cable-flyes/', 'Step 1
 STARTING POSITION: Position the cable handles approximately level with the top of your head and grasp each handle firmly. Stiffen (“brace”) your abdominal muscles to stabilize your spine, and attempt to avoid any arching of your low back throughout the exercise. Press both arms down and infront of your body to a level just below your chest until your elbows are fully extended. 
 Step 2
@@ -1409,7 +1405,7 @@ Standing on one foot
 Perfoming the exercise unilaterally (one arm at a time) while avoiding any trunk rotation. 
  
 Avoid the tendency to lean forward during this exercise as this increases the stresses within the shoulder joint, which happens frequently when the resistance used is too heavy. To protect your shoulders from potential injury, lower the resistance, align your trunk vertically and follow the instructions provided.', 'Standing Decline Cable Flyes', 'Weight Machines / Selectorized', 'Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/161-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/209/standing-chest-stretch/', 'Step 1
 Stand with your feet hip-width apart, toes pointing forward and arms by your sides. Stiffen your abdominal muscles (“brace”) to stabilize your spine, then depress and retract your scapulae (pull shoulders down and back) without arching your low back.
 Step 2
@@ -1421,13 +1417,13 @@ To increase the stretch in the chest using a partner.  Have a partner stand beh
  
 
 If adding the anterior deltoid stretch or partner assist, be sure to maintain neutral alignment.  While the chest will slightly lift up and out, do not force your chest forward.', 'Standing Chest Stretch', 'No Equipment', 'Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/209-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/160/standing-chest-fly/', 'Place two cable pulleys slightly above the shoulder height with handle attachments, grip one handle in each hand and step forward so that the arms are outstretched to the sides. With the elbows slightly bent, slowly bring both hands together in front of the body. When the hands are together, pause for one second before slowly returning the arms to the starting position.', 'Standing Chest Fly', 'Resistance Bands/Cables', 'Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/160-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/339/single-arm-rotational-press/', 'Stand with the feet wide so that the left foot is in front and pointed away from the machine and the right foot is behind and turned parallel to the machine. Keep the hips straight, the back tall, and the knees slightly bent. Place the pulley at shoulder-height, use a single handle, and turn to face in the same direction as the left foot. Grip the handle in the right hand with the palm-down, press the ball of the right foot into the floor and rotate the right leg to turn away from the machine while straightening the right arm. Pause at the end for one second before slowly bringing the arm back to lower the weight while rotating the right hip.', 'Single-arm Rotational Press', 'Resistance Bands/Cables', 'Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/339-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/338/single-arm-chest-press/', 'Stand with the feet hip-width apart, the hips straight, the back tall, and the knees slightly bent. Place the pulley at shoulder-height, and use a single handle. Turn so that the back is towards the machine and the right arm is directly in front of the pulley. Grip the handle in the right hand with the palm facing down. Press both feet into the floor, squeeze the stomach, and straighten the arm. Pause at the end for one second before slowly bringing the arm back to lower the weight.', 'Single-arm Chest Press', 'Resistance Bands/Cables', 'Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/338-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/167/seated-incline-cable-press/', 'Step 1
 Starting Position: Sit with your back firmly supported against the backrest. If adjustable, align the handles level with your shoulder. Grasp the handles and position your hands level with your upper chest or shoulders, maintaining a neutral wrist position (i.e., wrists in line with your forearms).  Position your feet firmly on the floor to stabilize your body. Stiffen (“brace”) your abdominal muscles to stabilize your spine, but do not press your low back into the backrest. Maintain the natural arch in your low back and avoid arching your back throughout the exercise.  Depress and retract your scapulae (pull shoulders back and down) and attempt to hold this position throughout the exercise.
 Step 2
@@ -1441,7 +1437,7 @@ Exercise Variation: To increase the exercise intensity and involve additional mu
 (b) Sit upright off the backrest, which will require a greater effort to stabilize your trunk as you perform the press movement.
  
 Because a cable movement allows more freedom in the movement, it is important that you concentrate to control the speed, range and direction of movement during this exercise.', 'Seated Incline Cable Press', 'Resistance Bands/Cables, Weight Machines / Selectorized', 'Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/167-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/166/seated-decline-cable-press/', 'Step 1
 Starting Position: Sit with your back firmly supported against the backrest. If adjustable, align the handles level with your shoulders or slightly higher. Grasp the handles and position your hands just below chest level, maintaining a neutral wrist position (i.e., wrists in line with your forearms).  Position your feet firmly on the floor to stabilize your body. Stiffen (“brace”) your abdominal muscles to stabilize your spine, but do not press your low back into the backrest.  Maintain the natural arch in your low back and avoid arching your back throughout the exercise.  Depress and retract your scapulae (pull shoulders back and down) and attempt to hold this position throughout the exercise.
 Step 2
@@ -1455,7 +1451,7 @@ Exercise Variation: To increase the exercise intensity and involve additional mu
 (b) Sit upright off the backrest, which will require a greater effort to stabilize your trunk as you perform the press movement.
  
 Because a cable movement allows more freedom in the movement, it is important that you concentrate to control the speed, range and direction of movement during this exercise.', 'Seated Decline Cable Press', 'Resistance Bands/Cables, Weight Machines / Selectorized', 'Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/166-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/189/seated-close-grip-chest-press/', 'Step 1
 Starting Position: Sit with your back firmly supported against the backrest. Adjust the seat height so that the handles are level with your mid-chest and the handles are positioned no deeper than chest level (level with the front of your chest). Grasp the handles firmly with a full grip (thumbs clasped around the handles) and maintain a neutral wrist position (i.e., wrists in line with your forearms)and bring your elbwos down to the sides of your body.  Position your feet firmly on the floor or on the foot rests to stabilize your body.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, but do not press your low back into the backrest. Maintain the natural arch in your low back and avoid arching your back throughout the exercise.  Depress and retract your scapulae (pull shoulders back and down) and attempt to hold this position throughout the exercise.
 Step 2
@@ -1468,7 +1464,7 @@ Exercise Variation: To increase the exercise intensity, perform the following va
 (b) Sit upright off the backrest, which will require a greater effort from your core to stabilize your trunk as you perform the press movement.
  
 This position is more comfortable and less stressful on the shoulder joint and more appropriate for individuals who experience some discomfort when performing traditional chest presses as it shifts more load into the triceps and off the shoulder joint.', 'Seated Close-Grip Chest Press', 'Weight Machines / Selectorized', 'Arms, Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/189-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/188/seated-chest-press/', 'Step 1
 Starting Position: Sit with your back firmly supported against the backrest. Adjust the seat height so that the handles are level with your mid-chest (around nipple level) and the handles are positioned no deeper than chest level (level with the front of your chest). Grasp the handles firmly with a full grip (thumbs clasped around the handles) and maintain a neutral wrist position (i.e., wrists in line with your forearms).  Position your feet firmly on the floor or on the foot rests to stabilize your body.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, but do not press your low back into the backrest. Maintain the natural arch in your low back and avoid arching your back throughout the exercise.  Depress and retract your scapulae (pull shoulders back and down) and attempt to hold this position throughout the exercise.
 Step 2
@@ -1481,7 +1477,7 @@ Exercise Variation: To increase the exercise intensity, perform the following va
 (b) Sit upright off the backrest, which will require a greater effort from your core to stabilize your trunk as you perform the press movement.
  
 Very frequently individuals will press the bar to a point where the shoulder blades round themselves forward and move off the backrest. This promotes instability within the muscles that hold the shoulder blades to the ribcage. While this "push-plus" movement is considered an advanced movement, focus initially on pressing while keeping your shoulder blades flat and firmly positioned against the backrest.', 'Seated Chest Press', 'Weight Machines / Selectorized', 'Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/188-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/165/seated-cable-press/', 'Step 1
 Starting Position: Sit with your back firmly supported against the backrest. If adjustable, align the handles level with your shoulder or mid-chest region. Grasp the handles and position your hands level with your mid-chest region, maintaining a neutral wrist position (i.e., wrists in line with your forearms).  Position your feet firmly on the floor to stabilize your body. Stiffen (“brace”) your abdominal muscles to stabilize your spine, but do not press your low back into the backrest. Maintain the natural arch in your low back and avoid arching your back throughout the exercise. Depress and retract your scapulae (pull shoulders back and down) and attempt to hold this position throughout the exercise.
  
@@ -1495,17 +1491,17 @@ Exercise Variation: To increase the exercise intensity and involve additional mu
 (b) Sit upright off the backrest, which will require a greater effort to stabilize your trunk as you perform the press movement.
  
 Because a cable movement allows more freedom in the movement, it is important that you concentrate to control the speed, range and direction of movement during this exercise.', 'Seated Cable Press', 'Resistance Bands/Cables, Weight Machines / Selectorized', 'Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/165-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/327/push-up-with-staggered-hands/', 'Start in a push-up position with the hands wider than shoulder-width apart and the legs straight out directly behind the body about hip-width apart. Squeeze the thighs and glutes while moving the right hand forward a couple of inches and the left hand out a couple of inches to the left side. This will create an uneven hand position. Slowly lower the body toward the ground then back up to return to the starting position.', 'Push-up with Staggered Hands', 'No Equipment', 'Arms, Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/327-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/286/power-push-down/', 'In a standing position, lean over slightly at the hips keeping the back flat. Begin with the medicine ball at the chest with elbows out to the sides and forcefully push the ball toward the floor underneath the chest. Catch the ball when it rebounds and repeat quickly.', 'Power Push Down', 'Medicine Ball', 'Arms, Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/286-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/356/offset-single-arm-chest-press/', 'Hold a dumbbell in the right hand with a strong grip and lie face up on a flat bench so that the top of the back is diagonal across the bench. Hold on to the bench with the left hand above the head near the ear. Place the feet flat on the floor with the hips pressed up into the air, and so the right shoulder of the arm holding the weight is off of the bench. Keep the hips steady and slowly bend the right elbow until it is below the bench then press the weight back up by straightening the arm over the center of the chest.', 'Offset Single-arm Chest Press', 'Bench, Dumbbells', 'Chest, Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/356-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/37/lying-pullovers/', 'Lie face up on a bench with the feet resting comfortably on the floor, and straighten the arms above the chest while holding one dumbbell in each hand with the palms facing each other. Slowly stretch the arms up overhead while keeping the elbows straight. Once the arms are overhead slowly pull the weights back up to the original starting position. Repeat for the desired number of repetitions.', 'Lying Pullovers', 'Bench, Dumbbells', 'Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/37-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/311/close-grip-bench-press/', 'Lie face up on a barbell bench, then reach up and grip the bar with the hands directly in line with the shoulders and the elbows pointed towards the feet. Unrack the bar and bring it towards the chest by bending the elbows and keeping them close to the ribs. Push the feet into the floor, and press the hips into the bench as the bar is pushed away from the chest to return to the starting position.', 'Close-grip Bench Press', 'Barbell', 'Arms, Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/311-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/15/cat-cow/', 'Step 1
 Starting Position: Kneel on an exercise mat or floor, positioning your knees and feet hip-width apart, with your feet dorsi-flexed (toes pointing towards your body).
  
@@ -1520,7 +1516,7 @@ Upward (Cat) Phase: Gently exhale and contract your abdominal muscles, pushing y
  
 Step 5
 Downward (Cow) Phase: Slowly relax and yield to the effects of gravity. Let your stomach fall towards the floor (increasing the arch in your low back) and allow your shoulder blades to fall together (move towards the spine). Hold this position for 10 - 15 seconds before returning to your starting position', 'Cat-Cow', 'No Equipment', 'Back, Chest', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/15-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/90/trx-reg-hip-press/', 'Step 1
 Starting Position: Place your feet securely in the foot cradles positioned directly under the TRX anchor point. Apply downward pressure with your heels by dorsiflexing your ankles (toes point towards your shins) Gently lie back on a mat / floor with your arms at your sides and palms flat on the ground. Contract your core and glute muscles to lift your hips off the mat / floor keeping your body aligned and rigid, using your hands to help stabilize your body. Slowly contract your hamstrings to move your heels towards your hips while keeping your ankles in dorsiflexion. The hips should move into flexion (bending in the hips), but your torso should remain rigid with your weight bearing on your shoulders. Keep you feet together throughout the exercise.
 Step 2
@@ -1530,9 +1526,9 @@ Downward Phase: Inhale and slowly return your hips to your starting position. Av
 Step 4
 Progression: The intensity of this exercise can be increased by lengthening the straps and positioning your body further away from under the anchor point of the TRX.
 During this exercise, individuals often arch their back to press the hips as high as possible. This increases the stresses on the low back and should be avoided. Contracting your abdominal muscles and maintaining a neutral (flat) spine can reduce these stresses.', 'TRX ® Hip Press', 'TRX', 'Back, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/90-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/334/straight-arm-pressdown/', 'Stand with the feet hip-width apart, the hips straight, the back tall, and the knees slightly bent. Place the cable pulley at the highest position, use a straight bar attachment, and hold one end of the rope in each hand. Keep the arms straight while bringing the hands down to the front of the waist. Slowly lift the hands back to the starting position to lower the weight.', 'Straight Arm Pressdown', 'Resistance Bands/Cables', 'Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/334-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/225/standing-triangle-straddle-bends/', 'Step 1
 Starting Position:  Stand with your feet in straddle position (wider than hip-width apart) with your left foot pointing forward and your right foot pointed to the side and arms by your sides.  Line up the heel of your left foot, with your right heel.  Stiffen your abdominal muscles (“brace”) to stabilize your spine, then depress and retract your scapulae (pull shoulders down and back) without arching your low back. Hold your chest up and tilt your head slightly up.
 Step 2
@@ -1545,16 +1541,16 @@ Step 4
 Hold the stretch for 15-30 seconds for a total of 2-4 repetitions.  Move into the stretch a littler deeper with each repetition.  Repeat on the opposite side.
  
 When sliding your hand down your leg, make sure you do not allow your hand to rest directly on your knee.  Place it above or below depending on your flexibility.  Your hand should rest lightly on the leg, not support your body weight.  Do not compromise form in order to reach your hand closer to the ground.', 'Standing Triangle Straddle Bends', 'No Equipment', 'Back, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/225-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/75/standing-shrug/', 'Step 1
 Starting Position: Stand holding dumbbells in your hands with a closed, neutral grip (thumbs around the handles with your palms facing your body). Position the dumbbells alongside your thighs with your elbows fully extended. Assume a split-stance position to stabilize your body, stiffen your torso by contracting your abdominal and core muscles ("bracing"), and depress and retract your scapulae (pull your shoulders down and back). Maintain these positions throughout the exercise. Your head and neck should be aligned with your spine. 
 Step 2
 Upward Phase: Exhale and slowly shrug your shoulders upward, avoiding any shoulder rotation or elbow flexion (bending). Maintain an erect torso (no arching in your low back) and neutral wrist position (wrists held straight without any bending). 
 Step 3
 Downward Phase: Inhale and gently lower the dumbbells back towards your starting position keeping your elbows extended and neutral grip position. Maintain your split-stance, torso, shoulder and wrist positions.', 'Standing Shrug', 'Dumbbells', 'Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/75-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/335/standing-row/', 'Stand with the feet hip-width apart, the hips straight, the back tall, and the knees slightly bent. Place the cable pulley at about chest-height, attach two handles, and hold one handle in each hand with the thumbs pointed to the ceiling and the palms facing each other. Lift the chest, and pull the rope back keeping the arms parallel to the floor and the elbows close to the sides. Once the hands reach the front of stomach, pause and then slowly straighten the elbows to return the weight to the starting position.', 'Standing Row', 'Resistance Bands/Cables', 'Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/335-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/64/stability-ball-reverse-extensions/', 'Step 1
 Starting Position: Lie prone (on your stomach) over the top of a properly-inflated stability ball (one that compresses approximately 6" under your body weight) with both feet and hands on the floor, hip- and shoulder-width apart.
 Step 2
@@ -1562,9 +1558,9 @@ Upward Phase: Gently exhale, contract your abdominal/core muscles to stiffen you
 Step 3
 Lowering Phase: Inhale and slowly lower both legs in unison back towards the floor while keeping them fully extended.
 Avoid hyperextension in your low back by raising your legs past parallel alignment with your torso.', 'Stability Ball Reverse Extensions', 'Stability Ball', 'Back, Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/64-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/127/single-arm-single-leg-romanian-dead-lift/', 'Balance on the left leg while holding a dumbbell in the right hand. Keep the left knee slightly bent and the back straight while leaning forward on the left hip (tip: while leaning forward straighten the right leg and point the right toes to help stay balanced.) Keep the arm straight so the dumbbell is lowering directly in front of the left leg. Push the left foot into the floor, pull back on the left knee, and lower the right leg to stand up, keeping the grip on the dumbbell. Pause in a balanced position before performing the next repetition.', 'Single-arm, Single-leg Romanian Dead Lift', 'Dumbbells', 'Back, Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/127-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/126/single-arm-row/', 'Step 1
 Starting Position: Holding a dumbbell in your right hand, bend over to place your left knee and left hand on a bench to support your body weight. Your hand should be placed directly under your shoulder and your knees should be positioned directly under your hips. Gently contract your abdominal / core muscles ("bracing") to stiffen your torso and stabilize your spine. Your back should be flat and head aligned with your spine. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back and maintain this shoulder position throughout the exercise. Extend your right arm (holding the dumbbell) towards the floor without allowing your torso to rotate or shoulder to move towards the floor.
 Step 2
@@ -1572,11 +1568,11 @@ Upward Movement: Exhale and slowly pull the dumbbell upwards, bending your elbow
 Step 3
 Downward Movement: Inhale and gently lower the dumbbell to your starting position while maintaining a flat back and retracted (pulled back) shoulder position.
 Try performing this exercise alongside a mirror to monitor any change in your back or shoulder position and check for trunk rotation.', 'Single-arm Row', 'Bench, Dumbbells', 'Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/126-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/337/single-arm-row/', 'Stand with the feet hip-width apart.  Keep the hips straight, the back tall, and the knees slightly bent. Attach a single handle to the cable pulley and press feet into the floor while pulling the cable back towards the body with the left hand. At the end of the movement pause for a second before slowly straightening the left arm to lower the weight to the starting position.', 'Single Arm Row', 'Resistance Bands/Cables', 'Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/337-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/72/shrug/', 'Hold a barbell with a palms-down grip with the hands about shoulder-width apart. Keep the knees slightly bent, the hips straight, and the back tall, and raise the shoulders directly upwards to the ears as high as possible, lowering slowly to the original starting position. (Tip: grip the bar and think about pulling the hands apart from one another and focus on only raising/lowering the shoulders - DO NOT roll the shoulders.)', 'Shrug', 'Barbell', 'Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/72-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/210/seated-straddle-stretch/', 'Step 1
 Starting Position: Assume a seated position with your legs apart as illustrated. The angle of your legs should not compromise your ability to sit upright (i.e., trunk vertical) with your head aligned with your spine, extend your knees and point your toes towards the ceiling. Extend your arms out in front of your body and place your palms flat on the floor / mat.
 Step 2
@@ -1587,7 +1583,7 @@ Step 4
 Exercise Variation: This stretch can become more dynamic by performing slow, controlled movements to complete 1 set of 5 - 10 repetitions, holding the stretched position for 1 - 2 seconds.
  
 To maximize the benefits of a stretch and reduce the potential for injury, it is often important to stretch only to the point of tension, avoid bouncing and control movement at other segments of the body.  During this stretch, avoid any excessive rounding of your low back', 'Seated Straddle Stretch', 'No Equipment', 'Back, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/210-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/168/seated-row/', 'Step 1
 Starting Position: Adjust the seat height to a level that positions the machine handles approximately level, or near level, with your shoulders. Position your feet firmly on the floor or foot pads to stabilize your body.  Sit upright and extend your arms to grasp the handles without rounding your shoulders forward. Adjust the position the chest pad to contact your chest lightly.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, but do not press your low back into the back rest. Maintain the natural arch in your low back and avoid arching your back throughout the exercise.  Depress and retract your scapulae (pull shoulders back and down), maintain a neutral wrist position (i.e., wrist in line with your forearms) and attempt to hold these positions throughout the exercise.
  
@@ -1601,7 +1597,7 @@ Exercise Variation: To increase the exercise intensity and involve additional ex
 (b) Move the chest pad away from your body, which will now require a greater effort to stabilize your trunk as you perform the pulling movement.
  
 Allowing your shoulders to round forward as your arms extend will allow you to pull with more force. However, learn how to perform a pulling motion without scapulae (shoulder blade) movement first before introducing shoulder movement.  Additionally, reduce unnecessary stresses into your low back by avoiding any backwards lean during the pull movements.', 'Seated Row', 'Weight Machines / Selectorized', 'Arms, Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/168-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/158/seated-lat-pulldown/', 'Step 1
 STARTING POSITION: Sit in the machine, anchoring your lower extremity by adjusting the thigh pad to fit firmly against the top of your thighs.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, and attempt to avoid any arching of your low back throughout the exercise.  Reach up to grasp the bar, firmly gripping the bar with both hands. While your arms are extended overhead, depress and retract your scapulae (pull shoulders back and down) and attempt to hold this position throughout the exercise.  Lean back slightly (no more than a 30 degree angle), using your legs to support your body (low back).  Maintain your head aligned with your spine.
 Step 2
@@ -1615,7 +1611,7 @@ Step 5
 Exercise Variation: Perform the exercise in a standing position with your feet in a staggered-stace (walking position).  Maintain a slight bend in your knees and shift your weight back onto your rear leg to create the backward lean. Avoid flexing (bending) forward at the hips during the pulling movement.
  
 This exercise targets the major back muscles effectively, but should be performed without compromise to the shoulder or low back. Follow the instructions provided to reduce the stress placed upon these two areas.', 'Seated Lat Pulldown', 'Weight Machines / Selectorized', 'Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/158-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/169/seated-high-back-rows/', 'Step 1
 Starting Position: Adjust the seat height to a level that positions the machine handles approximately level with your shoulders. Position your feet firmly on the floor or foot pads to stabilize your body.  Sit upright and extend your arms to grasp the handles without rounding your shoulders forward. Adjust the position the chest pad to contact your chest lightly.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, but do not press your low back into the back rest. Maintain the natural arch in your low back and avoid arching your back throughout the exercise.  Depress and retract your scapulae (pull shoulders back and down), maintain a neutral wrist position (i.e., wrist in line with your forearms) and attempt to hold these positions throughout the exercise.
 Step 2
@@ -1628,9 +1624,9 @@ Exercise Variation: To increase the exercise intensity and involve additional ex
 (b) Move the chest pad away from your body, which will now require a greater effort to stabilize your trunk as you perform the pulling movement.
  
 Allowing your shoulders to round forward as your arms extend will allow you to pull with more force. However, learn how to perform a pulling motion without scapulae (shoulder blade) movement first before introducing shoulder movement.  Additionally, reduce unnecessary stresses into your low back by avoiding any backwards lean during the pull movements.', 'Seated High Back Rows', 'Weight Machines / Selectorized', 'Arms, Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/169-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/317/romanian-deadlift/', 'Holding a barbell with both hands so that it rests on the front of the thighs, keep a slight bend in both knees and a straight back. Push the hips back while lowering the weight towards the floor until feeling some tension along the back of the legs. To return to standing, push the heels into the floor and pull the knees backwards, keeping the bar very close to the body while standing.', 'Romanian Deadlift', 'Barbell', 'Back, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/317-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/191/pull-ups/', 'Step 1
 Starting Position: Stand under the chin-up bar and reach your arms overhead with your palms facing away from you.  Reach,  jump or lift your body off the floor to grasp the handles firmly with a full grip position (thumbs wrapped around the handles).  Gently cross one leg over the other to stabilize your lower extremity and then stiffen ("brace") your abdominal muscles to stabilize your spine.  Align your head vertically with your trunk under your hands and assume a neutral wrist position (i.e., wrist aligned in a straight line with your forearms).  Depress and retract your scapulae (pull shoulders back and down) and attempt to hold this position throughout the exercise.
  
@@ -1642,7 +1638,7 @@ Step 4
 Exercise Variation:  The intensity of this exercise can be increased with resistance that can be added by wearing a weight belt to which weights are connected.  Using a narrow, prontated (palms forward) grip shifts some of the load from your lats (mid-back muscles) into the muscles of the upper back.
  
 This exercise targets the back muscles effectively, but should be performed without compromise to the shoulder. Follow the instructions provided to reduce the stress placed upon your shoulders', 'Pull-ups', 'Pull up bar', 'Arms, Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/191-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/267/partner-standing-row-with-resistance-tubing/', 'Step 1
 Starting Position: You and a training partner should have specialized resistance x-pattern resistance tubing with four handles so that two people can use it at the same time; or take 2 pieces of standard resistance tubing with handles and cross them to interlink them and create a 4-handled pattern.  You and your training partner should stand facing each other with your feet hip-width apart and the right foot slightly in front of the left to create additional stability; your knees and hips should be slightly bent so that you each can sink into your hips and contract your abdominals (bracing) for additional stability.  You and your partner should each position your body with the spine in neutral (normal-to-flat), shoulders depressed (no shrugging) with scapulae retracted (squeezing shoulder blades together).  You and your partner should each keep your chest held up and out, with your head in line with your spine or slightly extended (raised).  Grab the handles firmly in both hands and hold them so that your palms are facing the ground and pull back slightly to create opposing lines of pull. 
 Step 2
@@ -1654,7 +1650,7 @@ Once you and your partner have each allowed your right arm to move forward and p
 Step 5
 Exercise Variation: Start with slow, steady consistent movements to become used to providing manual resistane through the tension of the rubber tubing; to increase the intensity you can either stand further away from each other to create additional tension on the rubber or increase the speed of the movement to make it more of a power-based exercise. 
 Remember to keep your feet planted into the floor with your abdominals engaged and contracted (braced) to ensure spinal stability.', 'Partner Standing Row with Resistance Tubing', 'Resistance Bands/Cables', 'Arms, Back, Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/267-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/141/kneeling-lat-stretch-w-bench/', 'Step 1
 Starting Position: Kneel on an exercise mat or floor positioning your knees and feet hip-width apart, with your feet plantar-flexed (toes pointing away from your body).  Stiffen your core and abdominal muscles ("bracing") to stabilize your spine and pelvis.
  
@@ -1671,11 +1667,11 @@ Step 5 
 Exercise Variation: To increase the stretch, supinate the palms (turn the palms up to face the ceiling) while leaning back into your hips. 
  
 Exhale as you lean back into your hips, and do not let your head drop towards the ground.', 'Kneeling Lat Stretch (w/bench)', 'Bench', 'Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/141-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/35/kneeling-lat-pulldown/', '', 'Kneeling Lat Pulldown', 'Resistance Bands/Cables', 'Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/35-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/336/high-row/', 'Stand with the feet hip-width apart, the hips straight, the back tall, and the knees slightly bent. Place the cable pulley at about shoulder-height, attach a rope handle, and hold one end of the rope in each hand with the palms facing down. Turn to face the machine. Lift the chest up and pull the elbows back until the hands are right in front of the shoulders, then pause for 2-3 seconds. Slowly straighten the arms to return the weight to the starting position.', 'High Row', 'Resistance Bands/Cables', 'Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/336-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/145/glute-bridge-single-leg-progression/', 'Step 1
 Starting Position: Lie supine (on your back) on an exercise mat or the floor in a bent-knee position with your feet flat on the floor and your arms resting comfortably along your side with the palms rotated up to face the ceiling. Start with your feet hip-width apart with the toes facing away from you, lift the left leg and place both hands on the back of the thigh to gently pull your left knee towards your chest, slide the right foot in (towards the center of the body). Gently contract your abdominal muscles to flatten your low back into the floor. Attempt to maintain this abdominal stiffness throughout the exercise. 
  
@@ -1688,7 +1684,7 @@ Lowering Phase: Inhale and slowly lower yourself back towards your starting posi
 Step 4 
 Exercise Variation: To increase the strength of the muscles along the front of the shin (anterior tibilias) pick the toes of the right foot off of the floor to hold the foot in dorsiflexion-this is a good option for runners because it could help reduce the risk of developing shin splints.
 Exhale as your push your leg into the ground, inhale on the lowering phase.', 'Glute Bridge Single Leg Progression', 'No Equipment', 'Back, Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/145-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/22/front-squat/', 'Step 1
 Starting Position: Stand with your feet slightly wider than hip-width, facing outward or turned slightly outwards while holding a dumbbell in each hand by your sides, with palms facing inwards. Depress and retract your scapulae (pull shoulders down and back).
  
@@ -1707,7 +1703,7 @@ Lowered Position: From the front, the knees should continue to remain aligned ov
 Step 6
 Upward Phase: While maintaining your back, chest and head-up position, exhale and extend the hips and knees by pushing your feet into the floor through your heels. The hips and torso need to rise together while keeping the heels flat on the floor and knees aligned over the second toe. Continue extending until you reach your starting position.
 Technique is very important in this lift. The tendency is to hold the tibia (shinbone) too vertical which forces you to lean your torso too far forward. Using a mirror for feedback, shift your tibia forward while keeping your heels on the floor, then bring your torso upright back (moving it more upright), but do so from the hips and not through the low back. Squeeze your abdominals to help prevent excess arching in the back with this correction.', 'Front Squat', 'Dumbbells', 'Back, Butt/Hips, Full Body/Integrated, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/22-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/18/downward-facing-dog/', 'Step 1
 Starting Position: Kneel on an exercise mat or floor and bring your feet together behind you. Slowly bend forward to place your palms flat on the mat, positioning your hands shoulder-width apart with your fingers facing forward. Slowly lift yourself into a push-up position, shifting your hands until your shoulders are positioned directly over your hands. Reposition your feet as needed to allow full extension of your body. Stiffen your torso by contracting your core and abdominal muscles to prevent any arching in your low back or hiking of your hips towards the ceiling.
  
@@ -1716,7 +1712,7 @@ Upward Phase: While maintaining a rigid torso and full extension in your arms an
  
 Step 3
 Downward Phase: Inhale and return your body to the starting push-up position, maintaining the alignment of all your body segments.', 'Downward-facing Dog', 'No Equipment', 'Arms, Back, Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/18-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/190/chin-ups/', 'Step 1
 Starting Position: Stand under the chin-up bar and reach your arms overhead with your palms facing you.  Reach, jump or lift your body off the floor to grasp the handles firmly with a full grip position (thumbs wrapped around the handles).  Gently cross one leg over the other to stabilize your lower extremity and then stiffen ("brace") your abdominal muscles to stabilize your spine.  Align your head vertically with your trunk under your hands and assume a neutral wrist position (i.e., wrist aligned in a straight line with your forearms).  Depress and retract your scapulae (pull shoulders back and down) and attempt to hold this position throughout the exercise.
 Step 2
@@ -1726,7 +1722,7 @@ Continue pulling upward until your chin is level with the bar or your hands.  P
 Exercise Variation: The intensity of this exercise can be increased with resistance that can be added by wearing a weight belt to which weights are connected.
  
 This exercise targets the back and biceps muscles effectively, but should be performed without compromise to the shoulder. Follow the instructions provided to reduce the stress placed upon your shoulder', 'Chin-ups', 'Pull up bar', 'Arms, Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/190-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/198/90-lat-stretch/', 'Step 1
 Starting Position:  Stand with your feet hip-width apart with arms by your sides. Stiffen your abdominal muscles (“brace”) to stabilize your spine, then depress and retract your scapulae (pull shoulders down and back) without arching your low back. Hold your chest up and out, tilt your head slightly up.
  
@@ -1743,16 +1739,16 @@ Step 5
 Exercise Variation:  To increase the stretch, supinate the palms (turn the palms up to face the ceiling) while leaning back into your hips.
  
 Exhale as you lean back into your hips.  Be sure not to fully “lock” the knees while holding this position.', '90 Lat Stretch', 'No Equipment', 'Back', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/198-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/228/warrior-i/', 'Step 1
 Starting Position:  Stand with your feet hip-width apart, toes pointing forward and arms by your sides. Stiffen your abdominal muscles (“brace”) to stabilize your spine, then depress and retract your scapulae (pull shoulders down and back) without arching your low back. Inhale.
 Step 2
 Exhale and take a larger step forward with your right foot while raising your arms to the ceiling, palms facing each other. Keep your right foot pointed forward and turn your left foot out to the side 45 to 60 degrees. Align your left heel with your right.  Begin lunging forward into the right leg while keeping your back (left) leg extended.  Do not allow the right knee to extend past the right toes. Keep the back (left) heel in contact with the ground. Slowly drop your hips and rotate your torso to the right squaring your shoulders and hips to the front of the matt. Support your weight by pushing through your left foot and reach through your arms up lifting your ribcage away from the pelvis. 
 Step 3
 Hold this position for 3-5 slow, deep breaths (approximately 20-30 seconds) and repeat on the other side.', 'Warrior I', 'No Equipment', 'Butt/Hips, Full Body/Integrated, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/228-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/290/walking-abduction/', 'With a resistance band under both feet, cross the hands and grasp each handle at the hips. Step to the side keeping both legs straight and the trunk strong and stable.', 'Walking Abduction', 'Resistance Bands/Cables', 'Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/290-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/180/tuck-jump/', 'Step 1
 Starting Position: Stand with your feet feet hip-width apart, arms by your sides, depress and retract your scapulae (pull shoulders down and back) without arching your low back, and "brace" (engage your abdominal / core muscles) to stiffen your spine.
 Step 2
@@ -1764,7 +1760,7 @@ Landing: The most important components of the landing phase are correct foot pos
 Exercise Variation: Perform repeating jumps, or add the knee tuck to the forward linear jump.
  
 Use your arms to help create momentum and propel you up into the air; when squatting down reach your arms behind you, then when you jump swing your arms forward and up while pushing your legs in to the ground to help generate extra power.', 'Tuck Jump', 'No Equipment', 'Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/180-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/86/trx-reg-hamstrings-curl/', 'Step 1
 Starting Position: Place your feet securely into the foot cradles positioned directly under the anchor point. Apply downward pressure with your heels by dorsiflexing your ankles (pull toes towards your shins). Gently lie back on a mat/floor with your arms at your sides and palms flat on the ground. Contract your core and glute muscles to lift your hips off the mat/floor keeping your body aligned and rigid, using your hands to help stabilize your body. Keep you feet together throughout the exercise.
 Step 2
@@ -1774,9 +1770,9 @@ Downward Phase: Inhale and slowly return both feet in unison towards your starti
 Step 4
 Exercise Variation: The intensity of this exercise can be increased by positioning your body further away from under the anchor point of the TRX and lengthening the straps.
 Using the TRX certainly enhances the appeal of many exercises; however, trainers and individuals should not participate in these advanced exercises until they can demonstrate capability to effectively stabilize their lumber spine (low back) with their core muscles.', 'TRX ® Hamstrings Curl', 'TRX', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/86-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/365/transverse-lunge/', 'Stand with the feet hip-width apart holding one dumbbell in each hand with the palms facing each other and the arms straight down by the sides. Keep the left foot pointed straight ahead (the 12 o’clock direction) while stepping back and out to the right side with the right foot and place it facing in the 4 o’clock direction. As the right foot hits the ground push back into the right hip while reaching for the right foot with both hands. To return to standing, push off the ground with the right foot and press the left foot into the ground to pull the body back to the center and the feet back together.', 'Transverse Lunge', 'Dumbbells', 'Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/365-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/192/thomas-stretch/', 'Step 1
 Sit at the end of a massage table with your mid thigh aligned with the edge. Sit tall, lifting your head towards the ceiling.  Stiffen your abdominal muscles to engage (“brace”) your spine, then depress and retract your scapulae (pull your shoulders down and back) without arching your low back. 
  
@@ -1790,7 +1786,7 @@ Step 4
 Hold the stretch position for 15-30 seconds at a time for a total of 2-4 repetitions.  Complete  all repetitions on one side before alternating to the other leg.
  
 Transition from starting position to the ending supine position with control to receive the full beneft if the stretch.', 'Thomas Stretch', 'No Equipment', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/192-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/146/supine-hip-flexor-stretch/', 'Step 1
 Starting Position: Lie supine (on your back) on an exercise mat or firm surface, extending your legs so there are lying flat along the floor with the toes pointing up towards the ceiling. Slide your left foot back towards your hip so that your foot is flat along the floor and the knee is pointing up towards the ceiling, keep the right leg flat along the ground.
  
@@ -1801,7 +1797,7 @@ Step 3
 To increase the stretch, maintain the abdominal contraction, exhale and slowly pull the knee further back towards the chest while straightening the leg and pushing your heel away from your body.  Hold position for 30-45 seconds, straighten the leg and repeat for 2-5 repetitions; alternate legs and repeat. 
  
 Continue breathing through the exercise, use the exhale phase to slowly pull the knee towards the chest to increase the stretch.', 'Supine Hip Flexor Stretch', 'No Equipment', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/146-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/148/supine-90-90-hip-rotator-stretch/', 'Step 1
 Starting Position: Lie supine (on your back) on a mat, placing the backs of your lower legs and heels on the top of a bench (so that the knees are able to maintain a ninety-degree bend). Position your feet hip-width apart on the bench with your ankles slightly dorsiflexed (toes pointing towards the ceiling). Gently contract your abdominal/core muscles to flatten your low back into the floor. Attempt to maintain this gentle muscle contraction throughout the exercise. Extend your arms along your sides with palms turned to the ceiling and breathe deeply for 30 seconds to allow your hips to relax into this position. 
  
@@ -1813,7 +1809,7 @@ Step 4
 Exercise Variation: Instead of a bench, use a stability ball, this will allow you to roll your right knee towards your chest and use the leverage of the ball to increase the intensity of the stretch.
  
 Use a bench (or stability ball) which will allow your hip and knee to remain at ninety degree angles.', 'Supine 90-90 Hip Rotator Stretch', 'No Equipment', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/148-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/129/sumo-rotational-squats/', 'Step 1
 This exercise is a dynamic movement exercise used to prepare the body for activity. As it involves a series of squatting movements, it is highly recommended you master your squatting technique before attempting this exercise.
 Step 2
@@ -1829,7 +1825,7 @@ Repeat this movement in one direction or stopping to turn back towards your star
 Step 7
 Exercise Variation: The dynamic balance challenge to the body can be increased in this exercise by: (1) Pivoting faster without losing postural control (balance) or (2) pivoting with a backward rotation off the other foot rather than pivoting in a forward rotation.
 To enjoy the benefits of this exercise, focus upon the quality of this movement. Control your movement tempo (pace) and never lose your postural control (balance).', 'Sumo Rotational Squats', 'No Equipment', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/129-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/28/step-up/', 'Step 1
 Starting Position: Stand with your feet parallel about hip width apart while holding dumbbells in your hands with palms facing inwards. Depress and retract your scapulae (pull shoulders down and back). 
 Attempt to avoid shrugging your shoulder upwards.
@@ -1843,7 +1839,7 @@ Downward Phase: Slowly load the weight of your body into your leading (right) fo
 Step 4
 An exercise progression is to step-up onto one leg only and remain standing on a single-leg before stepping back down.
 Single-leg stepping is a functional movement we perform daily. Always monitor your foot, ankle and knee position. Avoid movement of your foot and ankle (collapsing in or out), and always attempt to keep your knee aligned over your second toe.', 'Step-up', 'Dumbbells, Raised Platform/Box', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/28-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/137/standing-lunge-stretch/', 'Step 1
 Starting Position: Stand with your feet approximately hip width apart. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal/core muscles) to stiffen your spine.
  
@@ -1857,7 +1853,7 @@ Step 4
 Hold this stretch position for 15-30 seconds at a time for a total of 2-4 repetitions; try to move into the stretch a little deeper with each repetition, but be sure to keep your body in alignment.  Complete all repetitions on one side before alternating to the other leg.  Firmly push off with your front leg, activating both your quads and glutes (thighs and butt muscles) to return to your upright, starting position. 
  
 At the bottom of the movement: contracting your abdominals and the glutes of the rear leg  while simultaneously lifting your chest up to the ceiling back will help increase the stretch to the back leg.', 'Standing Lunge Stretch', 'No Equipment', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/137-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/69/stability-ball-wall-squats/', 'Step 1
 Starting Position: Place a stability ball against a wall and gently lean against it, positioning the top of the ball into the small of your back, but making contact with your tailbone, low- and mid-back. Your feet should be positioned 6 - 12" out in front of your body, feet hip-width apart and facing forward or turned out slightly.
 Step 2
@@ -1867,7 +1863,7 @@ Downward Phase: Inhale and slowly lower your body, rolling the ball down the wal
 Step 4
 Upward Phase: Exhale and slowly push your body up away from the floor, focusing on extending your hips to bring them back underneath your body. Continue pushing upwards until your hips and knees are fully extended.
 To help develop the foundations of good squatting form, emphasize dropping your hips down and slightly under the ball, and avoiding driving your knees down and forward.', 'Stability Ball Wall Squats', 'Stability Ball', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/69-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/59/stability-ball-hamstring-curl/', 'Step 1
 Starting Position: Lie supine (on your back) on a mat, placing the backs of your lower legs and heels on the top of a stability ball. Position your feet hip-width apart on the ball with your ankles slightly dorsiflexed (toes pointing towards the ceiling). Gently contract your abdominal/core muscles to flatten your low back into the floor. Attempt to maintain this gentle muscle contraction throughout the exercise. Extend your arms out to your sides with palms turned to the floor to help stabilize your body during the exercise.
 Step 2
@@ -1883,7 +1879,7 @@ Exercise Variation (2): To increase the balance challenge, move your arms toward
 Step 7
 Exercise Variation (3): To increase the balance challenge, raise one leg off the ball in the starting position and curl with one leg.
 Avoid arching your lower back as your press your hips upward to the starting position. This can be achieved by contracting your abdominal muscles prior to lifting and keeping them engaged throughout the lift.', 'Stability Ball Hamstring Curl', 'Stability Ball', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/59-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/116/squat-jumps/', 'Step 1
 Starting Position: Stand with your feet feet hip-width apart, arms by your sides, depressing and retracting your scapulae (pull shoulders down and back) without arching your low back, and "brace" (engage your abdominal / core muscles) to stiffen your spine.
 Step 2
@@ -1899,7 +1895,7 @@ Land with your trunk inclined slightly forward, head aligned with your spine and
 Step 7
 Exercise Variation: As you develop your jumping and landing skills, you can increase the exercise intensity and complexity by: (1) Driving your arms behind you during the downward phase (illustrated), (2) driving your arms forward and upward during the jumping phase (illustrated), or (3) driving your knees towards your chest during the jumping phase.
 It is suggested, you first learn how to squat and land before attempting to jump. Once you have mastered the hip-hinge mechanism, begin with small jumps, but emphasize your landing mechanics. Only progress to more explosive jumps once you have mastered your landing mechanics.', 'Squat Jumps', 'No Equipment', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/116-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/222/squat-jump/', 'Step 1
 Starting Position: Stand with your feet feet hip-width apart, arms by your sides, depressing and retracting your scapulae (pull shoulders down and back) without arching your low back, and "brace" (engage your abdominal / core muscles) to stiffen your spine. Downward Phase: Begin your downward phase by first shifting your hips backwards then slowly moving downwards to create a hinge-like movement at your knees. Continue to lower yourself until your feel your heels about to lift off the floor. Try to maintain a flat back by bending forward at the hips, keep your head facing forward and position to your arms where comfortable or where they offer the greatest degree of balance support.   
 
@@ -1913,11 +1909,11 @@ Step 4 
 Exercise Variation: Perform repeated jumps with no rest in between each repetition. 
 
 It is suggested, you first learn how to squat and land before attempting to jump. Once you have mastered the hip-hinge mechanism, begin with small jumps, but emphasize your landing mechanics. Only progress to more explosive jumps once you have mastered your landing mechanics.', 'Squat Jump', 'No Equipment', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/222-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/288/squat/', 'Stand with the feet a little wider than shoulder-width apart and hold the medicine ball in both hands in front of the chest with the elbows bent. Sit back with the hips and squat down so the hips are below the knees, keeping the ball in front of the chest. Press the feet into the ground to stand up.', 'Squat', 'Medicine Ball', 'Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/288-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/329/single-leg-romanian-deadlift/', 'Start in a standing position with the feet about hip-width apart, the back tall and straight, and the knees slightly bent. Push the hips backwards and start to lift the left foot off the ground. Keep the back straight while straightening the leg directly behind the body. Continue leaning forward to a comfortable distance, and then stand up by squeezing the right glute and tilting the right hip down towards the floor while swinging the left leg down towards the floor. Complete the desired number of repetitions on the left leg before switching to the right. Hands can be held out in any fashion for balance.', 'Single-leg Romanian Deadlift', 'No Equipment', 'Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/329-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/136/single-leg-squat/', 'Step 1
 Starting Position: Stand with your feet hip width apart, with the right foot slightly forward (the heel of the right foot should be parallel to the toes of the left foot), your body weight should be over the right foot, only the toes of the left foot should be touching the floor to help with balance and stabilization during the entire range-of-motion of the exercise. Gently contract your abdominal / core muscles ("bracing") to stiffen your torso and stabilize your spine, and depress and retract your scapulae (pull your shoulders down and back) without arching your low back and maintain this shoulder position throughout the exercise. 
  
@@ -1936,9 +1932,9 @@ Step 6
 Exercise Variation: As this technique is mastered, the exercise intensity can be progressed by (1) lifting the supporting leg off of the floor. This increases the need for balance and stabilization within the body; (2) adding external resistance by holding a dumbbell in one hand or a medicine ball in both hands; (3) bending over and / or lower the hips closer to the ground increasing your knee bend; and (4) standing on unstable surfaces (e.g., Airex pad). 
  
 Keep the stance foot flat on the floor during the entire range-of-motion of the movement; to emphasize the glutes, push your weight back into your hip during the lowering phase.', 'Single Leg Squat', 'No Equipment', 'Butt/Hips, Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/136-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/350/single-leg-romanian-dead-lift/', 'Place a cable pulley at the lowest position and attach a single handle. Stand facing the machine, balancing body weight on the right leg and gripping the handle in the left hand keeping the arm completely straight. Keep a slight bend in the right knee and the back straight while hinging forward on the right hip and keep the left arm stretched out straight in front of the body. Stand up by pushing the right foot into the ground and lowering the left leg while pulling the left hand down to the hip. Keep the stomach muscles tight. Pause in a balanced position while holding the handle close to the body before performing the next repetition.', 'Single Leg Romanian Dead Lift', 'Resistance Bands/Cables', 'Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/350-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/230/single-leg-push-off/', 'Step 1
 Starting Position: Stand facing a raised platform or a plyometric jump box, place your right foot on the top of the step or box, keep your left foot on the ground, hinge from the hips to lean forward, keep your arms by your side and your head level with your eyes looking at a point on the ground two-to-three feet in front of you.
 Step 2
@@ -1948,9 +1944,9 @@ Landing: The most important components of the landing phase are correct foot pos
 Step 4
 Landing phase: Attempt to land softly and quietly on the mid-foot, rolling backwards quickly towards the heels. Always push your hips backwards and drop them downwards to absorb the impacting forces associated with jumping. Avoid locking out your knees or quads on your landing as this may lead to potential knee injuries. Land with your trunk inclined slightly forward, head aligned with your spine and back rigid or flat. Keep your abdominal / core muscles engaged, stiffening your torso to protect your spine. 
 When jumping keep your spine straight and tall by contacting your abdominals (bracing) and be sure to perform the same number of repetitions on each leg.', 'Single Leg Push-off', 'Raised Platform/Box', 'Butt/Hips, Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/230-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/301/single-leg-hamstring-curl/', 'Lying face up, keep both legs straight and rest the heels on top of a stability ball. Press through the heels and raise the hips off the ground. Lift one leg straight up into the air directly up from the hips, and drive the other heel into the ball. With the leg on the ball, bend at the knee and drive the hips into the air while pulling that heel in towards the body. Slowly straighten that leg until the body is in a straight line, but keep the other leg straight up in the air.', 'Single Leg Hamstring Curl', 'Stability Ball', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/301-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/39/side-lying-hip-adduction/', 'Step 1
 Starting Position: Lie on your side on a mat/floor with your legs extended, feet together in neutral position pointing away from your body (at 90 degrees to your shinbone). Keep your lower arm bent and positioned under your head for support while the upper arm rests upon your upper hip. Your hips and shoulder should be aligned vertically to the floor. Your head should be aligned with your spine. Slowly flex (move forward) your lower leg until it lies in front of your upper leg. Rest both feet on the floor and keep both legs extended with feet in neutral position.
 Step 2
@@ -1958,7 +1954,7 @@ Upward Phase: Exhale and gently raise the lower leg off the floor while keeping 
 Step 3
 Downward Phase: Gently inhale and slowly return the raised leg to your starting position in a controlled manner. After completing your set, roll over and repeat with the opposite leg.
 Due to the limited movement at the hip joint in this direction, the leg need only rise a few inches off the mat/floor.', 'Side Lying Hip Adduction', 'No Equipment', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/39-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/38/side-lying-hip-abduction/', 'Step 1
 Starting Position: Lie on your side on a mat/floor with your legs extended straight away from your body. Hold your feet together in neutral position (at 90 degrees to your shinbone) and your lower arm bent and positioned under your head for support, while the upper arm rests upon your upper hip. Your hips and shoulder should be aligned vertically to the floor. Your head should be aligned with your spine.
 Step 2
@@ -1966,7 +1962,7 @@ Upward Phase: Exhale and gently raise the upper leg off the lower leg while keep
 Step 3
 Downward Phase: Gently inhale and slowly return your raised leg to your starting position in a controlled manner. After completing your set, roll over and repeat with the opposite leg.
 A common mistake is raising the leg too high in this exercise. Given the design of the hip joint, the thigh can only abduct (move out sideways) to 45 degrees. Any movement beyond that position involves movement of the entire hip and no longer targets the muscles intended for this exercise.', 'Side Lying Hip Abduction', 'No Equipment', 'Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/38-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/50/side-lunge/', 'Step 1
 Starting Position: Stand with your feet parallel facing forward and hip-width apart. Position your hands where comfortable to help you maintain your balance during the exercise. Stiffen your torso by contracting your core and abdominal muscles ("bracing"). Keep your head facing slightly upwards and shift your weight onto your heels.
 Step 2
@@ -1974,7 +1970,7 @@ Inhale and gently unload your right leg, slowly stepping to the right while keep
 Step 3
 Exhale and push off firmly with your right leg, returning your body to your starting position. Repeat the movement for the opposite side.
 A common mistake when performing a side lunge is that individuals often step too wide and are unable to align the tibia (shinbone) over the placed foot and the knee falls inside the foot. In this case, simply shorten the width of the step taken to allow you to align the tibia over the placed foot.', 'Side Lunge', 'No Equipment', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/50-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/154/seated-leg-press/', 'Step 1
 STARTING POSITION: Sit in the machine, positioning your back and sacrum (tailbone) flat against the machine''s backrest. Place your feet on the resistance plate, toes pointing forward and adjust your seat and foot position so that the bend in your knees is at approximately 90 degrees with your heels flat. Lightly grasp any available handles to stabilize your upper extremity.  Contract (“brace”) your abdominal muscles to stabilize your spine, be careful to avoid movement in your low back throughout the exercise.
 Step 2
@@ -1988,18 +1984,18 @@ Exercise Variation: Single-leg press.
 Repeat the same exercise, but use each leg independently  
  
 Improper technique can lead to injury. Control the extension phase by keeping your heels in contact with the plate and avoid locking out your knees. During the return phase, control the movement and avoid compressing your upper thighs against your ribcage.', 'Seated Leg Press Exercise', 'Weight Machines / Selectorized', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/154-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/319/reverse-lunge/', 'Place a barbell in a rack at about shoulder-height. Dip under the bar so that it rests behind the neck across the top of the back and the shoulder blades, and grip the bar with hands a little wider than shoulder-width apart. Stand up to bring the bar off the rack, and take one step backwards. With the feet about hip-width apart, slowly step backwards with the left leg. After the left foot hits the ground push back into the right hip to slowly lower the left knee towards the floor while keeping the chest raised towards the ceiling. Press the right foot into the ground and think about pulling the right knee backwards while swinging the left leg forward to return to standing.', 'Reverse Lunge', 'Barbell', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/319-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/257/plank-with-knee-drag/', 'Step 1
 Starting Position: Lie prone (on your stomach) on an exercise mat or floor with your elbows close to your sides and directly under your shoulders, palms down and hands facing forward. Contract your quadriceps to extend your legs and dorsiflex your ankles (pull toes towards your shins). Contract your core and abdominal muscles to stiffen your torso. Slowly lift your entire torso off the floor or mat, maintaining a stiff torso and legs. Avoid any arching (sagging) in your low back, hiking (upwards) in your hips or bending in the knees. Avoid shrugging your shoulder and keep your shoulders positioned directly over your elbows rotating your forearms so your palms are facing each other.
 Step 2
 Hinge at the hips, drop your right knee to the ground so your knee, shin, and foot are on the ground. Drag your knee forward toward the center of your arms, angling your right shin and foot across your body to the left side.
 Step 3
 Begin extending your back (left) leg, plantar flexing the foot so your toes are pointing away from your body.  Sink your pelvis into the ground. As your right glute moves toward the ground do not shift your weight in to the right hip.  Concentrate on shifting the left hip forward in order to keep the pelvis level.  Only extend to the point where your pelvis remains level and weight centered. Lower your chest to your top (right) leg keeping your arms in starting position extending out of the hip.  Hold this position for 15-30 seconds for a total of 2-4 repetitions on each side.', 'Plank with Knee Drag', 'No Equipment', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/257-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/308/pistol-squat/', 'With the BOSU dome down, stand with the right foot in the middle of the flat side. Straighten the left leg out in front of the body, keeping it long and lifted. With the standing leg, bend the knee and slowly lower the body down into a squat, balancing the body weight on the heel and keeping the back straight while leaning forward. Squeeze the glute of the right leg to stand up.', 'Pistol Squat Workout', 'BOSU Trainer', 'Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/308-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/258/mountain-climbers/', 'Step 1
 Starting Position: Kneel on an exercise mat or floor, positioning your knees and feet hip-width apart, with your feet dorsi-flexed (toes pointing towards your body). Slowly lean forward to place your hands on the floor slightly in front of your shoulders, fingers pointing forwards.  Flex your left hip, bringing your left thigh to your chest, placing your left foot on the floor, heel slighlty lifted and toes pointing forward.  Lift your right knee off the ground, fully extending your right leg behind you, with your foot in dorsi flexion, (toes pointing towards your shins, heel up).  Stiffen your abdominal muscles (“brace”) to stabilize your spine, then depress and retract your scapulae (pull your shoulders down and back)
 Step 2
@@ -2009,7 +2005,7 @@ Step 3
 Exercise Variation: If you have limited range of motion in the hips, place hands on a step or platform.
  
 Keep your weight evenly distributed on both legs. Do not shift all your weight foward into your front foot.', 'Mountain Climbers', 'No Equipment', 'Butt/Hips, Full Body/Integrated, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/258-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/153/lying-hamstrings-curl/', 'Step 1
 Lie on your stomach on the machine, aligning the mid-point of your knee joint with the axis of rotation of the moving lever (arm) of the machine. Position the backs of the lower 1/3 of your lower legs under the resistance pads, avoiding contact with the pads at, or just above the heel.  Lightly grasp any avaiable handles to stabilize your upper extremity.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, and attempt to avoid movement in your low back throughout the exercise.
 Step 2
@@ -2022,9 +2018,9 @@ Step 5
 Exercise Variation: Repeat the same exercise, but train each leg independently.
  
 Improper technique will result in excessive recruitment (use) of the lumber extensors (low back muscles).  Stabilize your low back throughout the exercise and use a lighter resistance if you are unable to control movement in the low back.', 'Lying Hamstrings Curl', 'Weight Machines / Selectorized', 'Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/153-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/363/lunge/', 'Stand with the feet hip-width apart and grip one dumbbell in each hand with the palms facing each other and the arms straight down by the side. Keep the back straight and step forward with the right leg. As the right foot hits the floor, lower the left knee towards the floor. Descend to a comfortable range of motion; push the right foot into the ground to stand up by bringing both feet back together at the starting position.', 'Lunge', 'Dumbbells', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/363-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/231/leg-crossover-stretch/', 'Step 1
 Starting Position: Lie flat on your back on the floor / mat in a bent-knee position, arms outstretched to your sides at shoulder level, with palms facing upwards.  Stiffen (“brace”) your abdominal muscles to stabilize your spine, depress and retract your scapulae (pull shoulders back and down) without moving your trunk and attempt to hold these positions throughout the exercise.  Cross one leg over the other, resting your ankle over the opposite knee.
 Step 2
@@ -2037,7 +2033,7 @@ Step 5
 Exercise Variation: This stretch can become more dynamic by performing slow, controlled movements to complete 1 set of 5 - 10 repetitions with each leg, holding the stretched position for 1 - 2 seconds.
  
 To maximize the benefits of a stretch and reduce the potential for injury, it is often important to stretch only to the point of tension, avoid bouncing and control movement at other segments of the body.  During this stretch, attempt to avoid any rotation or arching in your low back.', 'Leg Crossover Stretch', 'No Equipment', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/231-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/181/lateral-shuffles/', 'Step 1
 Starting Position: Set out cones approximately 5 yards apart, stand at the far left cone in an athletic ready position: feet hip-width apart, knees bent with your weight back in your flexed hips.  Engage the abdominals (bracing) to maintain spinal stability throughout the exercise.
  
@@ -2053,9 +2049,9 @@ At the far cone maintain the athletic ready position while shifting your weight 
 Step 5
 Exercise Variation: Work with a coach or training partner to provide either visual cues: by signaling which direction to move with a hand gesture, e.g. pointing to the left to shuffle to the left; or verbal cues: by stating which direction to shuffle, e.g. stating "right" to shuffle to the right. 
 Maintain a wide base of support, as you shuffle your feet should remain at least hip-width apart to maintain dynamic balance as you move over the ground.', 'Lateral Shuffles', 'Cones', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/181-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/364/lateral-lunge/', 'Stand with the feet hip-width apart holding one dumbbell in each hand with the palms facing each other. Step directly to the right, keeping the right foot parallel to the left as it hits the ground, and push the right hip back while reaching for the right foot with both hands on either side of the right leg. To stand up, push the right foot into the floor while pulling the body back to the center with the inside of the left leg.', 'Lateral Lunge', 'Dumbbells', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/364-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/120/lateral-cone-jumps/', 'Step 1
 Starting Position: Place a series of cones 18-24" apart in a straight line on a non-slip surface. Stand 3-6" to your left of the first cone with your feet hip-width apart or closer, arms by your sides. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal / core muscles) to stiffen your spine.
  
@@ -2081,7 +2077,7 @@ Step 8
 Exercise Variation: As you develop your jumping and landing skills, you can progress the exercise intensity and complexity by: (1) driving your arms behind you during the downward phase, (2) driving your arms forward, upward (towards an overhead position) and slightly sideways in your jumping direction during the jumping phases, (3) driving your knees towards your chest during the jumping phases, (4) increasing the height of each cone or the spacing between each cone, or (5) moving back and forth more rapidly or adding more cones and performing a greater number of jumps in each direction.
  
 Learn first how to squat and perform regular squat jumps before attempting to jump laterally.', 'Lateral Cone Jumps', 'Cones', 'Butt/Hips, Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/120-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/195/kneeling-ta-stretch/', 'Step 1
 Starting Position: Kneeling on both knees, hip-width apart, with your feet in plantar flexion (pointing backwards) and arms by your side, elongate the body reaching the head towards the ceiling.  Stiffen your abdominal muscles (“brace”) to stabilize your spine, then depress and retract your scapulae (pull shoulders down and back) without arching your low back. Hold your chest up and out, and tilt your head slightly up.
  
@@ -2089,7 +2085,7 @@ Step 2
 Shift your weight backwards, bringing your glutes to your heels, while maintaining “bracing.” Keeping your arms close to your sides, allow your arms to move behind you, placing your fingertips lightly on the floor for support.  Hold the stretch for 15-30 seconds for 2-4 repetitions.
  
 Move into position slowly and controlled to avoid dropping all of your weight straight down onto your heels.  Should you have any knee discomfort, come out of the stretch position slowly and do not repeat the stretch.', 'Kneeling TA Stretch', 'No Equipment', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/195-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/142/kneeling-hip-flexor-stretch/', 'Step 1
 Starting Position: From a kneeling position place the left knee on the floor (or stretch mat) directly under the left hip, and place the right foot in front of the right hip so that the right knee is directly over the right ankle and the right hip is in a position of ninety (90) degrees.  Place both hands gently on the right thigh to help maintain a straight, tall spine.
  
@@ -2102,7 +2098,7 @@ Hold the stretch position for 30-45 seconds at a time for a total of 2-5 repetit
 Step 4  
 Exercise Variation: To increase the intensity of the stretch raise the left arm straight in the air and tilt slightly to the right side and you lean forward into the right hip; be sure to alternate sides.
 Keep the abdominals engaged throughout the entire stretch, this will ensure that the pelvis remains level and will provide the greatest results from the stretch.  To reduce any soreness in the knee on the ground, place an Airex pad or a rolled-up stretch mat under the knee.', 'Kneeling Hip-flexor Stretch', 'No Equipment', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/142-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/176/jump-and-reach/', 'Step 1
 Starting Position: Downward Phase: Begin your downward phase by first shifting your hips backwards then slowly moving downwards to create a hinge-like movement at your knees. Continue to lower yourself until your feel your heels about to lift off the floor. Try to maintain a flat back by bending forward at the hips, keep your head facing forward and position to your arms where comfortable or where they offer the greatest degree of balance support.  Extend your shoulders and reach your arms behind you to prepare the arm swing forward and upwards which will help with the upward momentum of the jump.
  
@@ -2114,7 +2110,7 @@ Extend all the way through the body to create a straight line from your toes up 
 Exercise Variation: To increase the level of difficulty do a knee tuck and pull your knees up towards your chest as you are jumping into the air.
  
 Before jumping become familiar with the movement mechanics by doing a few squats where you squat back into your heels and sink into your hips with your arms extended behind you, stand up from the squat while swinging your arms forward and roll up on your toes, then sink back into your heels; repeat for 4-6 repetitions.', 'Jump and Reach', 'No Equipment', 'Butt/Hips, Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/176-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/33/hip-hinge/', 'Step 1
 Starting Position: While standing, position your feet shoulder-width apart, side-by-side, with your toes pointed forward or slightly outward. Take a light bar and place it behind your head grasping the end with one hand above your head and the other end with your opposite hand in the small of your back so that your hand touches your low back. Stand vertical so the bar makes contact with the back of your head, your thoracic spine (between your shoulder blades) and your sacrum (butt).
 Step 2
@@ -2122,13 +2118,13 @@ Downward Phase: Gently exhale and begin the movement by shifting your weight ont
 Step 3
 Upward Phase: Gently inhale and slowly return to your upright, standing position by contracting your glutes and pushing your hips forwards and upward. The bar must remain in contact with the three points throughout this phase.
 Technique is very important in this lift. This exercise teaches the correct technique for performing a squat and is strongly encouraged as a pre-requisite to learning how to squat correctly.', 'Hip Hinge', 'Barbell', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/33-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/318/hip-bridge/', 'Place a barbell on the ground and lie underneath it so that the top of the hips are directly under the bar. Place the feet flat on the ground hip-width apart. Hold on to the bar with the hands palms-down. Press the feet into the floor and lift the hips up towards the ceiling. Slowly lower the tailbone back to the floor and repeat for the desired number of repetitions.', 'Hip Bridge', 'Barbell', 'Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/318-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/362/goblet-squat/', 'Stand with the feet about shoulder-width apart, and hold a dumbbell in a vertical position directly in front of the chest. Keep the elbows close to the rib cage and the back straight while lowering into a squat. Continue lowering until the hips are below the knees, then push both feet into the floor and to return back to the original standing position.', 'Goblet Squat', 'Dumbbells', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/362-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/293/glute-press/', 'Adjust the pad to the proper height. Grasp the handles with elbows in a straight line with the hands and under the shoulders. Set the weight to the appropriate level before beginning. With the knees on the lower pad, place one foot on the rear platform. Press the foot into the platform and straighten the leg. Slowly return to the starting positing. Repeat for the desired number of reps before switching feet.', 'Glute Press', 'Weight Machines / Selectorized', 'Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/293-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/177/forward-linear-jumps/', 'Step 1
 Starting Position: Stand with your feet hi-width apart, depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal / core muscles) to stiffen your spine.
  
@@ -2150,7 +2146,7 @@ Landing phase: Keep your feet parallel next to each other and attempt to land so
 Step 7
 Exercise Variation: Perform multiple jumps in a row, minimize the amount of time on the ground, as soon as you land and absorb the forces in the legs and hips explode off the ground into the next jump.
 Your body will follow your eyes so be sure to look to the spot on the floor where you want to land and keep your legs and hips soft, ready to absorb the impact forces upon landing.', 'Forward Linear Jumps', 'No Equipment', 'Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/177-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/221/forward-hurdle-run/', 'Step 1
 Starting Position: Stand facing a row of hurdles (the hurdles should be spaced so they have an equal distance between each hurdle); start with the left leg forward and right leg back, right arm forward and left arm back (you can alternate this starting position, but be sure to have the opposite arm and leg forward); lean forward, hinging from the hips to prepare for the run.  Explosively push off with the left leg while rapidly lifting the right knee and swinging the left arm forward to generate the forward movement for the drill.
  
@@ -2164,7 +2160,7 @@ Step 4 
 Exercise Variation:  Start with one foot touch between each pair of hurdles and progress to being able to do two foot touches in between each pair of hurdles.
  
 Maintain a tall posture with straight spine by engaging the abdominals (bracing) during the drill.', 'Forward Hurdle Run', 'Hurdles', 'Butt/Hips, Legs - Calves and Shins', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/221-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/118/forward-cone-jumps/', 'Step 1
 Starting Position: Place a series of cones 18-24" apart in a straight line on a non-slip surface. Stand 6" behind the first cone with your feet hip-width apart or closer, arms by your sides. Depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal / core muscles) to stiffen your spine.
  
@@ -2189,9 +2185,9 @@ With ONLY a very brief pause at the bottom of your landing phase, explode forwar
 Step 8
 Exercise Variation: As you develop your jumping and landing skills, you can progress the exercise intensity and complexity by: (1) driving your arms behind you during the downward phase, (2) driving your arms forward and upward (towards an overhead position) during the jumping phases, (3) driving your knees towards your chest during the jumping phases, (4) increasing the height of each cone or the spacing between each cone, or (5) moving back and forth more rapidly or adding more cones and performing a greater number of jumps in each direction.
 Learn first how to squat and perform regular squat jumps before attempting to jump the cones.', 'Forward Cone Jumps', 'Cones', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/118-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/367/elevated-glute-bridge/', 'Lie on a flat bench so that the body is perpendicular to the bench with the upper back and shoulders lying across the pad. Press the feet into the ground about hip-width apart, hold one dumbbell in each hand and rest them on top of the hips to add external resistance. Slowly lower the tailbone towards the floor while holding the weights on the hips, and to return to the top press both feet into the floor and squeeze the glute muscles.', 'Elevated Glute Bridge', 'Bench, Dumbbells', 'Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/367-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/234/cycled-split-squat-jump/', 'Step 1
 Starting Position: Stand in an athletic ready position with your feet hip-width apart, your right leg forward, left leg back, with both arms bent at the elbows and the left arm in front of your body and right arm back behind your body.  Prepare for the jump by leaning forward hinging at the hips, while simultaneously keeping your weight back in your thighs, depressing and retracting your scapulae (pull shoulders down and back) without arching your low back, and "brace" (engage your abdominal / core muscles) to stiffen your spine.
  
@@ -2209,9 +2205,9 @@ Step 5
 Exercise Variation: Be sure to alternate the forward leg, when learning this exercise focus first on landing with control and resetting before another repetition, as you improve your strength and power progress to performing multiple jumps in a row.
  
 It is suggested, you first learn how to squat and land before attempting to jump. Once you have mastered the hip-hinge mechanism, begin with small jumps, but emphasize your landing mechanics. Only progress to more explosive jumps once you have mastered your landing mechanics.', 'Cycled Split-Squat Jump', 'No Equipment', 'Butt/Hips, Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/234-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/366/bulgarian-split-squat/', 'Start with the feet hip-width apart, with the right foot forward and the left foot placed back behind the body on a bench or box that is about knee-height. Hold a dumbbell in both hands in a vertical position in front of the chest and keep the elbows close to the rib cage during the exercise. Keep the back straight while lowering the left knee towards the floor. Before the left knee hits the floor, press the right foot into the ground, pull back on the right knee, and push the top of the left foot into the box to return to standing.', 'Bulgarian Split Squat', 'Bench, Dumbbells', 'Butt/Hips', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/366-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/115/box-jumps/', 'Step 1
 Starting Position: Place a 6-12" raised platform or box on the floor 3-6" in front of your feet on a non-slip surface. Stand with your feet hip-width apart or closer, arms by your sides, depress and retract your scapulae (pull your shoulders down and back) without arching your low back, and "brace" (engage your abdominal / core muscles) to stiffen your spine.
  
@@ -2233,9 +2229,9 @@ Land with your trunk inclined slightly forward, head aligned with your spine and
 Step 7
 Exercise Variation: As you develop your jumping and landing skills, you can progress the exercise intensity and complexity by: (1) driving your arms behind you during the downward phase (illustrated), (2) driving your arms forward or upward (illustrated) during the jumping phase, (3) driving your knees towards your chest (illustrated) during the jumping phase., or (4) increasing the height of the raised platform or box.
 Learn first how to squat and perform regular squat jumps before attempting to perform box jumps. The height of the platform / box should not exceed your vertical jump height.', 'Box Jumps', 'Raised Platform/Box', 'Butt/Hips, Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/115-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/11/back-squat/', 'Place a barbell in a rack just below shoulder-height. Dip under the bar to put it behind the neck across the top of the back, and grip the bar with the hands wider than shoulder-width apart. Lift the chest up and squeeze the shoulder blades together to keep the straight back throughout the entire movement. Stand up to bring the bar off the rack and step backwards, then place the feet so that they are a little wider than shoulder-width apart. Sit back into hips and keep the back straight and the chest up, squatting down so the hips are below the knees. From the bottom of the squat, press feet into the ground and push hips forward to return to the top of the standing position.', 'Back Squat', 'Barbell', 'Butt/Hips, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/11-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/246/alternate-leg-push-off/', 'Step 1
 Starting Position: Stand facing a raised platform or a plyometric jump box, place your right foot on the top of the step or box, keep your left foot on the ground, hinge from the hips to lean forward, keep your arms by your side with your right arm in shoulder extension behind you and your left arm in shoulder flexion in front of you, keep your head level with your eyes looking at a point on the ground two-to-three feet in front of you. 
 Step 2
@@ -2248,7 +2244,7 @@ Step 5
 Exercise Variation: When you are learning this exercise focus on the soft landing and reset your body in the correct position for the next jump and pause for a moment between jumps to ensure good form.  As you improve minimize the rest time so that you are rapidly moving from one jump to the next. 
  
 When jumping keep your spine straight and tall by contacting your abdominals (bracing) and be sure to perform the same number of repetitions on each leg.', 'Alternate Leg Push-off', 'Raised Platform/Box', 'Butt/Hips, Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/246-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/170/agility-ladder-lateral-shuffle/', 'Step 1
 Starting Position: Stand directly in a square at one end of the ladder with your feet approximately hip-width apart.
  
@@ -2265,7 +2261,7 @@ Step 5
 Continue to move down the ladder to your right; keep the bodyweight in the left leg while picking up the right foot to move it to the next square to the right; as the right foot hits the square, push off with the left foot and keep the bodyweight centered on top of the right leg.  Be sure to move both ways through the ladder; once you''ve done a certain number of repetitions to the right, be sure to switch directions and do the same number of repetitions moving to your left (pushing off of the right foot).  
  
 Exercise Variation: As you improve your movement skills, dynamic balance and ability to move rapidly through the ladder, try not to look at your feet and keep your eyes on the horizon (where your opponents will be during an athletic competition).', 'Agility Ladder: Lateral Shuffle', 'Ladder', 'Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/170-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/235/supine-hamstrings-stretch/', 'Step 1
 Starting Position: Lie flat on your back on the floor / mat adjacent to a wall edge (corner) or in a door jam.  Elevate one leg to rest against the wall while the other leg will lie flat on the floor / mat past the wall edge or door jam.  Adjust your position to allow you to rest as much of the back of the elevated leg against the wall without having to lift your hips off the floor and point your toes towards the ceiling.  Extend your arms outwards at shoulder level with palms facing upwards and stiffen (“brace”) your abdominal muscles to stabilize your spine.
 Step 2
@@ -2278,13 +2274,13 @@ Exercise Variation: Progress this by tilting your pelvis (hips) anteriorly (forw
 This stretch with pelvic tilts can be completed more dynamically by completing 1 set of 5 - 10 repetitions with each leg, holding the tilted position for 1 - 2 seconds.
  
 To maximize the benefits of a stretch and reduce the potential for injury, it is often important to stretch only to the point of tension, avoid bouncing and perform the pelvic tilting movement slowly.', 'Supine Hamstrings Stretch', 'No Equipment', 'Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/235-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/211/step-stretch/', 'Step 1
 Starting Position:  Place a step with two risers on each side (or used a raise stable platform) against a wall.  Place your right foot on the step so your whole foot is in contact with the step. Place your left foot on the back of the step so only the ball of the foot is in contact with the step.  The heel is off the step.  Stiffen your abdominal muscles (“brace”) to stabilize your spine, then depress and retract your scapulae (pull shoulders down and back) without arching your low back. Gently place your fingertips on the wall for balance to maintain this position.
  
 Step 2
 Action:  Slowly lower the left (back) heel toward the ground while bending at the right knee. Hold the stretch for 15-30 seconds for 2-4 repetitions on each side.', 'Step Stretch', 'Raised Platform/Box', 'Legs - Calves and Shins', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/211-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/152/standing-dorsi-flexion-calf-stretch/', 'Step 1
 Starting Position: Stand facing a wall, arms length away with your feet hip-width apart and facing forward.  Extend your arms to place your palms on the wall slightly higher than your shoulders.  Stiffen ("brace") your core abdominal muscles to stabilize your spine, then depress and retract your scapulae (pull shoulders down and back) without arching your low back.  Step back with your RIGHT leg into a split-stance position keeping both feet flat on the floor and toes pointing forward. Keep your head in line with your spine.
  
@@ -2296,7 +2292,7 @@ Hold the stretch position for 15-30 seconds at a time for a total of 2-4 repetit
  
 Step 4
 Exercise Variation:  To increase the stretch in the soleus, slightly flex (bend) the back knee while pressing the heel into the floor.', 'Standing Dorsi-Flexion (Calf Stretch)', 'No Equipment', 'Legs - Calves and Shins', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/152-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/73/standing-calf-raises-wall/', 'Step 1
 Starting Position: Stand 6 -12" away from a wall with your feet hip-width apart and facing forward. Extend your arms to place your palms on the wall, level with your chest or shoulders.
 Step 2
@@ -2308,7 +2304,7 @@ Exercise Variation (1): Single-leg Calf Raise: From your starting position, bend
 Step 5
 Exercise Variation (2): Modified Internal and External Foot Position: Turn your feet inward (to 10 and 2 o''clock ) or turn your feet outward (to the same clock positions) and perform your calf raises with both feet or with a single leg. Turning your feet inward places more emphasis on the medial (inner) muscles while turning your feet outward places more emphasis on the lateral (outer) muscles.
 The gastrocnemius (major calf muscle) contains a higher percentage of fast-twitch fibers thus is better suited to more explosive training. Therefore, once you have mastered your technique these raises can be performed more explosively (with greater power and force) so you can gain greater benefits from the exercise.', 'Standing Calf Raises - Wall', 'No Equipment', 'Legs - Calves and Shins', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/73-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/224/standing-ankle-mobilization/', 'Step 1
 Starting Position:  Stand if front of a wall with feet placed a few inches apart and toes pointing toward the wall.  Lean forward, extending your arms and placing your hands on the wall to support your upper body.  Heels stay in contact with the floor.  Stiffen your abdominal muscles (“brace”) to stabilize your spine, then depress and retract your scapulae (pull shoulders down and back) without arching your low back.
 Step 2
@@ -2317,7 +2313,7 @@ Step 3
 While stabilizing the body over your stance (left) leg and continuing to lean forward, swing your right leg across the front of the body in the transverse plane (rotating the hips).  Allow your chest to open to the left with your head staying in alignment moving the direction of the swing (gaze to the left).  Hold for 1-2 seconds. Then, swing the right leg out to the right side, rotating the hips in the transverse plane. Allow your chest to open to the right with your head in alignment.  Hold 1-2 seconds. Throughout the exercise, keep the heel of your stance leg in contact with the ground as your weight shifts.
 Step 4
 Perform 5-10 repetitions on each leg for 1-2 sets.', 'Standing Ankle Mobilization', 'No Equipment', 'Legs - Calves and Shins', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/224-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/213/seated-toe-touches/', 'Step 1
 Starting Position: Assume a seated position with legs extended in front of you and point your toes towards the ceiling without bending your knees.  Sit upright (i.e., trunk vertical) with your head aligned with your spine and place your hands on the top of your thighs.
 Step 2
@@ -2328,7 +2324,7 @@ Step 4
 Exercise Variation: This stretch can become more dynamic by performing slow, controlled movements to complete 1 set of 5 - 10 repetitions, holding the stretched position for 1 - 2 seconds.
  
 To maximize the benefits of a stretch and reduce the potential for injury, it is often important to stretch only to the point of tension, avoid bounding, and control movement at other segments of the body.  During this stretch, avoid any excessive rounding of your low back.', 'Seated Toe Touches', 'No Equipment', 'Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/213-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/214/seated-calf-stretch/', 'Step 1
 Starting Position: Assume a seated position with legs extended in front of you without bending your knees.  Wrap a resistance band / rubber tubing around the sole of your foot, anchoring it securely and hold it in both hands. Sit upright (i.e., trunk vertical) with your head aligned with your spine. Stiffen (“brace”) your abdominal muscles to stabilize your spine.
 Step 2
@@ -2339,7 +2335,7 @@ Step 4
 Exercise Variation: This stretch can become more dynamic by performing slow, controlled movements to complete 1 set of 5 - 10 repetitions, holding the stretched position for 1 - 2 seconds.
  
 By bending the knee slightly, this stretch will now target the Soleus muscle (the other calf muscle)', 'Seated Calf Stretch', 'No Equipment', 'Legs - Calves and Shins', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/214-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/272/lateral-zig-zags/', 'Step 1
 Starting Position: Lay out your cones as illustrated creating a zig-zag line for 10 - 15 yards (9 - 14 m). The cones should be 2 - 4'' (approximately 1 m) apart.
                               X                                      X
@@ -2357,7 +2353,7 @@ Step 5
 Exercise Variation: Progress the drill intensity by jumping higher over the cones, spacing the cones further apart (4 - 6'') or increasing the overal length of the grid. However, one set through the drills should not exceed 10 seconds (if performing at a 9 or 10-out-of-10 effort) or 15-20 yards for lower intensities.
  
 Always learn the proper machanics of landing before jumping. Alignment of the foot, knee and ankle, and the mechanics of landing are critical to minimizing injury associated with jumping activities.', 'Lateral Zig Zags', 'Cones', 'Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/272-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/226/lateral-hurdle-run/', 'Step 1
 Starting Position: Stand to the side of the hurdles so that they are lying to your left, your feet should be hip-width apart with the knees slightly bent.  Bend your hips and drop into an athletic ready position so that your knees are slightly bent and your chest is directly over your toes.  Your arms should be bent with the elbows fixed at approximately ninety degrees (during the drill ensure that the swinging is coming from the shoulder joint and not from the elbows).  Shift your bodyweight so that your weight is in your right leg.  Pick the left foot up so the left hip is at ninety degrees and prepare to place the left foot on the ground beween the first two hurdles while pushing the right foot in to the ground to move your body to your left.  Maintain an abdominal contraction and straight spine during this drill and keep your feet parallel so your toes are pointed straight ahead (in the same direction that you are facing).
  
@@ -2370,11 +2366,11 @@ Explosively push your right foot into the ground and pick up the left foot until
 Step 4 
 Exercise Variation: Once you have run over the hurdles moving to your right, change directions and run over the hurdles moving to your left.  Once you establish the rythym and pace of the movement, keep your head and eyes raised so that you are looking straight ahead where your opponent would be during an athletic competition.
 Make sure to land softly as you step between the hurdles, land on the ball of the foot and roll down to the heel and keep your weight back in your hips and you run through the drill.', 'Lateral Hurdle Run', 'Hurdles', 'Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/226-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/51/calf-raises/', 'Place a barbell in a rack at about shoulder-height. Dip under the bar so that it rests behind the neck across the top of the back and shoulder blades, and grip the bar with the hands just outside the shoulders. Raise the chest and squeeze the shoulder blades together to maintain a straight back throughout the entire movement. Stand up to bring the bar off the rack and step backwards, placing both feet approximately hip-width apart and squarely set on the floor with the toes pointed forward. (Tip: for more development on the outside of calves point feet slightly inwards.) Keep a slight bend in knees, and press the toes into the ground while lifting the heels up. Pause at the top, and slowly roll the heels back down to the floor, then pause again and repeat for the desired number of repetitions.', 'Calf Raises', 'Barbell', 'Legs - Calves and Shins', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/51-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/294/calf-raise/', 'Adjust the weight to the appropriate level before beginning. Adjust the seat and the pad so the legs are straight out in front and slightly below the hips. With the ball of the foot on the platform, press through the toes as far as possible, keeping legs straight. Slowly return to the starting position.', 'Calf Raise', 'Weight Machines / Selectorized', 'Legs - Calves and Shins', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/294-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/23/ankle-flexion/', 'Step 1
 Starting Position: Assume a seated position, extending one leg out in front. Secure a cable or resistance band around the ball of that foot. The resistance should be pulling the bottom of your foot away from you.
  
@@ -2387,15 +2383,15 @@ The movement comes from your ankle, so avoid any bending or full extension of yo
 Step 4
 As an exercise progression, modify your movement to include a slight foot rotation as you dorsiflex the ankle (toes point towards the ceiling). The direction of your slight rotation should be into inversion (bringing the big toe towards your shin bone).
 Attempt to sit upright and avoid any excessive arching or slouching in the low back.', 'Ankle Flexion', 'Resistance Bands/Cables', 'Legs - Calves and Shins', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/23-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/390/waiter-s-carry/', 'Stand with the feet hip-width apart and hold a kettlebell in the right hand in a ‘bottom-up’ position (holding the top of the handle so that the bottom of the kettlebell is facing up to the ceiling.) Squeeze the handle of the kettlebell with a tight grip to maintain balance. Keep the back straight and the right elbow next to the rib cage while walking a specified, pre-determined distance; after covering the distance turn towards the kettlebell to face the opposite direction and return to the starting point.', 'Waiter''s Carry', 'Kettlebells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/390-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/388/turkish-get-up/', 'Lie on the ground on the right side, with the body curled in the fetal position and the kettlebell in the right hand. Roll over to the back facing the ceiling with the left leg out straight about 45 degrees and the right knee bent so that the right foot is flat on the floor. Grip a kettlebell tightly in the right arm and hold it straight overhead with the left arm directly out to the left side. Lift the right shoulder off the ground, and push up with the left hand while curling the chest up. Keeping the eyes on the kettlebell throughout the movement, push the right foot into the floor and straighten the left arm to lift the hips off the floor. Hold the bridge position while bringing the left leg back and placing the left knee on the floor directly under the hips. Remove the left hand from the floor, and move into a kneeling position with the left knee and right foot on the ground. Continue to hold the right arm overhead and press the right foot into the ground, swinging the left leg forward to stand up straight. To return to the ground, step back with the left leg and slowly lower to a kneeling position, place the left hand on the floor and sweep the left leg to the front of the body. Hold the bridge position between left hand and right foot, then slowly lower the hips to the ground before rolling all the way back to the ground.', 'Turkish Get-up', 'Kettlebells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/388-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/346/transverse-lunge-to-single-arm-row/', 'Place a cable pulley in the highest position and attach a single handle. Stand facing the pulley with the feet close together, and grip the handle in the left hand. Step back with the left foot on the ground pointed in the 9 o''clock direction with the right foot facing the machine, pointed in the 12 o''clock direction. When the left foot is on the ground, pull the left arm back (keeping the elbow high) and reach forward with the right hand straight out a little higher than the shoulder. Pull the left hand all the way back until it is directly in front of the left shoulder, and pause before straightening the left arm. Step back with the left foot to return to the original starting position.', 'Transverse Lunge to Single Arm Row', 'Resistance Bands/Cables', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/346-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/307/toe-taps/', 'Standing behind the BOSU, rest one foot on top of the dome, with the toe down. Quickly switch legs to bring the opposite foot on the dome. Switch feet quickly, tapping one foot on top of the dome then the other while moving around the dome in a circle. Keep switching legs and moving around the dome for desired time before switching directions.', 'Toe Taps', 'BOSU Trainer', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/307-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/171/t-drill/', 'Step 1
 Starting Position: Begin in a three-point stance with the hips flexed, knees bent, right foot back, the left foot forward, the right hand should be placed on the ground and the left arm in full shoulder extension (the forward motion of the arm driving forward helps with acceleration). 
 Step 2
@@ -2416,17 +2412,17 @@ Step 9
 At the right cone reach down with the right hand to touch the cone, then drive the right foot into the ground and pick up the left foot in order to laterally shuffle back to the center cone; once at the center cone, drop back into the athletic ready position with the hips flexed and spine straight and tall and push the legs forward to move backwards in a backpedaling motion to return to the original starting position. 
 Exercise Variation: Have a partner or coach stand at the center cone and provide either verbal or visual instructions on which way to shuffle: either point to the left to have the athlete/client shuffle to the left, or provide a verbal cue of left to have the client/athlete move to the left.  
 Focus on staying low with a straight spine and flexed hips, this will ensure the ability to maintain balance and control through the entire drill.  The center cone should be approx. 10 yards from the initial starting cone, each side cone should be 5 yards from the center cone; the total distance of the drill should cover 40 yards; but the distance between the cones can be adjusted to make the drill more (longer distances) or less (shorter distances) challenging.', 'T Drill', 'Cones', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/171-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/391/swing/', 'Stand with the feet shoulder-width apart and the knees slightly bent, and hold a kettlebell with both hands with the palms facing down. Squeeze the handle in both hands, keep the back straight and sink back into the hips to pull the kettlebell back between the legs under the hips. Lift the chest, quickly push the hips forward, and pull the knees back to swing the kettlebell up in front of the body (Tip: the strength to move the weight should come from the legs and hips, NOT the shoulders.) Allow the kettlebell to come up to chest height before pulling it back down between the legs and slightly sinking back into the hips to prepare for the next repetition.', 'Swing', 'Kettlebells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/391-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/389/suitcase-carry/', 'Hold one kettlebell in each hand with a firm palms-down grip, and allow the arms to rest along the sides of the body so the kettlebells are next to each hip. Keep the back straight and walk a specified, pre-determined distance; after covering the distance turn around and return to the starting point.', 'Suitcase Carry', 'Kettlebells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/389-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/349/standing-rotational-chop/', 'Place a cable pulley at shoulder-height and attach a single handle. Stand with feet wider than shoulder-width apart so the pulley is to the right of the body, then reach across the body and grip the handle with both hands so the finger are laced together. Start with body weight centered on the right leg, then shift to the left leg by pushing off the ground with the right foot. At the same time keep the arms out straight while sweeping the handle from above the right shoulder to down by the left hip. Keep the back straight during the twist and move the chest and stomach together. At the bottom of the movement, body weight should be centered on the left hip and the hands in front of the left leg. To return to the starting position, push off the left foot into the floor and slowly sweep both hands back across the body to the starting position above the right shoulder.', 'Standing Rotational Chop', 'Resistance Bands/Cables', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/349-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/344/squat-to-row/', 'Stand with the feet hip-width apart, the hips straight, the back tall, and the knees slightly bent. Place the pulley at about waist-height, attach an attachment with two grips, hold a grip in each hand so that the thumbs are pointed up to the ceiling and the palms are facing each other. Lift the chest, hold the arms straight in front of the body, and push the hips back to begin lowering into a squat. At the bottom of the squat keep the arms straight and the back straight while pushing the feet into the ground to stand up. While standing up from the squat, pull the rope towards the body keeping the arms parallel to the floor and the elbows close to the sides; the hands should reach the front of the stomach. Pause and slowly straighten the arms, and drop down into the next squat (pull the arms towards the body while standing, and allow the arms to slowly straighten while lowering into the squat).', 'Squat to Row', 'Resistance Bands/Cables', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/344-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/357/squat-to-overhead-press/', 'Grip one dumbbell in each hand with the palm facing each other and hold them in front of each shoulder with the elbows close to the body. Push back into the hips and keep the back straight to lower into a squat holding the weights on the front of the shoulders. When the hips are below the knees in the squat, push both legs into the ground to stand up and at the same time press the dumbbells overhead by straightening the arms. Slowly return the weights to the shoulders.', 'Squat to Overhead Press', 'Dumbbells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/357-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/250/sprinter-pulls/', 'Step 1
 Assume a ½ kneeling position with your right leg forward, left leg back, and your torso, right tibia (shinbone) and left upper thigh approximately vertical to the floor.  Move your left arm into the forward position with fingers level with your chin, and your right arm into the back position.  Squeeze both arms to your sides with approximately a 90-degree bend in each elbow, fingers extended and wrists in the neutral position (wrists aligned with your forearms).  Stiffen (“brace”) your abdominal muscles to stabilize your spine, depress and retract your scapulae (pull shoulders back and down) and attempt to hold these positions throughout the exercise.  Align your head with your thoracic (upper) spine.
 Step 2
@@ -2439,37 +2435,37 @@ Step 3
 Continue driving forward until your right leg (stance or support) leg moves into triple extension (extending your hip, straightening your knee and exploding onto your toes).  In this position, your body should be aligned vertical or in a slight forward-lean position with your head facing forward, aligned with your spine.  Attempt to hold this end position briefly, before returning slowly to your starting position.  Perform 5 – 10 repetitions and repeat with the opposite leg.
 Step 4
 Exercise Variation: This dynamic movement can be progressed by holding the triple extension phase for up to 5 seconds or holding a resistance cable or band in the forward hand to pull backwards.  Perform the movement using a slow, controlled tempo (pace), to master your technique then build towards a more explosive movement.', 'Sprinter Pulls', 'No Equipment', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/250-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/247/spider-walks/', 'Start in a push-up position with the hands shoulder-width apart and the legs straight out directly behind the body about hip-width apart. Push the toes of the left foot into the floor and squeeze the left thigh and glute while moving the right knee forward to the outside of the right elbow. While the right leg is forward, push back through the left heel to straighten the left leg. Then straighten the right leg and bring the left knee forward to the outside of the left elbow while reaching forward with the right hand. Alternate this arm and leg action for the desired distance.', 'Spider Walks', 'No Equipment', 'Arms, Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/247-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/314/snatch/', 'Place a barbell on the floor, and grip it with the hands wider than shoulder-width using a hook grip (thumbs wrapped around the bar and fingers wrapped around the thumb.) Keep the feet slightly wider than hip-width and bend at the hips to sink into a squat. Keep the back straight and the chest tall while explosively driving the legs into the floor and pulling up on the bar for the first pull. As the bar reaches knee-height extend the hips open explosively to keep the bar moving upwards close to the front of the body. As the bar passes the chest pull the body under the bar by sliding the feet out to shoulder-width apart and dropping the hips into a squat. Punch the arms straight overhead to catch the weight in an overhead squat position. From a deep squat keep the barbell directly overhead and press the feet into the floor to stand up. Once reaching the standing position, pause before lowering the weight to the floor. Repeat for the desired number of repetitions.', 'Snatch', 'Barbell', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/314-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/325/single-arm-single-leg-plank/', '', 'Single Arm, Single Leg Plank', 'No Equipment', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/no_photo.gif');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/392/single-arm-swing/', 'Stand with the feet shoulder-width apart and the knees slightly bent, and hold a kettlebell with the right hand in a palms-down grip, and squeeze the handle to maintain a firm grip. Keep the back straight and sink back slightly into the hips to pull the kettlebell back between the legs under the hips. Quickly push the hips forward and pull the knees back to swing the kettlebell up in front of the body (Tip: the strength to move the weight should come from the legs and hips, NOT the shoulders.) Allow the kettlebell to come up to chest height before pulling it back down between the legs to prepare for the next repetition. Allow the left arm to swing back while sinking into the hips, and then swing it forward by snapping the hips forward.', 'Single Arm Swing', 'Kettlebells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/392-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/374/simultaneous-waves/', 'Securely attach a heavy rope to an anchor point, grab one end of the rope in each hand with the palms down. Stand with the feet about shoulder-width apart with both the hips and knees slightly bent, and hold both lines of rope directly in front. Hold one end of the rope in each hand and keep the elbows close to the body, then lift both ends of the rope at the same time before explosively snapping them back to the ground. Continue moving the rope with both hands at the same time for the duration of the exercise.', 'Simultaneous Waves', 'Heavy Ropes', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/374-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/375/simultaneous-wave-with-reverse-lunges/', 'Securely attach a heavy rope to an anchor point, grab one end of the rope in each hand with the palms down. Stand with the feet about shoulder-width apart with both the hips and knees slightly bent, and hold both lines of rope directly in front. Keep the elbows close to the body while lifting both ends of the rope at the same time before explosively snapping them back to the ground. While snapping both ends of the rope to the ground, step backwards with the right foot to sink into a lunge with the knee almost to the ground. Press the left foot into the ground and swing the right leg forward to return to standing. Continue stepping back in the rear lunge - alternating legs - while moving the rope with both hands for the duration of the exercise.', 'Simultaneous Wave with Reverse Lunges', 'Heavy Ropes', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/375-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/343/side-plank-row/', 'Place a cable pulley in the lowest position, lie on the floor on the right side of the body facing the machine, and hold a handle in the left hand. Place the right elbow directly under the right shoulder, press the legs together, squeeze the stomach muscles, squeeze the glutes, and press the left hip up into the air. Hold the body in a straight line while pulling the left elbow towards the ribs. Pause for a second before straightening the arm back to return the weight to the starting position.', 'Side Plank Row', 'Resistance Bands/Cables', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/343-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/287/rotational-slam/', 'Begin with the medicine ball overhead with the arms straight up over the head. Perform a squat and twist to one side at the same time, quickly slamming the ball to the ground to that side of the body. Catch the ball when it rebounds and bring the ball up and overhead, slamming it down on the other side of the body. Repeat quickly, alternating sides.', 'Rotational Slam', 'Medicine Ball', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/287-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/355/renegade-row/', 'Hold one dumbbell in each hand, place the dumbbells on the floor with one hand directly under each shoulder and the legs straight out behind about shoulder-width apart. Start with the elbows bent and the chest down at the dumbbells. Keep the body straight and flat while pushing the arms into the dumbbells to straighten them into the top of the push up position.  At the top of the push-up, press the feet into the ground and pull the right hand up to bring weight the chest. Keep the elbow close to the rib cage. Slowly lower the weight to the floor before pulling the left hand up toward the side of the trunk. After doing a row with each arm, slowly lower the body to the floor for the next push up.', 'Renegade Row', 'Dumbbells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/355-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/385/push-jerk/', 'Stand with the feet about shoulder-width apart and grip one kettlebell in each hand while they are on the ground inside the feet. Pick up both at the same time. Hold one kettlebell in each arm on the chest near the shoulder, with the elbows close to the rib cage and the wrists bent to keep the kettlebell held firmly to the forearm. Keep the back straight and bend the knees slightly to dip at the hips before explosively pushing both feet into the floor and jumping up to bring the right foot forward and the left foot back, landing in a split-leg lunge position while punching both arms straight into the air. As the arms straighten fully, press the right foot into the floor to step back and bring the left leg forward to finish standing with the feet under the hips. Slowly lower both weights by pulling the elbows down to the rib cage to bring the kettlebells back to the original racked position on the chest and shoulders.', 'Push-jerk', 'Kettlebells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/385-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/24/push-press/', 'Place a barbell in a squat rack so that the bar is slightly lower than shoulder height, and grip the bar with the hands about shoulder-width apart. Dip under the bar to lift it up and rest it on the front of shoulders, then step back away from the rack. Place the feet hip-width apart, and bend at the knees while keeping the back straight. Quickly press the feet into the floor and snap the hips forward while pushing the weight directly overhead with the elbows facing away from the body. Slowly lower the barbell to the shoulders and repeat. The power for moving the weight should come from the hips and transfer through the shoulders and arms.', 'Push Press', 'Barbell', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/24-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/313/push-jerk/', 'Place a barbell in a rack at approximately shoulder-height. Grip the bar with the hands about shoulder-width apart and dip under the bar to bring it off the rack. Step backwards with the bar resting across the front of the shoulders. The palms should be facing the ceiling and the elbows pointed straight ahead. Quickly bend the knees while keeping the back straight and the chest tall. Explosively drive the feet into the ground to send the bar directly upwards overhead. While driving the bar upwards, make a little jump and push body under the bar as it is moving upwards landing with the right foot forward and left leg behind (feet should remain approximately hip-width apart). The bar should finish its upward movement while the right leg is in a lunged position. Press the right foot into the floor and step back a half step, then step the left foot forward until both feet are in the same line, shoulder width apart, while holding the barbell overhead. Lower the bar to the shoulders and repeat.', 'Push Jerk', 'Barbell', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/313-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/342/pull-to-press/', 'Place a cable pulley at about waist height and attach a rope handle. Grip one end of the rope in each hand so that the thumbs are close to the end of the rope. Face the cable pulley with the right foot forward and the left foot back, keeping the feet hip-width apart. Sink back onto the right hip and keep the back straight and tall while pulling the hands back to the chest. Push the ball of the right foot into the ground while turning to the left (away from the machine) so that the left foot is forward. With the back to the machine, push the hands away from the body until the arms are straight. Pause at the end of the movement before slowly bringing hands back to the chest and turning back to face the machine to return the weight to its original starting position.', 'Pull to Press', 'Resistance Bands/Cables', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/342-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/298/prone-runner/', 'Lying face down on top of a stability ball, walk the arms out slowly until the lower legs are resting on top of the ball. Bring one knee off the ball and bend it under the chest. Keep the neck straight and spine in a neutral position. With the leg that is on the ball, pull the knee in towards the chest, bending the knee while kicking the opposite leg straight out over the ball. Continue alternating these leg positions for the desired number of repetitions before switching legs.', 'Prone Runner', 'Stability Ball', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/298-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/125/power-clean/', 'Place a barbell on the floor (if not using standard 45# plates use plates of the same size or place on a lift to bring the bar up higher.) Stand with the feet about hip-width apart and with a straight back and a tall chest, then bend forward at the hips. Place the hands about shoulder-width apart and grip the bar tightly. For the first pull: explosively push the feet into the ground while pulling the bar straight up, close to the body. For the second pull: as the bar moves past the knees, explosively push the hips forward and up while continuing to pull the bar straight up the front of the body. For the catch: as the bar passes the belly button, pull the body forcefully down under the bar and snap the elbows forward. Slide the feet out to the squat stance and drop the hips below the knees so that the bar lands on the front of the shoulders (with the palms facing the ceiling and the elbows pointed straight ahead.) Stand all the way up. Lower the bar back to the starting position under control.', 'Power Clean', 'Barbell', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/125-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/172/multidirectional-ladder-drill/', 'Step 1
 Starting Position: Stand to the left of the ladder with the feet approximately hip width apart.
 Step 2
@@ -2485,31 +2481,31 @@ Close-up: when both feet are next to each other in the square, pick up the right
 Step 7
 Exercise Variation: When learning the drill, you can plant just one foot on the outside of the ladder, as you improve your skill and speed, you can bring both feet outside the ladder-plant the right foot, then bring the left foot outside the ladder to hit the ground next to the right before being moved to the next forward square.  Another variation is to keep your eyes off of your feet and looking straight ahead where your opponent would be during an athletic competition. 
 Keep your hips flexed with a tall, straight spine to ensure the athletic position throughout the entire range-of-motion of the drill.', 'Multidirectional Ladder Drill', 'Ladder', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/172-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/345/lunge-to-single-arm-row/', 'Place a cable pulley in the highest position, and attach a single handle. Stand facing the pulley balancing on the left foot with the right knee lifted as high as the hip and the right knee bent about 90 degrees. Grip the handle in the right hand so that the right palm is facing the center of the body. Lift the left arm out straight and a little above the shoulder. Lower the right leg back behind the body into a static lunge with the right knee close to the floor. Keep the right arm straight out in front of the body holding the handle. At the bottom of the movement, push the left foot into the floor and pull back with the right hand. Swing the right leg forward off the ground to balance on the left leg. Opon standing up, row the right hand back to the chest. Pause for one second before slowly straightening the right arm and lowering back into a lunge position with the right leg behind.', 'Lunge to Single Arm Row', 'Resistance Bands/Cables', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/345-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/387/low-windmill/', 'Stand with the feet wider than shoulder-width apart, and hold a kettlebell in the right hand so that it is hanging down along the front of the right thigh. Point the left arm straight overhead and sink back into the hips to lower the kettlebell in the right hand along the inside of the right leg right while looking up at the left arm. To stand up, push the right leg into the floor and push the hips forward while raising the back up straight and tall.', 'Low Windmill', 'Kettlebells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/387-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/377/lateral-waves/', 'Securely attach a heavy rope to an anchor point, grab one end of the rope in each hand with the palms down. Stand with the feet about shoulder-width apart with both the hips and knees slightly bent, and hold both lines of rope directly in front. Hold one end of the rope in each hand and keep the elbows close to the body. Move both ends of the rope side-to-side so that both lines are creating waves while on the ground, and keep the hips bent allowing them to move along with the upper body while sweeping the rope back and forth along the ground. Keep the rope gripped firmly with both hands at the same time for the duration of the exercise.', 'Lateral Waves', 'Heavy Ropes', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/377-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/347/lateral-lunge-wood-chop/', 'Place a cable pulley at shoulder-height, and attach a single handle. Stand with the pulley to the right of the body, then reach across the body and grip the handle with the left hand first before placing the right hand on top, lacing the fingers together. Start with the body centered on the right leg, then push off the right foot while stepping directly to the left into a sideways lunge. As the left foot hits the ground, keep both arms out straight in front of the body and twist the body so that the handle moves from above the right shoulder to the front of the left leg as the body sinks back into the left hip. At the bottom of the movement, push off the left foot and slowly rotate the arms across thebody to return hands to the starting position above the right shoulder.', 'Lateral Lunge Wood Chop', 'Resistance Bands/Cables', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/347-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/328/lateral-crawls/', 'Start in a push-up position with the hands shoulder-width apart and the legs straight out directly behind the body about hip-width apart. Squeeze the thighs and glutes and move the right hand and the right foot directly to the right. Once that hand and foot are on the ground, bring the left hand and foot towards the middle of the body. As soon as the left hand and foot are placed on the ground, start the next phase of movement with the right hand and foot. Alternate this arm and leg action for the desired distance.', 'Lateral Crawls', 'No Equipment', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/328-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/340/kneeling-wood-chop/', 'Place a cable pulley at the highest position, attach a rope handle, grip both ends of the rope so that the thumbs are pointed up to the ceiling, and lower body into a kneeling position. Kneel so that the left knee is on the floor and the right foot on the ground keeping the pulley on the right side of the body. Keep the back straight while pulling the rope down to the chest then pushing it down in front of the left hip and turning the hands away from each other (do not allow the upper body to move while bringing the resistance across the body.) At the bottom of the movement pause for one second before slowly reversing the motion to return the weight to its original starting position.', 'Kneeling Wood Chop', 'Resistance Bands/Cables', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/340-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/341/kneeling-hay-baler/', 'Place a cable pulley at the lowest position, attach a rope handle, grip both ends of the rope so that the thumbs are pointed up to the ceiling, kneel down and place the left foot forward with right knee behind the body keeping the right side of body next to the machine. Keep the back straight while pulling the rope up to the chest then pressing it up in front of the left shoulder. Keep the hands close together (do not allow the upper body to move while bringing the rope across the body.) At the top of the movement pause for one second before slowly reversing the motion to return the weight to its original starting position.', 'Kneeling Hay Baler', 'Resistance Bands/Cables', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/341-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/289/high-low-partner-see-saw/', 'With a partner, stand facing one another each with one handle or end of a resistance band. With both partners keeping the arms straight, one parter will lower into a squatting position and bring the arms between the legs while the other partner stands with arms extended over head. Keeping the band taut at all times, partners will simultaneously switch positions so that one is always pulling up on the band and one is always pushing down on the band.', 'High-low Partner See-saw', 'Resistance Bands/Cables', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/289-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/386/high-windmill/', 'Stand with the feet wider than shoulder-width apart, and hold a kettlebell in the left hand pressing the kettlebell straight overhead. Keeping the left arm straight during the movement. Hold the right arm by the body and keep the back straight while sinking back into the left hip. Turn to look up at the left hand while allowing the right arm to drop along the inside of the right leg. To stand up, push the right leg into the floor and push the hips forward while raising the back up straight and tall.', 'High Windmill', 'Kettlebells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/386-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/312/hang-clean/', 'Stand with the feet hip-width apart while tightly holding a barbell at the waist with the hands approximately shoulder-width apart. Bend slightly at the hips while keeping the back straight, and lower the bar to slightly above the knees. Explosively elevate the shoulders and drive the hips forward, and pull the bar upward. As the bar passes the belly button, pull the body forcefully down under the bar and snap the elbows forward. Slide the feet out to slightly wider than shoulder-width apart and drop the hips below the knees to catch the bar on the front of the shoulders (so the palms are facing the ceiling with the elbows pointed straight ahead.) Stand all the way up. Lower the bar back to the starting position under control.', 'Hang Clean', 'Barbell', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/312-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/381/half-turkish-get-up/', 'Lie on the ground on the right side, with the body curled in the fetal position and the kettlebell in the right hand. Roll over to the back facing the ceiling with the left leg out straight about 45 degrees and the right knee bent so that the right foot is flat on the floor. Grip a kettlebell tightly in the right hand and hold it straight overhead while keeping the left arm directly out to the left side. Keeping the eyes on the kettlebell throughout the movement, lift the right shoulder off the ground by pushing up on the left elbow and onto the left hand. Push the right foot into the floor lift the hips off the floor. Hold the bridge position for 2-3 seconds before lowering the hips down to the floor and rolling the back down to finish on flat on the floor.', 'Half Turkish Get-up', 'Kettlebells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/381-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/315/front-squat-to-overhead-press/', 'Place a barbell in a rack at approximately shoulder-height. Grip the bar with hands approximately shoulder-width apart and dip under the bar to bring it off the rack and step backwards and let it rest across the front of the shoulders so that the palms are facing the ceiling and the elbows are pointed straight ahead. Keep the back straight while squatting down, holding the weight on the front of the shoulders. When returning to the standing position press the feet into the ground and quickly extend both arms to press the barbell overhead. Return the weight to the shoulders with control and repeat.', 'Front Squat to Overhead Press', 'Barbell', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/315-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/175/forward-linear-ladder-drill/', 'Step 1
 Starting Position: Stand with your feet hip-width apart at the end of the ladder so it is directly in front of you.
  
@@ -2528,27 +2524,27 @@ Bring the left foot down and place it in the next square forward and explode int
 Step 6
 Exercise Variation:   Instead of placing one foot in each square, increase the leg action to place two feet in each square; maintain rapid arm action swinging the arms forward from the shoulder joint. 
 Focus on explosive actions with your legs and pick the knees up rapidly--the faster you pick your knees up, the faster and more explosive you can move your leg into triple extension to drive your momentum forward.', 'Forward Linear Ladder Drill', 'Ladder', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/175-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/382/figure-eight/', 'Stand with both feet on the floor wider than shoulder-width apart, grip a kettlebell with the left hand, and bend the knees to squat down until the thighs are parallel to the ground. Reach the right arm behind the right leg and pass the kettlebell under the right leg, passing it from the left hand to the right. Swing the kettlebell around the outside of the right leg with the right arm and in towards the inside of the left leg while reaching the left arm around the outside of the left leg. Complete the figure-8 by passing the kettlebell from the left hand to the right under the left leg. Continue passing the kettlebell from one hand to the other for a desired number of repetitions.', 'Figure Eight', 'Kettlebells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/382-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/359/farmer-s-carry/', 'Hold a dumbbell in each hand with a tight, firm grip and the palms facing down, and allow the arms to rest along the sides of the body so the dumbbells are next to each hip. Keep the back straight and walk a specified, pre-determined distance. Once reaching the end, turn around and return to the starting point.', 'Farmer''s Carry', 'Dumbbells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/359-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/378/double-rotation-waves/', 'Securely attach a heavy rope to an anchor point, grab one end of the rope in each hand with the palms down. Stand with the feet about shoulder-width apart with both the hips and knees slightly bent, and hold both lines of rope directly in front. Keep the elbows close to the body and begin to lift both ends of the rope outwardly (the right will move counter-clockwise and the left will move clockwise) at the same time to create circular waves along the entire length of the rope. Continue moving the rope with both hands at the same time in opposite directions for the duration of the exercise.', 'Double Rotation Waves', 'Heavy Ropes', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/378-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/384/double-push-press/', 'Stand with the feet about shoulder-width apart and grip one kettbell in each hand while they are on the ground inside the feet. Pick up both at the same time. Hold one kettlebell in each arm on the chest near the shoulder, with the elbows close to the rib cage and the wrists bent to keep the kettlebell held firmly to the forearm. Keep the back tall and bend the knees to dip slightly at the hips before explosively pushing both feet into the floor and snapping the hips forward to punch both arms straight into the air. As the arms reach full extension, stand straight up. Slowly lower both weights by pulling the elbows down to the rib cage to bring the kettlebells back to the original racked position on the chest and shoulders.', 'Double Push-press', 'Kettlebells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/384-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/6/deadlift/', 'Stand behind the barbell with the feet about shoulder-width apart, the toes slightly rotated out, and the shins almost touching the bar. Sit back into the hips slightly while keeping a straight back so that the chest is lifted upward, and bend forward to grip the bar in an over-under grip with one palm facing up and the other facing down. Squeeze the bar in the hands and sink back onto the hips while pressing the feet into the floor. Keeping the back flat, push the hips forward to move to standing position. Finish standing in a tall position with the shoulders pulled back and the legs straight. Return to the starting position by shifting the weight back into the hips and keep the back straight while allowing the knees to bend. When this movement is done properly, the glutes and the back of the thighs should feel the work, NOT the back.', 'Deadlift', 'Barbell', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/6-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/383/clean-and-press/', 'Stand with the feet hip-width apart and grip the kettlebell tightly in the left hand. Keep the back straight while sinking slightly into the hips to allow the kettlebell to swing back under the hips between the legs. Drive the hips forward to swing the kettlebell forward, and as the kettlebell gains forward momentum in front of the body, quickly pull it up to the chest and immediately drop the elbow towards the rib cage and sink back into the hips to catch the kettlebell up by the left shoulder. From this racked position, sink back into the hips, explosively push the feet into the floor, and snap the hips forward while punching the left arm straight into the air to complete the press. Lower the kettlebell by pulling the left elbow down towards the rib cage, sinking back into the hips, and after the kettlebell has lowered to shoulder-height, letting it drop down between the legs. Repeat for the desired number of repetitions before switching sides.', 'Clean and Press', 'Kettlebells', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/383-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/306/burpee/', 'Begin in a plank position with the BOSU directly under the shoulders and the legs out behind the body, dome facing down. Jump the feet forward near the dome into a deep squat, and keep hold of the BOSU while lifting it straight over the head extending the arms. Bring the BOSU back to the floor and jump the legs out behind the body again.', 'Burpee', 'BOSU Trainer', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/306-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/150/bear-crawl/', 'Start in a push-up position with the hands shoulder-width apart and the legs straight out directly behind the body about hip-width apart, keeping the knees bent. Push the toes of the left foot into the floor while squeezing the right thigh and glute. Move the left hand and the right leg forward to start crawling. Alternate the arm and leg movements while keeping the back straight and the hips and shoulders at the same height. Crawl for a desired distance.', 'Bear Crawl Exercise', 'No Equipment', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/150-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/376/asynchronous-waves/', 'Securely attach a heavy rope to an anchor point, grab one end of the rope in each hand with the palms down. Stand with the feet about shoulder-width apart with both the hips and knees slightly bent, and hold both lines of rope directly in front. Hold one end of the rope in each hand and keep the elbows close to the body. Lift the right arm up quickly before snapping it down to create a wave down the rope. As the right arm comes down quickly, lift the left arm at the same time to start moving the left side of the rope. Alternate arms to explosively snap the rope up and down for the duration of the exercise.', 'Asynchronous Waves', 'Heavy Ropes', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/376-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/348/anti-rotation-reverse-lunge/', 'Stand with the feet hip-width apart and keep the hips straight with the knees slightly bent. Put the cable pulley at about chest-height, and stand with it directly to the left of the body. Grip a handle in both hands with fingers laced together, straighten the arms out in front, keep back straight and tall, while simultaneously stepping backwards into a lunge with the left foot so the left knee is close to the ground. Push off the right foot and bring the left leg forward to return to standing.', 'Anti-rotation Reverse Lunge', 'Resistance Bands/Cables', 'Full Body/Integrated', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/348-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/232/supine-it-band-stretch/', 'Step 1
 Starting Position: Lie flat on your back on the floor / mat with both legs extended, arms outstretched to your sides at shoulder level, with palms facing upwards. Stiffen (“brace”) your abdominal muscles to stabilize your spine, depress and retract your scapulae (pull shoulders back and down) without moving your trunk and attempt to hold these positions throughout the exercise.  Place the heel of one foot on top of the toes of the other foot, aligning both feet vertically.
  
@@ -2562,7 +2558,7 @@ Step 4
 Exercise Variation: This stretch can become more dynamic by performing slow, controlled movements to complete 1 set of 5 - 10 repetitions with each leg, holding the stretched position for 1 - 2 seconds.
  
 To maximize the benefits of a stretch and reduce the potential for injury, it is often important to stretch only to the point of tension, avoid bouncing and control movement at other segments of the body.  During this stretch, attempt to avoid any rotation or arching in your low back', 'Supine IT Band Stretch', 'No Equipment', 'Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/232-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/149/side-lying-quadriceps-stretch/', 'Step 1
 Starting Position: Lie on your right side on a mat/floor with your legs extended straight away from your body. Bend your left knee and pull your left heel up towards your left glute muscle (buttock), use your left hand to grab a hold of the top of your left foo.  Your right (lower) arm should be bent and positioned under your head for support. Your hips and shoulder should be aligned vertically to the floor. Your head should be aligned with your spine.
 Step 2
@@ -2571,9 +2567,9 @@ Step 3
 Exercise Variation: To increase the intensity of the stretch point your left knee behind your body while continuing to hold on to your left foot.  Another option is to hold the stretch for 10-15 seconds, push your left foot into your hand (like trying to straighten your leg), hold for 5-7 seconds, then relax and pull your heel closer to your tailbone, repeat for 3-5 repetitions and alternate sides.
  
 Be sure to keep the spine in a straight line and maintain the abdominal bracing to keep the pelvis stable.', 'Side Lying Quadriceps Stretch', 'No Equipment', 'Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/149-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/183/seated-leg-extension/', '', 'Seated Leg Extension', 'Weight Machines / Selectorized', 'Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/183-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/216/seated-butterfly-stretch/', 'Step 1
 Starting Position: Assume a seated position with your legs folded in front of you.  Sit upright (i.e., trunk vertical) with your head aligned with your spine and place your hands on the top of your feet.  
 Step 2
@@ -2585,7 +2581,7 @@ Step 4
 Exercise Variation: This stretch can become more dynamic by performing slow, controlled movements to complete 1 set of 5 - 10 repetitions, holding the stretched position for 1 - 2 seconds.
  
 To maximize the benefits of a stretch and reduce the potential for injury, it is often important to stretch only to the point of tension, avoid bounding, and control movement at other segments of the body.', 'Seated Butterfly Stretch', 'No Equipment', 'Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/216-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/131/prone-lying-hamstrings-curl/', 'Step 1
 Starting Position: Lie prone (on your stomach) on a mat and attach a cuff (cable or band resistance) to one ankle with the anchor or resistance point away from your body. Lie with feet hip-width apart. Gently contract your abdominal / core muscles ("bracing") to stiffen your torso and stabilize your spine. Keep your ankle lightly dorsi-flexed (toes pointed towards your shinbone) throughout the exercise.  
 
@@ -2603,7 +2599,7 @@ Exercise Variation: The intensity of this exercise can be increased by (1) incre
 
 
 There is often a tendency to hike the hips upwards or extend the low back (increasing the low back arch) during this exercise. By engaging (lightly contracting) your abdominal muscles, this will help prevent hip hiking and low back hyper-extension.', 'Prone (Lying) Hamstrings Curl', 'Resistance Bands/Cables', 'Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/131-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/273/modified-hurdler-s-stretch/', 'Step 1
 Starting Position: Assume a seated position with legs extended in front of you and point your toes towards the ceiling without bending your knees.  Gently fold your left leg by bending the knee and tucking the sole of that foot gently against the inside of your right thigh.  Sit upright (i.e., trunk vertical) with your head aligned with your spine and place your hands on the top of your thighs.
  
@@ -2617,7 +2613,7 @@ Step 4
 Exercise Variation: This stretch can become more dynamic by performing slow, controlled movements to complete 1 set of 5 - 10 repetitions, holding the stretched position for 1 - 2 seconds.
  
 To maximize the benefits of a stretch and reduce the potential for injury, it is often important to stretch only to the point of tension, avoid bounding, and control movement at other segments of the body.  During this stretch, avoid any excessive rounding of your low back.', 'Modified Hurdler''s Stretch', 'No Equipment', 'Legs - Thighs', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/273-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/31/wrist-supination-and-pronation/', 'Step 1
 Starting Position: Holding two dumbbells, kneel and rest your elbows on a bench with approximately a 90 degree bend at the elbows and the dumbbells hanging freely off the edge of the pad. Position your forearms into neutral with the dumbbells vertical to the floor (rotate forearms to face palms inward) keeping your wrists in a neutral position (not in flexion or extension).
  
@@ -2627,7 +2623,7 @@ Downward Phase: Inhale and slowly pronate your forearms (rotate the dumbbells to
 Step 3
 Upward Phase: Exhale and slowly supinate your forearms (rotate the dumbbells towards the ceiling) while maintaining a neutral wrist (not in flexion nor extension). Avoid releasing your grip, extending your arms, leaning forward / backward or any rapid, jerking movements. Hold this end position briefly and repeat the entire sequence.
 Exercise technique is important to avoid potential injury, control the movement of your dumbbells by slowing down the movement speed at the end ranges of motion in each direction. For additional strength gains, think about squeezing the handle of the dumbbell as hard as possible during both phases of the movement.', 'Wrist Supination & Pronation Exercises', 'Bench, Dumbbells', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/31-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/30/wrist-curl-flexion/', 'Step 1
 Starting Position: Holding two dumbbells, kneel and rest your elbows on a bench with approximately a 90 degree bend at the elbows and the dumbbells hanging freely off the edge of the pad. Supinate your forearms (rotate the forearms so that the tops are along the bench and the palms are facing upward) keep your wrists in a neutral position (not in flexion or extension).
 Step 2
@@ -2635,7 +2631,7 @@ Downward Phase: Inhale and slowly allow the wrists to move into extension (allow
 Step 3
 Upward Phase: Exhale and slowly contract your forearm flexor muscles (along the top of the forearm) rolling your wrists towards you in order to return the dumbbells back to the starting position.
 Individuals sometimes release their grip during the lowering phase, allowing the dumbbells to roll towards their finger tips. While this may increase the load on the forearm muscles, it also increases the risk of wrist injury and dropping the dumbbells. To increase strength think about squeezing the weights as hard as possible during both phases of the movement.', 'Wrist Curl - Flexion', 'Bench, Dumbbells', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/30-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/29/wrist-curl-extension/', 'Step 1
 Starting Position: Holding two dumbbells, kneel and rest your elbows on a bench with approximately a 90 degree bend at the elbows and the dumbbells hanging freely off the edge of the pad. Pronate your forearms (rotate forearms to face palms downward and the bottom of the forearms are resting on the bench) while keeping your wrists in a neutral position (not in flexion or extension).
  
@@ -2644,7 +2640,7 @@ Downward Phase: Inhale and slowly allow the wrists to move into flexion (allow d
  
 Step 3
 Upward Phase: Exhale and slowly contract your forearm extensor muscles (along the top of the forearm) and roll your wrists to pull the weight up and return the dumbbells back to the starting position.', 'Wrist Curl - Extension', 'Bench, Dumbbells', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/29-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/80/trx-reg-overhead-triceps-extension/', 'Step 1
 Starting Position: Holding the TRX handles in each hand, turn yourself to face away from the anchor point. Position your hands overhead with a 90 degree bend in your elbows, and elbows pointing forward with neutral wrists (not in flexion or extension). Assume a split-stance position, lunging forward until the straps become tight and maintain this foot position throughout the exercise. Stiffen your torso by contracting your core/abdominal muscles ("bracing").
 Step 2
@@ -2654,7 +2650,7 @@ Downward Phase: While maintaining a stable torso, inhale and slowly lower your b
 Step 4
 Progression: The intensity of this exercise can be increased by positioning your body further away from under the anchor point of the TRX and lengthening the straps.
 Using the TRX certainly enhances the appeal of many exercises. However, trainers and individuals should not participate in these advanced exercises until they can demonstrate capability to effectively stabilize their lumber spine (low back) with their core muscles.', 'TRX ® Overhead Triceps Extension', 'TRX', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/80-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/185/triceps-pushdowns/', 'Step 1
 Starting Position: Stand facing the cable machine and position the cable attachment at a height above your head. Attach the handle or rope and grasp it firmly with a full grip (thumbs clasped around the handle or rope).  Position your feet hip-width apart or in a staggered-stance (walking) position. Stiffen (“brace”) your abdominal muscles to stabilize your spine with a natural arch in your low back, keeping your torso aligned vertically with the floor and maintaining this position throughout the exercise.
 Depress and retract your scapulae (pull shoulders back and down) and attempt to hold this position throughout the exercise.  Slowly press the handles / rope down to the starting positon where your elbows are aligned with the mid-point of your trunk, arms postioned firmly by sides and wrists in neutral positon (i.e., aligned with your forearms).  This arm and wrist position should be maintained throughout the exercise.
@@ -2667,9 +2663,9 @@ Step 4
 Exercise Variation: This exercise can also be performed unilaterally (one arm at a time )
  
 While this exercise targets the triceps effectively, proper technique is important to emphasize these muscles. It is important to monitor the forward movement of your elbows as this recruits from your lats (back muscles) and reduces the emphasis on the triceps.', 'Triceps Pushdowns', 'Weight Machines / Selectorized', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/185-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/3/triceps-pressdown/', 'Stand with the feet hip-width apart, the hips straight, the back straight and tall, and the knees slightly bent. Place the cable pulley at the highest position, use a rope attachment, and grip the ends firmly in both hands. Pull the elbows close to the sides, and slowly push the hands down towards the floor, straightening the arms all the way then bending the elbows to return to the starting position.', 'Triceps Pressdown', 'Resistance Bands/Cables', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/3-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/55/triceps-kickback/', 'Step 1
 Starting Position: Hold a dumbbell in your left hand and assume a split-stance position placing your right leg forward, but keeping your weight evenly distributed through the heels of both feet. Stiffen your torso by contracting your abdominal and core muscles ("bracing"). Place your right hand on your right thigh or knee and slowly lean forward, transferring most of your upper extremity body weight into that right side. Depress and retract your left scapula (pull your shoulder down and back) and maintain this position throughout the exercise. Your head should be aligned with your spine.
  
@@ -2682,7 +2678,7 @@ Upward Phase: Exhale and slowly extend (straighten) your elbow by contracting yo
 Step 4
 Downward Phase: Inhale and slowly return your arm to your starting position, without changing your torso position. Maintain your upper arm parallel and close to your torso.
 Proper form in performing this exercise is important to target triceps activity and for safety reasons to prevent additional loading on your spine.', 'Triceps Kickback', 'Dumbbells', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/55-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/74/triceps-extension/', 'Step 1
 Starting Position: Stand in a split-stance position holding a dumbbell with both hands and wrap both hands around the dumbbell handle. Stiffen your torso by contracting your abdominal/core muscles ("bracing"), and depress and retract your scapulae (pull your shoulders down and back), maintaining this position throughout the exercise. Your head and neck should be aligned with your spine. 
 Step 2
@@ -2690,11 +2686,11 @@ Upward Phase: Exhale and slowly press the dumbbell overhead, extending your elbo
 Step 3
 Downward Phase: Inhale and allow the weight to slowly bend your elbows, lowering the dumbbell behind your head in a controlled manner without moving your upper arms. Continue lowering the dumbbell until your elbows reach a 90 degree bend or until your upper arms begin to move backwards. Be sure to avoid making contact with the back of your head. Also, avoid changing the position in your head, torso, upper arms, wrists and feet. 
 Attempt to keep your upper arms vertical to the floor throughout the exercise and your elbows shoulder-width apart.', 'Triceps Extension', 'Dumbbells', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/74-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/333/tricep-pressdown/', 'Stand with the feet hip-width apart, the hips straight, the back tall, and the knees slightly bent. Place the cable pulley at the highest position, use a straight bar attachment, and grip the bar firmly in both hands. Pull the elbows in close to the sides and slowly push the hands down towards the floor. Straighten the arms completely before bending the elbows to return to the starting position.', 'Tricep Pressdown Exercise', 'Resistance Bands/Cables', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/333-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/292/tricep-extension/', 'Adjust the seat to a comfortable height and the weight to the appropriate level before beginning. Sitting with a tall back, rest the upper arms on the pad and grasp the handles. Keeping the elbows in a straight line with the shoulders, press the hands downward. Slowly return to the starting position.', 'Tricep Extension', 'Weight Machines / Selectorized', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/292-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/199/standing-shoulder-extension/', 'Step 1
 Starting Position:  Stand in a split-stance position with the right leg in front. Stiffen your abdominal muscles (“brace”) to stabilize your spine, then depress and retract your scapulae (pull shoulders down and back) without arching your low back.
  
@@ -2707,9 +2703,9 @@ Hold the stretch for 15-30 seconds for a total of 2-4 repetitions.  Do not allo
  
  
 Keep your body square to the table.  Avoid leaning into the support arm and opening the chest.  Keep your abdominals engaged to support the back.', 'Standing Shoulder Extension', 'No Equipment', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/199-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/322/standing-bicep-curl/', 'Place the center of a resistance band under one foot and grasp the handles with one in each hand. With the palms facing the ceiling, bend the elbows to bring the hands up toward the shoulders. Keep the elbows in close to the sides through the movement, and lower slowly back down to complete the repetition.', 'Standing Bicep Curl', 'Resistance Bands/Cables', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/322-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/184/seated-biceps-curl/', 'Step 1
 Starting Position: Sit in the machine, placing your arms over the incline pad. Adjust the seat height until the middle of your elbows aligns with the axis of rotation (fulcrum) of the moving lever (part) of the machine.  Grasp the handles firmly with a full grip (thumbs clasped around the handles) and maintain a neutral wrist position (wrists aligned with your forearms).  Your elbows should be extended, but not fully locked. Stiffen (“brace”) your abdominal muscles to stabilize your spine, and attempt to avoid movement in your low back throughout the exercise.  Align your head with your spine, and depress and retract your scapulae (pull shoulders back and down) and attempt to hold this position throughout the exercise.
 Step 2
@@ -2720,7 +2716,7 @@ Step 4
 Exercise Variation: This exercise can be performed unilaterally (one arm at a time)
  
 While this exercise targets the biceps effectively, proper technique is important to prevent unnecessary stresses placed in low back by swinging your torso backwards during the movement. Follow the instructions provided to avoid potential injury.', 'Seated Biceps Curl', 'Weight Machines / Selectorized', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/184-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/208/seated-bent-knee-biceps-stretch/', 'Step 1
 Starting Position: Assume a seated bent-knee position, feet placed flat on the floor / mat and arms outstretched behind you with your palms flat on the floor / mat and fingers pointed away from your body.  Adjust your position to distribute your weight evenly between your feet, butt and arms, keeping your back supported in a relatively flat position (i.e., avoid arching or slumping) and head aligned with your spine.
 Step 2
@@ -2729,14 +2725,14 @@ Step 3
 Exercise Variation: This stretch can become more dynamic by performing slow, controlled movements to complete 1 set of 5 - 10 repetitions, holding the stretched position for 1 - 2 seconds.
  
 To maximize the benefits of a stretch and reduce the potential for injury, it is important to stretch only to the point of tension, avoid bouncing, and to control movement at other segments of the body.  During this stretch, avoid any change of position of your spine (i.e., avoid arching or slumping).', 'Seated Bent-Knee Biceps Stretch', 'No Equipment', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/208-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/310/reverse-bicep-curl/', 'Hold the barbell about shoulder-width apart with the palms facing down and hands in a straight line with shoulders and elbows. Lift the bar towards the shoulders while bending at the elbows and keeping them down close to the sides of the body. Slowly lower the weight to return to the starting position.', 'Reverse Bicep Curl', 'Barbell', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/310-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/174/overhead-triceps-stretch/', 'Step 1
 Starting Position:  Stand with feet hip-width apart and roll your shoulders down and back (depress and retract the scapulae).  Reach your right arm to the ceiling keeping your shoulder down (away from your ears).  Bending at the elbow, let your right hand drop to the middle of your back, palm facing your back.  Reach your left hand to the ceiling and place your fingers on your right arm, just above the elbow, applying light pressure to deepen the stretch.
 Step 2
 Hold the stretch position for 15-30 seconds for 2-4 repetitions; try to stretch a little deeper each repetition.', 'Overhead Triceps Stretch', 'No Equipment', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/174-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/36/lying-barbell-triceps-extensions/', 'Step 1
 Starting Position: Holding a barbell with a closed, pronated grip (palms facing your feet and thumbs wrapped around the bar), lie supine (on your back) on a flat bench with your feet firmly placed on the floor. Slowly press the barbell off your chest, fully extending your elbows until the barbell is positioned directly above your face with your palms still facing towards your feet. Maintain a neutral wrist position (no flexion or extension at the wrist). 
 Step 2
@@ -2744,7 +2740,7 @@ Downward Phase: Inhale and slowly bend the elbows, lowering the bar in a control
 Step 3
 Upward Phase: Exhale and slowly return to your starting position with your elbows fully extended. 
 Attempt to keep your upper arms vertical to the floor throughout the exercise and keep your elbows shoulder-width apart.', 'Lying Barbell Triceps Extensions', 'Barbell, Bench', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/36-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/10/hammer-curl/', 'Step 1
 Starting Position: Stand holding dumbbells in your hands with a closed, neutral grip (thumbs around the handles with your palms facing your body). Position the dumbbells alongside your thighs with your elbows fully extended. Assume a split-stance position to stabilize your body, stiffen your torso by contracting your abdominal/core muscles ("bracing"), and depress and retract your scapulae (pull your shoulders down and back), maintaining these positions throughout the exercise. Your head and neck should be aligned with your spine. 
 Step 2
@@ -2752,11 +2748,7 @@ Upward Phase: Exhale and slowly flex (bend) one or both elbows in unison until t
 Step 3
 Downward Phase: Inhale and gently lower the dumbbells back towards your starting position until the elbow(s) is/are fully extended, keeping the dumbbell in the neutral position. Maintain your split-stance, torso and shoulder position and if performing alternating arm curls, repeat to the opposite side. 
 As some of us show structural differences at the elbow, we may not be able to hold the dumbbells against our sides in the lowered position unless we force a bend at our wrists. The dumbbell position selected should be one that is most comfortable for you and keeps the wrists aligned straight with the forearm.', 'Hammer Curl', 'Dumbbells', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/10-1.jpg');
-INSERT INTO exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
+INSERT INTO fitnessy_exercises (exercise_link, instructions, exercise_name, equipment, bodypart, image_src) 
                          VALUES ('https://www.acefitness.org/resources/everyone/exercise-library/70/bicep-curl/', 'Hold the barbell with both hands facing up so the wrists, elbows, and shoulders are in a straight line about shoulder-width apart. Lift the barbell toward the shoulders while bending the elbows and keeping them next to the middle of the body. Slowly lower the weight to return to the starting position. Keep chest still, using just the arms for the movement.', 'Bicep Curl', 'Barbell', 'Arms', 'https://ik.imagekit.io/02fmeo4exvw/exercise-library/large/70-1.jpg');
 
-
-INSERT INTO user_exercises (username, exercise_id, exercise_date, rep1, rep2, rep3, rir1, rir2, rir3)
-VALUES ('testuser', '1', '2000-01-01', '5', '5', '5', '1', '1', '1');
-INSERT INTO user_exercises (username, exercise_id, exercise_date, rep1, rep2, rep3, rir1, rir2, rir3)
-VALUES ('testuser', '2', '2000-01-01', '2', '2', '2', '2', '2', '2');
+INSERT INTO user_exercises (username, exercise_id, exercise_date, rep1, rep2, rep3, rir1, rir2, rir3) VALUES ('testuser', '1', '2000-01-01', '5', '5', '5', '1', '1', '1'); INSERT INTO user_exercises (username, exercise_id, exercise_date, rep1, rep2, rep3, rir1, rir2, rir3) VALUES ('testuser', '2', '2000-01-01', '2', '2', '2', '2', '2', '2');

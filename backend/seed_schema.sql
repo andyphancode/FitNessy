@@ -1,11 +1,11 @@
-CREATE TABLE users (
+CREATE TABLE fitnessy_users (
   username VARCHAR(25) PRIMARY KEY,
   password TEXT NOT NULL,
   email TEXT NOT NULL
     CHECK (position('@' IN email) > 1)
 );
 
-CREATE TABLE exercises (
+CREATE TABLE fitnessy_exercises (
     exercise_id SERIAL PRIMARY KEY ,
     exercise_link VARCHAR(255) NOT NULL,
     instructions VARCHAR(5000),
@@ -17,8 +17,8 @@ CREATE TABLE exercises (
 
 CREATE TABLE templates (
     template_id SERIAL PRIMARY KEY,
-    username VARCHAR(25) REFERENCES users ON DELETE CASCADE,
-    exercise_id INT REFERENCES exercises ON DELETE CASCADE
+    username VARCHAR(25) REFERENCES fitnessy_users ON DELETE CASCADE,
+    exercise_id INT REFERENCES fitnessy_exercises ON DELETE CASCADE
 );
 
 CREATE TABLE user_exercises (
@@ -35,6 +35,6 @@ CREATE TABLE user_exercises (
     rir3 INT DEFAULT 0,
     rir4 INT DEFAULT 0,
     rir5 INT DEFAULT 0,
-    username VARCHAR(25) REFERENCES users ON DELETE CASCADE,
-    exercise_id INT REFERENCES exercises ON DELETE CASCADE
+    username VARCHAR(25) REFERENCES fitnessy_users ON DELETE CASCADE,
+    exercise_id INT REFERENCES fitnessy_exercises ON DELETE CASCADE
 );

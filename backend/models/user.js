@@ -24,7 +24,7 @@ class User {
             `SELECT username,
                     password,
                     email
-             FROM users
+             FROM fitnessy_users
              WHERE username = $1`,
             [username],
         );
@@ -53,7 +53,7 @@ class User {
     static async register({ username, password, email }) {
         const duplicateCheck = await db.query(
             `SELECT username
-             FROM users
+             FROM fitnessy_users
              WHERE username = $1`,
              [username],
         );
@@ -65,7 +65,7 @@ class User {
         const hashedPassword = await bcrypt.hash(password, BCRYPT_WORK_FACTOR);
 
         const result = await db.query(
-            `INSERT INTO users
+            `INSERT INTO fitnessy_users
              (username,
               password,
               email)
@@ -90,7 +90,7 @@ class User {
     const userRes = await db.query(
           `SELECT username,
                   email
-           FROM users
+           FROM fitnessy_users
            WHERE username = $1`,
         [username],
     );
@@ -107,7 +107,7 @@ class User {
     static async remove(username) {
         // let existingUser = await db.query(
         //     `SELECT *
-        //      FROM users
+        //      FROM fitnessy_users
         //      WHERE username = $1
         //      `,
         //      [username]
@@ -117,7 +117,7 @@ class User {
 
         let result = await db.query(
             `DELETE
-            FROM users
+            FROM fitnessy_users
             WHERE username = $1
             RETURNING username`,
             [username],

@@ -8,12 +8,12 @@ async function commonBeforeAll() {
   // noinspection SqlWithoutWhere
   await db.query("DELETE FROM user_exercises");
   // noinspection SqlWithoutWhere
-  await db.query("DELETE FROM users");
+  await db.query("DELETE FROM fitnessy_users");
   // noinspection SqlWithoutWhere
-  await db.query("DELETE FROM exercises");
+  await db.query("DELETE FROM fitnessy_exercises");
 
   await db.query(`
-        INSERT INTO exercises(exercise_id, exercise_link, instructions, exercise_name, equipment, bodypart, image_src)
+        INSERT INTO fitnessy_exercises(exercise_id, exercise_link, instructions, exercise_name, equipment, bodypart, image_src)
         VALUES ($1, 'http://exercise1.com', 'instructions1', 'exercise1', 'exerciseEq1', 'exerciseBodyPart1', 'http://e1.img'),
             ($2, 'http://exercise2.com', 'instructions2', 'exercise2', 'exerciseEq2', 'exerciseBodyPart2', 'http://e2.img'),
             ($3, 'http://exercise3.com', 'instructions3', 'exercise3', 'exerciseEq3', 'exerciseBodyPart3', 'http://e3.img')

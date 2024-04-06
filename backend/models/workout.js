@@ -10,7 +10,7 @@ class Workout {
         const query = `
             SELECT ue.*, e.exercise_link, e.instructions, e.exercise_name, e.equipment, e.bodypart, e.image_src
             FROM user_exercises ue
-            JOIN exercises e ON ue.exercise_id = e.exercise_id
+            JOIN fitnessy_exercises e ON ue.exercise_id = e.exercise_id
             WHERE ue.username = $1 AND ue.exercise_date = $2
         `;
     
@@ -85,7 +85,7 @@ class Workout {
         const combinedDetailsResult = await db.query(
             `SELECT ue.*, e.exercise_link, e.instructions, e.exercise_name, e.equipment, e.bodypart, e.image_src
             FROM user_exercises ue
-            JOIN exercises e ON ue.exercise_id = e.exercise_id
+            JOIN fitnessy_exercises e ON ue.exercise_id = e.exercise_id
             WHERE ue.username = $1 AND ue.user_exercise_id = $2`,
             [username, userExerciseId]
         );
@@ -114,7 +114,7 @@ class Workout {
             const exerciseExists = await db.query(
                 `SELECT EXISTS (
                     SELECT 1
-                    FROM exercises
+                    FROM fitnessy_exercises
                     WHERE exercise_id = $1
                 ) AS "exists"`,
                 [exercise_id]
@@ -145,7 +145,7 @@ class Workout {
             const combinedDetailsResult = await db.query(`
                 SELECT ue.*, e.exercise_link, e.instructions, e.exercise_name, e.equipment, e.bodypart, e.image_src
                 FROM user_exercises ue
-                JOIN exercises e ON ue.exercise_id = e.exercise_id
+                JOIN fitnessy_exercises e ON ue.exercise_id = e.exercise_id
                 WHERE ue.username = $1 AND ue.exercise_date = $2 AND ue.exercise_id = $3
             `, [username, exercise_date, exercise_id]);
 
